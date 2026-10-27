@@ -1,0 +1,63 @@
+{
+ "fantasy_teams": {
+  "Richard": {},
+  "Sharon": {},
+  "Brooke": {},
+  "Cameron": {
+   "R4": {
+    "slots": {
+     "1": "WAL:Rhys Carre",
+     "2": "IRE:Dan Sheehan",
+     "3": "AUS:Allan Alaalatoa",
+     "4": "ENG:Ollie Chessum",
+     "5": "IRE:Tadhg Beirne",
+     "6": "ENG:Ben Earl",
+     "7": "NZL:Leicester Fainga'anuku",
+     "8": "WAL:Jac Morgan",
+     "9": "FRA:Antoine Dupont",
+     "10": "NZL:Richie Mo'unga",
+     "11": "IRE:Rob Baloucoune",
+     "12": "SCO:Huw Jones",
+     "13": "FRA:Nicolas Depoortere",
+     "14": "FRA:Louis Bielle-Biarrey",
+     "15": "NZL:Will Jordan"
+    },
+    "captain": "FRA:Louis Bielle-Biarrey",
+    "supersub": "ENG:Marcus Smith",
+    "source": "WhatsApp 'Watson Fantasy Rugby 🏉', Cameron Watson, 27 Oct 2026 15:51 UK",
+    "test": true
+   }
+  }
+ },
+ "picks": {
+  "Richard": {},
+  "Sharon": {},
+  "Brooke": {},
+  "Cameron": {
+   "R4-01": {
+    "winner": "Ireland",
+    "margin": 6
+   },
+   "R4-02": {
+    "winner": "South Africa",
+    "margin": 25
+   },
+   "R4-03": {
+    "winner": "New Zealand",
+    "margin": 20
+   },
+   "R4-04": {
+    "winner": "Wales",
+    "margin": 7
+   },
+   "R4-05": {
+    "winner": "France",
+    "margin": 40
+   },
+   "R4-06": {
+    "winner": "Australia",
+    "margin": 5
+   }
+  }
+ }
+}
