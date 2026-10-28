@@ -1,0 +1,3627 @@
+{
+  "league": "Watson Family Fantasy Rugby — Nations Championship 2026 (November)",
+  "asof": "2026-10-27",
+  "timezone": "Europe/London",
+  "managers": [
+    "Richard",
+    "Sharon",
+    "Brooke",
+    "Cameron"
+  ],
+  "admin": "Richard",
+  "rules": {
+    "fantasy_team": "Each round pick a full 15, one player per starting position, plus one Supersub (a bench starter, points x3; x0.5 if he starts). Max 3 per nation across all 16 picks. Captain points double.",
+    "player_points": {
+      "try_forward": 15,
+      "try_back": 10,
+      "conversion": 2,
+      "penalty_goal": 3,
+      "drop_goal": 5,
+      "metres_carried_per_10": 1,
+      "tackle": 1,
+      "player_of_the_match": 15,
+      "yellow_card": -3,
+      "red_card": -6
+    },
+    "changes": "Swap any player until his match kicks off.",
+    "prediction_bonus": {
+      "pick": "winner (or Draw) + winning margin for every match",
+      "winner_points": 3,
+      "margin_band_points": 2,
+      "exact_margin_points": 3,
+      "margin_bands": [
+        [
+          1,
+          7
+        ],
+        [
+          8,
+          14
+        ],
+        [
+          15,
+          999
+        ]
+      ],
+      "draw": "8 if a picked Draw happens",
+      "note": "Bonus on top of fantasy player points"
+    },
+    "deadline": "Round entries before the round's first kick-off; individual players lock at their own match's kick-off.",
+    "tiebreak": "Most fantasy-player points, then most correct winners.",
+    "finals": "Finals Weekend round opens once match-ups are known after 21 Nov.",
+    "max_per_nation": 3,
+    "slots": {
+      "1": [
+        "PR",
+        "FX"
+      ],
+      "2": [
+        "HK",
+        "FX"
+      ],
+      "3": [
+        "PR",
+        "FX"
+      ],
+      "4": [
+        "LK",
+        "FX"
+      ],
+      "5": [
+        "LK",
+        "FX"
+      ],
+      "6": [
+        "BR",
+        "FX"
+      ],
+      "7": [
+        "BR",
+        "FX"
+      ],
+      "8": [
+        "BR",
+        "FX"
+      ],
+      "9": [
+        "SH",
+        "BX"
+      ],
+      "10": [
+        "FH",
+        "BX"
+      ],
+      "11": [
+        "B3",
+        "BX"
+      ],
+      "12": [
+        "CE",
+        "BX"
+      ],
+      "13": [
+        "CE",
+        "BX"
+      ],
+      "14": [
+        "B3",
+        "BX"
+      ],
+      "15": [
+        "B3",
+        "BX"
+      ]
+    },
+    "slot_note": "Props fit 1 or 3; locks 4-5; back row 6-8; centres 12-13; back three 11, 14, 15. 'Position TBC' players (FX/BX) fit any forward/back slot.",
+    "scoring_source": "https://fantasyrugbygeek.com/fantasy-rugby-games-overview-official-guinness-six-nations-2026-fantasy-game/",
+    "captain_multiplier": 2,
+    "supersub": {
+      "pick": "One extra player who starts the match on the bench",
+      "multiplier": 3,
+      "if_starts_multiplier": 0.5,
+      "counts_toward_max_per_nation": true,
+      "must_differ_from_starters": true
+    },
+    "scoring_note": "We only score stats that are published for every player after each match.",
+    "scoring_sources": [
+      "https://fantasyrugbygeek.com/fantasy-rugby-games-overview-official-guinness-six-nations-2026-fantasy-game/"
+    ],
+    "slot_names": [
+      "Loosehead prop",
+      "Hooker",
+      "Tighthead prop",
+      "Lock",
+      "Lock",
+      "Blindside flanker",
+      "Openside flanker",
+      "Number 8",
+      "Scrum-half",
+      "Fly-half",
+      "Left wing",
+      "Inside centre",
+      "Outside centre",
+      "Right wing",
+      "Full-back"
+    ],
+    "position_groups": {
+      "PR": "Props",
+      "HK": "Hookers",
+      "LK": "Locks",
+      "BR": "Back row",
+      "FX": "Forward (position TBC)",
+      "SH": "Scrum-halves",
+      "FH": "Fly-halves",
+      "CE": "Centres",
+      "B3": "Back three",
+      "BX": "Back (position TBC)"
+    }
+  },
+  "rounds": [
+    {
+      "id": "R4",
+      "name": "Round 4",
+      "lock_at": "2026-11-06T20:10:00Z",
+      "note": null,
+      "sort_order": 1
+    },
+    {
+      "id": "R5",
+      "name": "Round 5",
+      "lock_at": "2026-11-13T20:10:00Z",
+      "note": null,
+      "sort_order": 2
+    },
+    {
+      "id": "R6",
+      "name": "Round 6",
+      "lock_at": "2026-11-21T14:10:00Z",
+      "note": null,
+      "sort_order": 3
+    },
+    {
+      "id": "F",
+      "name": "Finals Weekend",
+      "lock_at": "2026-11-27T16:40:00Z",
+      "note": "Match-ups set by final pool positions after 21 Nov",
+      "sort_order": 4
+    }
+  ],
+  "fixtures": [
+    {
+      "id": "R4-01",
+      "round_id": "R4",
+      "kickoff_at": "2026-11-06T20:10:00Z",
+      "home": "Ireland",
+      "away": "Argentina",
+      "venue": "Aviva Stadium, Dublin",
+      "status": "scheduled",
+      "expected_announcement": "Wed 4 or Thu 5 Nov (estimate)"
+    },
+    {
+      "id": "R4-02",
+      "round_id": "R4",
+      "kickoff_at": "2026-11-07T11:40:00Z",
+      "home": "Italy",
+      "away": "South Africa",
+      "venue": "Allianz Stadium, Turin",
+      "status": "scheduled",
+      "expected_announcement": "Thu 5 Nov"
+    },
+    {
+      "id": "R4-03",
+      "round_id": "R4",
+      "kickoff_at": "2026-11-07T14:10:00Z",
+      "home": "Scotland",
+      "away": "New Zealand",
+      "venue": "Scottish Gas Murrayfield, Edinburgh",
+      "status": "scheduled",
+      "expected_announcement": "Thu 5 Nov"
+    },
+    {
+      "id": "R4-04",
+      "round_id": "R4",
+      "kickoff_at": "2026-11-07T16:40:00Z",
+      "home": "Wales",
+      "away": "Japan",
+      "venue": "Principality Stadium, Cardiff",
+      "status": "scheduled",
+      "expected_announcement": "Thu 5 Nov"
+    },
+    {
+      "id": "R4-05",
+      "round_id": "R4",
+      "kickoff_at": "2026-11-07T20:10:00Z",
+      "home": "France",
+      "away": "Fiji",
+      "venue": "Groupama Stadium, Lyon",
+      "status": "scheduled",
+      "expected_announcement": "Thu 5 Nov"
+    },
+    {
+      "id": "R4-06",
+      "round_id": "R4",
+      "kickoff_at": "2026-11-08T15:10:00Z",
+      "home": "England",
+      "away": "Australia",
+      "venue": "Allianz Stadium, Twickenham",
+      "status": "scheduled",
+      "expected_announcement": "Fri 6 Nov (estimate)"
+    },
+    {
+      "id": "R5-07",
+      "round_id": "R5",
+      "kickoff_at": "2026-11-13T20:10:00Z",
+      "home": "France",
+      "away": "South Africa",
+      "venue": "Stade de France, Paris",
+      "status": "scheduled",
+      "expected_announcement": "Wed 11 or Thu 12 Nov (estimate)"
+    },
+    {
+      "id": "R5-08",
+      "round_id": "R5",
+      "kickoff_at": "2026-11-14T11:40:00Z",
+      "home": "Italy",
+      "away": "Argentina",
+      "venue": "Stadio Luigi Ferraris, Genoa",
+      "status": "scheduled",
+      "expected_announcement": "Thu 12 Nov"
+    },
+    {
+      "id": "R5-09",
+      "round_id": "R5",
+      "kickoff_at": "2026-11-14T14:10:00Z",
+      "home": "Wales",
+      "away": "New Zealand",
+      "venue": "Principality Stadium, Cardiff",
+      "status": "scheduled",
+      "expected_announcement": "Thu 12 Nov"
+    },
+    {
+      "id": "R5-10",
+      "round_id": "R5",
+      "kickoff_at": "2026-11-14T16:40:00Z",
+      "home": "England",
+      "away": "Japan",
+      "venue": "Allianz Stadium, Twickenham",
+      "status": "scheduled",
+      "expected_announcement": "Thu 12 Nov"
+    },
+    {
+      "id": "R5-11",
+      "round_id": "R5",
+      "kickoff_at": "2026-11-14T20:10:00Z",
+      "home": "Ireland",
+      "away": "Fiji",
+      "venue": "Aviva Stadium, Dublin",
+      "status": "scheduled",
+      "expected_announcement": "Thu 12 Nov"
+    },
+    {
+      "id": "R5-12",
+      "round_id": "R5",
+      "kickoff_at": "2026-11-15T15:10:00Z",
+      "home": "Scotland",
+      "away": "Australia",
+      "venue": "Scottish Gas Murrayfield, Edinburgh",
+      "status": "scheduled",
+      "expected_announcement": "Fri 13 Nov (estimate)"
+    },
+    {
+      "id": "R6-13",
+      "round_id": "R6",
+      "kickoff_at": "2026-11-21T14:10:00Z",
+      "home": "England",
+      "away": "New Zealand",
+      "venue": "Allianz Stadium, Twickenham",
+      "status": "scheduled",
+      "expected_announcement": "Thu 19 Nov"
+    },
+    {
+      "id": "R6-14",
+      "round_id": "R6",
+      "kickoff_at": "2026-11-21T14:10:00Z",
+      "home": "Scotland",
+      "away": "Japan",
+      "venue": "Scottish Gas Murrayfield, Edinburgh",
+      "status": "scheduled",
+      "expected_announcement": "Thu 19 Nov"
+    },
+    {
+      "id": "R6-15",
+      "round_id": "R6",
+      "kickoff_at": "2026-11-21T16:40:00Z",
+      "home": "Ireland",
+      "away": "South Africa",
+      "venue": "Aviva Stadium, Dublin",
+      "status": "scheduled",
+      "expected_announcement": "Thu 19 Nov"
+    },
+    {
+      "id": "R6-16",
+      "round_id": "R6",
+      "kickoff_at": "2026-11-21T16:40:00Z",
+      "home": "Italy",
+      "away": "Fiji",
+      "venue": "Bluenergy Stadium, Udine",
+      "status": "scheduled",
+      "expected_announcement": "Thu 19 Nov"
+    },
+    {
+      "id": "R6-17",
+      "round_id": "R6",
+      "kickoff_at": "2026-11-21T20:10:00Z",
+      "home": "France",
+      "away": "Argentina",
+      "venue": "Stade de France, Paris",
+      "status": "scheduled",
+      "expected_announcement": "Thu 19 Nov"
+    },
+    {
+      "id": "R6-18",
+      "round_id": "R6",
+      "kickoff_at": "2026-11-21T20:10:00Z",
+      "home": "Wales",
+      "away": "Australia",
+      "venue": "Principality Stadium, Cardiff",
+      "status": "scheduled",
+      "expected_announcement": "Thu 19 Nov"
+    },
+    {
+      "id": "F-19",
+      "round_id": "F",
+      "kickoff_at": "2026-11-27T16:40:00Z",
+      "home": "6th North (TBC)",
+      "away": "6th South (TBC)",
+      "venue": "Allianz Stadium, Twickenham",
+      "status": "TBC teams",
+      "expected_announcement": "After pool positions settle on 21 Nov; teams likely named Wed/Thu 25–26 Nov (estimate)"
+    },
+    {
+      "id": "F-20",
+      "round_id": "F",
+      "kickoff_at": "2026-11-27T20:10:00Z",
+      "home": "3rd North (TBC)",
+      "away": "3rd South (TBC)",
+      "venue": "Allianz Stadium, Twickenham",
+      "status": "TBC teams",
+      "expected_announcement": "After pool positions settle on 21 Nov; teams likely named Wed/Thu 25–26 Nov (estimate)"
+    },
+    {
+      "id": "F-21",
+      "round_id": "F",
+      "kickoff_at": "2026-11-28T13:10:00Z",
+      "home": "5th North (TBC)",
+      "away": "5th South (TBC)",
+      "venue": "Allianz Stadium, Twickenham",
+      "status": "TBC teams",
+      "expected_announcement": "After pool positions settle on 21 Nov; teams likely named Wed/Thu 25–26 Nov (estimate)"
+    },
+    {
+      "id": "F-22",
+      "round_id": "F",
+      "kickoff_at": "2026-11-28T16:40:00Z",
+      "home": "2nd North (TBC)",
+      "away": "2nd South (TBC)",
+      "venue": "Allianz Stadium, Twickenham",
+      "status": "TBC teams",
+      "expected_announcement": "After pool positions settle on 21 Nov; teams likely named Wed/Thu 25–26 Nov (estimate)"
+    },
+    {
+      "id": "F-23",
+      "round_id": "F",
+      "kickoff_at": "2026-11-29T13:10:00Z",
+      "home": "4th North (TBC)",
+      "away": "4th South (TBC)",
+      "venue": "Allianz Stadium, Twickenham",
+      "status": "TBC teams",
+      "expected_announcement": "After pool positions settle on 21 Nov; teams likely named Wed/Thu 25–26 Nov (estimate)"
+    },
+    {
+      "id": "F-24",
+      "round_id": "F",
+      "kickoff_at": "2026-11-29T16:40:00Z",
+      "home": "1st North (TBC)",
+      "away": "1st South (TBC) — Championship final",
+      "venue": "Allianz Stadium, Twickenham",
+      "status": "TBC teams",
+      "expected_announcement": "After pool positions settle on 21 Nov; teams likely named Wed/Thu 25–26 Nov (estimate)"
+    }
+  ],
+  "unions": [
+    {
+      "code": "IRE",
+      "name": "Ireland",
+      "status": "announced",
+      "announced_on": "2026-10-21",
+      "note": "Ringrose (hamstring) unlikely to play; Prendergast (wrist) and Jimmy O'Brien (concussion) doubts; Furlong cited (IRFU/BBC 27 Oct).",
+      "source": "https://www.irishrugby.ie/news/farrell-names-ireland-squad-nations-championship-northern-hemisphere-series"
+    },
+    {
+      "code": "ENG",
+      "name": "England",
+      "status": "training squad",
+      "announced_on": "2026-10-25",
+      "note": "36-player training-camp squad; Fin Smith (calf) replaced by Charlie Atkinson (Sky Sports, 26 Oct). Seb Atkinson, Immanuel Feyi-Waboso and Guy Pepper are in rehab and not listed.",
+      "source": "https://www.englandrugby.com/follow/news-and-media/borthwick-names-squad-three-day-training-camp-nations-championship-home-leg"
+    },
+    {
+      "code": "SCO",
+      "name": "Scotland",
+      "status": "announced",
+      "announced_on": "2026-10-26",
+      "note": "37-man squad, Sione Tuipulotu captain (scottishrugby.org, 26 Oct).",
+      "source": "https://www.scotlandrugbynews.com/news/26668250.scotland-squad-named-nations-championship-home-series/"
+    },
+    {
+      "code": "WAL",
+      "name": "Wales",
+      "status": "announced",
+      "announced_on": "2026-10-20",
+      "note": "39-player squad, Dewi Lake captain.",
+      "source": "https://www.wru.wales/2026/10/wales-squad-confirmed-for-nations-championship-home-matches/"
+    },
+    {
+      "code": "FRA",
+      "name": "France",
+      "status": "announced (updated)",
+      "announced_on": "2026-10-21",
+      "note": "42-man list of 21 Oct updated 26 Oct: Sorin, Hastoy, Gazzotti, Brau-Boirie out; Laclayat, Depoortere, Jelonch, Le Brun in. Jeremy Ward named as training partner only (not eligible until 2027), so not selectable.",
+      "source": "https://www.planetrugby.com/news/france-forced-into-squad-changes-as-injuries-mount-for-fabien-galthie-ahead-of-nations-championship"
+    },
+    {
+      "code": "ITA",
+      "name": "Italy",
+      "status": "training squad (updated)",
+      "announced_on": "2026-10-27",
+      "note": "Padova training camp list, updated 27 Oct: Pani joins, Lynagh leaves injured.",
+      "source": "https://www.federugby.it/italrugby-convocato-pani-in-preparazione-al-nations-championship-lynagh-lascia-il-raduno/"
+    },
+    {
+      "code": "NZL",
+      "name": "New Zealand",
+      "status": "announced",
+      "announced_on": "2026-10-27",
+      "note": "36-strong squad, Codie Taylor captain.",
+      "source": "https://super.rugby/therugbychampionship/news/all-blacks-squad-named-for-nations-championship-northern-series/"
+    },
+    {
+      "code": "RSA",
+      "name": "South Africa",
+      "status": "TBC",
+      "announced_on": null,
+      "note": "Tour squad not yet named; Erasmus to name it 'in the coming days' (The Citizen, 27 Oct).",
+      "source": "https://www.citizen.co.za/sport/rugby/erasmus-prepares-name-springbok-squad/"
+    },
+    {
+      "code": "AUS",
+      "name": "Australia",
+      "status": "announced",
+      "announced_on": "2026-10-23",
+      "note": "33-man squad, Harry Wilson captain.",
+      "source": "https://www.rugby.com.au/news/wallabies-squad-nations-championship-tests-gordon-tupou-hooper-20261023"
+    },
+    {
+      "code": "ARG",
+      "name": "Argentina",
+      "status": "provisional (London camp)",
+      "announced_on": "2026-10-25",
+      "note": "33-man London camp group; Contepomi names the November squad after the camp.",
+      "source": "https://www.diariouno.com.ar/ovacion/rugby/los-pumas-3-cambios-y-3-mendocinos-el-plantel-se-concentran-pensando-el-nations-championship-n1610006"
+    },
+    {
+      "code": "JPN",
+      "name": "Japan",
+      "status": "announced",
+      "announced_on": "2026-10-26",
+      "note": "35-player squad (forwards cross-checked with RugbyPass 26 Oct). Wing spelt Tokito (asierugby) / Tokita (RugbyPass).",
+      "source": "https://www.asierugby.com/post/le-groupe-des-brave-blossoms-pour-la-tourn%C3%A9e-en-europe-2"
+    },
+    {
+      "code": "FIJ",
+      "name": "Fiji",
+      "status": "provisional",
+      "announced_on": "2026-10-15",
+      "note": "Jake White's first 28 (for the Japan Test and November); Europe-based players may be added later (OnRugby, 15 Oct).",
+      "source": "https://www.fijitimes.com.fj/fiji-gets-the-gears-rolling/"
+    }
+  ],
+  "squad": [
+    {
+      "id": "IRE:Ryan Baird",
+      "union_code": "IRE",
+      "name": "Ryan Baird",
+      "position_group": "LK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "IRE:Tadhg Beirne",
+      "union_code": "IRE",
+      "name": "Tadhg Beirne",
+      "position_group": "LK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "IRE:Billy Bohan",
+      "union_code": "IRE",
+      "name": "Billy Bohan",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "IRE:Thomas Clarkson",
+      "union_code": "IRE",
+      "name": "Thomas Clarkson",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "IRE:Tadhg Furlong",
+      "union_code": "IRE",
+      "name": "Tadhg Furlong",
+      "position_group": "PR",
+      "availability": "Doubt",
+      "note": "Doubt: citing hearing pending (BBC 27 Oct)"
+    },
+    {
+      "id": "IRE:Sam Illo",
+      "union_code": "IRE",
+      "name": "Sam Illo",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "IRE:Sean Jansen",
+      "union_code": "IRE",
+      "name": "Sean Jansen",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "IRE:Rónan Kelleher",
+      "union_code": "IRE",
+      "name": "Rónan Kelleher",
+      "position_group": "HK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "IRE:Joe McCarthy",
+      "union_code": "IRE",
+      "name": "Joe McCarthy",
+      "position_group": "LK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "IRE:James McNabney",
+      "union_code": "IRE",
+      "name": "James McNabney",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "IRE:Darragh Murray",
+      "union_code": "IRE",
+      "name": "Darragh Murray",
+      "position_group": "LK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "IRE:Tom O'Toole",
+      "union_code": "IRE",
+      "name": "Tom O'Toole",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "IRE:Andrew Porter",
+      "union_code": "IRE",
+      "name": "Andrew Porter",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "IRE:Cian Prendergast",
+      "union_code": "IRE",
+      "name": "Cian Prendergast",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "IRE:James Ryan",
+      "union_code": "IRE",
+      "name": "James Ryan",
+      "position_group": "LK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "IRE:Dan Sheehan",
+      "union_code": "IRE",
+      "name": "Dan Sheehan",
+      "position_group": "HK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "IRE:Tom Stewart",
+      "union_code": "IRE",
+      "name": "Tom Stewart",
+      "position_group": "HK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "IRE:Nick Timoney",
+      "union_code": "IRE",
+      "name": "Nick Timoney",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "IRE:Josh van der Flier",
+      "union_code": "IRE",
+      "name": "Josh van der Flier",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "IRE:Bundee Aki",
+      "union_code": "IRE",
+      "name": "Bundee Aki",
+      "position_group": "CE",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "IRE:Rob Baloucoune",
+      "union_code": "IRE",
+      "name": "Rob Baloucoune",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "IRE:Jamie Benson",
+      "union_code": "IRE",
+      "name": "Jamie Benson",
+      "position_group": "FH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "IRE:Craig Casey",
+      "union_code": "IRE",
+      "name": "Craig Casey",
+      "position_group": "SH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "IRE:Nathan Doak",
+      "union_code": "IRE",
+      "name": "Nathan Doak",
+      "position_group": "SH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "IRE:Ciaran Frawley",
+      "union_code": "IRE",
+      "name": "Ciaran Frawley",
+      "position_group": "FH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "IRE:Jamison Gibson-Park",
+      "union_code": "IRE",
+      "name": "Jamison Gibson-Park",
+      "position_group": "SH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "IRE:Mack Hansen",
+      "union_code": "IRE",
+      "name": "Mack Hansen",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "IRE:Robbie Henshaw",
+      "union_code": "IRE",
+      "name": "Robbie Henshaw",
+      "position_group": "CE",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "IRE:Hugo Keenan",
+      "union_code": "IRE",
+      "name": "Hugo Keenan",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "IRE:Stuart McCloskey",
+      "union_code": "IRE",
+      "name": "Stuart McCloskey",
+      "position_group": "CE",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "IRE:Jimmy O'Brien",
+      "union_code": "IRE",
+      "name": "Jimmy O'Brien",
+      "position_group": "B3",
+      "availability": "Doubt",
+      "note": "Doubt: concussion protocols (BBC 27 Oct)"
+    },
+    {
+      "id": "IRE:Tommy O'Brien",
+      "union_code": "IRE",
+      "name": "Tommy O'Brien",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "IRE:Jamie Osborne",
+      "union_code": "IRE",
+      "name": "Jamie Osborne",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "IRE:Sam Prendergast",
+      "union_code": "IRE",
+      "name": "Sam Prendergast",
+      "position_group": "FH",
+      "availability": "Doubt",
+      "note": "Doubt: wrist (BBC 27 Oct)"
+    },
+    {
+      "id": "IRE:Garry Ringrose",
+      "union_code": "IRE",
+      "name": "Garry Ringrose",
+      "position_group": "CE",
+      "availability": "Out",
+      "note": "Out: hamstring, unlikely for all three Tests (IRFU 27 Oct)"
+    },
+    {
+      "id": "IRE:Jacob Stockdale",
+      "union_code": "IRE",
+      "name": "Jacob Stockdale",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ENG:Fin Baxter",
+      "union_code": "ENG",
+      "name": "Fin Baxter",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ENG:Ollie Chessum",
+      "union_code": "ENG",
+      "name": "Ollie Chessum",
+      "position_group": "LK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ENG:Arthur Clark",
+      "union_code": "ENG",
+      "name": "Arthur Clark",
+      "position_group": "LK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ENG:Alex Coles",
+      "union_code": "ENG",
+      "name": "Alex Coles",
+      "position_group": "LK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ENG:Luke Cowan-Dickie",
+      "union_code": "ENG",
+      "name": "Luke Cowan-Dickie",
+      "position_group": "HK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ENG:Ben Curry",
+      "union_code": "ENG",
+      "name": "Ben Curry",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ENG:Tom Curry",
+      "union_code": "ENG",
+      "name": "Tom Curry",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ENG:Ben Earl",
+      "union_code": "ENG",
+      "name": "Ben Earl",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ENG:Greg Fisilau",
+      "union_code": "ENG",
+      "name": "Greg Fisilau",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ENG:Jamie George",
+      "union_code": "ENG",
+      "name": "Jamie George",
+      "position_group": "HK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ENG:Ellis Genge",
+      "union_code": "ENG",
+      "name": "Ellis Genge",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ENG:Joe Heyes",
+      "union_code": "ENG",
+      "name": "Joe Heyes",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ENG:Maro Itoje",
+      "union_code": "ENG",
+      "name": "Maro Itoje",
+      "position_group": "LK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ENG:Emmanuel Iyogun",
+      "union_code": "ENG",
+      "name": "Emmanuel Iyogun",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ENG:George Martin",
+      "union_code": "ENG",
+      "name": "George Martin",
+      "position_group": "LK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ENG:Asher Opoku-Fordjour",
+      "union_code": "ENG",
+      "name": "Asher Opoku-Fordjour",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ENG:Tom Pearson",
+      "union_code": "ENG",
+      "name": "Tom Pearson",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ENG:Henry Pollock",
+      "union_code": "ENG",
+      "name": "Henry Pollock",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ENG:Will Stuart",
+      "union_code": "ENG",
+      "name": "Will Stuart",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ENG:Kepueli Tuipulotu",
+      "union_code": "ENG",
+      "name": "Kepueli Tuipulotu",
+      "position_group": "FX",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ENG:Charlie Atkinson",
+      "union_code": "ENG",
+      "name": "Charlie Atkinson",
+      "position_group": "FH",
+      "availability": "Squad",
+      "note": "Added 26 Oct to replace injured Fin Smith (Sky Sports)"
+    },
+    {
+      "id": "ENG:Noah Caluori",
+      "union_code": "ENG",
+      "name": "Noah Caluori",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ENG:Fraser Dingwall",
+      "union_code": "ENG",
+      "name": "Fraser Dingwall",
+      "position_group": "CE",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ENG:George Ford",
+      "union_code": "ENG",
+      "name": "George Ford",
+      "position_group": "FH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ENG:Tommy Freeman",
+      "union_code": "ENG",
+      "name": "Tommy Freeman",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ENG:George Furbank",
+      "union_code": "ENG",
+      "name": "George Furbank",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ENG:Will Joseph",
+      "union_code": "ENG",
+      "name": "Will Joseph",
+      "position_group": "CE",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ENG:Joe Marchant",
+      "union_code": "ENG",
+      "name": "Joe Marchant",
+      "position_group": "CE",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ENG:Archie McParland",
+      "union_code": "ENG",
+      "name": "Archie McParland",
+      "position_group": "SH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ENG:Alex Mitchell",
+      "union_code": "ENG",
+      "name": "Alex Mitchell",
+      "position_group": "SH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ENG:Cadan Murley",
+      "union_code": "ENG",
+      "name": "Cadan Murley",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ENG:Max Ojomoh",
+      "union_code": "ENG",
+      "name": "Max Ojomoh",
+      "position_group": "CE",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ENG:Henry Slade",
+      "union_code": "ENG",
+      "name": "Henry Slade",
+      "position_group": "CE",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ENG:Marcus Smith",
+      "union_code": "ENG",
+      "name": "Marcus Smith",
+      "position_group": "FH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ENG:Freddie Steward",
+      "union_code": "ENG",
+      "name": "Freddie Steward",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ENG:Jack van Poortvliet",
+      "union_code": "ENG",
+      "name": "Jack van Poortvliet",
+      "position_group": "SH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "SCO:Ewan Ashman",
+      "union_code": "SCO",
+      "name": "Ewan Ashman",
+      "position_group": "HK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "SCO:Josh Bayliss",
+      "union_code": "SCO",
+      "name": "Josh Bayliss",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "SCO:Gregor Brown",
+      "union_code": "SCO",
+      "name": "Gregor Brown",
+      "position_group": "LK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "SCO:Scott Cummings",
+      "union_code": "SCO",
+      "name": "Scott Cummings",
+      "position_group": "LK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "SCO:Alex Craig",
+      "union_code": "SCO",
+      "name": "Alex Craig",
+      "position_group": "LK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "SCO:Rory Darge",
+      "union_code": "SCO",
+      "name": "Rory Darge",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "SCO:Jack Dempsey",
+      "union_code": "SCO",
+      "name": "Jack Dempsey",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "SCO:Matt Fagerson",
+      "union_code": "SCO",
+      "name": "Matt Fagerson",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "SCO:Zander Fagerson",
+      "union_code": "SCO",
+      "name": "Zander Fagerson",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "SCO:Jonny Gray",
+      "union_code": "SCO",
+      "name": "Jonny Gray",
+      "position_group": "LK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "SCO:Gregor Hiddleston",
+      "union_code": "SCO",
+      "name": "Gregor Hiddleston",
+      "position_group": "FX",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "SCO:Will Hurd",
+      "union_code": "SCO",
+      "name": "Will Hurd",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "SCO:Ollie Leatherbarrow",
+      "union_code": "SCO",
+      "name": "Ollie Leatherbarrow",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "SCO:Nathan McBeth",
+      "union_code": "SCO",
+      "name": "Nathan McBeth",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "SCO:Liam McConnell",
+      "union_code": "SCO",
+      "name": "Liam McConnell",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "SCO:Elliot Millar Mills",
+      "union_code": "SCO",
+      "name": "Elliot Millar Mills",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "SCO:Jamie Ritchie",
+      "union_code": "SCO",
+      "name": "Jamie Ritchie",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "SCO:Pierre Schoeman",
+      "union_code": "SCO",
+      "name": "Pierre Schoeman",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "SCO:Rory Sutherland",
+      "union_code": "SCO",
+      "name": "Rory Sutherland",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "SCO:Seb Stephen",
+      "union_code": "SCO",
+      "name": "Seb Stephen",
+      "position_group": "FX",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "SCO:Max Williamson",
+      "union_code": "SCO",
+      "name": "Max Williamson",
+      "position_group": "LK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "SCO:Fergus Burke",
+      "union_code": "SCO",
+      "name": "Fergus Burke",
+      "position_group": "FH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "SCO:Jamie Dobie",
+      "union_code": "SCO",
+      "name": "Jamie Dobie",
+      "position_group": "SH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "SCO:Darcy Graham",
+      "union_code": "SCO",
+      "name": "Darcy Graham",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "SCO:George Horne",
+      "union_code": "SCO",
+      "name": "George Horne",
+      "position_group": "SH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "SCO:Rory Hutchinson",
+      "union_code": "SCO",
+      "name": "Rory Hutchinson",
+      "position_group": "CE",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "SCO:Huw Jones",
+      "union_code": "SCO",
+      "name": "Huw Jones",
+      "position_group": "CE",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "SCO:Tom Jordan",
+      "union_code": "SCO",
+      "name": "Tom Jordan",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "SCO:Blair Kinghorn",
+      "union_code": "SCO",
+      "name": "Blair Kinghorn",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "SCO:Stafford McDowall",
+      "union_code": "SCO",
+      "name": "Stafford McDowall",
+      "position_group": "CE",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "SCO:Kyle Rowe",
+      "union_code": "SCO",
+      "name": "Kyle Rowe",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "SCO:Finn Russell",
+      "union_code": "SCO",
+      "name": "Finn Russell",
+      "position_group": "FH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "SCO:Ollie Smith",
+      "union_code": "SCO",
+      "name": "Ollie Smith",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "SCO:Kyle Steyn",
+      "union_code": "SCO",
+      "name": "Kyle Steyn",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "SCO:Sione Tuipulotu",
+      "union_code": "SCO",
+      "name": "Sione Tuipulotu",
+      "position_group": "CE",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "SCO:Duhan van der Merwe",
+      "union_code": "SCO",
+      "name": "Duhan van der Merwe",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "SCO:Ben White",
+      "union_code": "SCO",
+      "name": "Ben White",
+      "position_group": "SH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "WAL:Rhys Barratt",
+      "union_code": "WAL",
+      "name": "Rhys Barratt",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "WAL:Taine Basham",
+      "union_code": "WAL",
+      "name": "Taine Basham",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "WAL:Adam Beard",
+      "union_code": "WAL",
+      "name": "Adam Beard",
+      "position_group": "LK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "WAL:Liam Belcher",
+      "union_code": "WAL",
+      "name": "Liam Belcher",
+      "position_group": "HK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "WAL:James Botham",
+      "union_code": "WAL",
+      "name": "James Botham",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "WAL:Rhys Carre",
+      "union_code": "WAL",
+      "name": "Rhys Carre",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "WAL:Ben Carter",
+      "union_code": "WAL",
+      "name": "Ben Carter",
+      "position_group": "LK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "WAL:Seb Davies",
+      "union_code": "WAL",
+      "name": "Seb Davies",
+      "position_group": "LK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "WAL:Ryan Elias",
+      "union_code": "WAL",
+      "name": "Ryan Elias",
+      "position_group": "HK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "WAL:Tomas Francis",
+      "union_code": "WAL",
+      "name": "Tomas Francis",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "WAL:Archie Griffin",
+      "union_code": "WAL",
+      "name": "Archie Griffin",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "WAL:Kane James",
+      "union_code": "WAL",
+      "name": "Kane James",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "WAL:Dafydd Jenkins",
+      "union_code": "WAL",
+      "name": "Dafydd Jenkins",
+      "position_group": "LK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "WAL:Dewi Lake",
+      "union_code": "WAL",
+      "name": "Dewi Lake",
+      "position_group": "HK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "WAL:Dillon Lewis",
+      "union_code": "WAL",
+      "name": "Dillon Lewis",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "WAL:Alex Mann",
+      "union_code": "WAL",
+      "name": "Alex Mann",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "WAL:Jac Morgan",
+      "union_code": "WAL",
+      "name": "Jac Morgan",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "WAL:Taine Plumtree",
+      "union_code": "WAL",
+      "name": "Taine Plumtree",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "WAL:Nicky Smith",
+      "union_code": "WAL",
+      "name": "Nicky Smith",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "WAL:Gareth Thomas",
+      "union_code": "WAL",
+      "name": "Gareth Thomas",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "WAL:Aaron Wainwright",
+      "union_code": "WAL",
+      "name": "Aaron Wainwright",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "WAL:Teddy Williams",
+      "union_code": "WAL",
+      "name": "Teddy Williams",
+      "position_group": "LK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "WAL:Josh Adams",
+      "union_code": "WAL",
+      "name": "Josh Adams",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "WAL:Sam Costelow",
+      "union_code": "WAL",
+      "name": "Sam Costelow",
+      "position_group": "FH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "WAL:Rio Dyer",
+      "union_code": "WAL",
+      "name": "Rio Dyer",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "WAL:Dan Edwards",
+      "union_code": "WAL",
+      "name": "Dan Edwards",
+      "position_group": "FH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "WAL:Gabriel Hamer-Webb",
+      "union_code": "WAL",
+      "name": "Gabriel Hamer-Webb",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "WAL:Joe Hawkins",
+      "union_code": "WAL",
+      "name": "Joe Hawkins",
+      "position_group": "CE",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "WAL:Louie Hennessey",
+      "union_code": "WAL",
+      "name": "Louie Hennessey",
+      "position_group": "CE",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "WAL:Che Hope",
+      "union_code": "WAL",
+      "name": "Che Hope",
+      "position_group": "SH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "WAL:Eddie James",
+      "union_code": "WAL",
+      "name": "Eddie James",
+      "position_group": "CE",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "WAL:Max Llewellyn",
+      "union_code": "WAL",
+      "name": "Max Llewellyn",
+      "position_group": "CE",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "WAL:Ellis Mee",
+      "union_code": "WAL",
+      "name": "Ellis Mee",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "WAL:Reuben Morgan-Williams",
+      "union_code": "WAL",
+      "name": "Reuben Morgan-Williams",
+      "position_group": "SH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "WAL:Blair Murray",
+      "union_code": "WAL",
+      "name": "Blair Murray",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "WAL:Aneurin Owen",
+      "union_code": "WAL",
+      "name": "Aneurin Owen",
+      "position_group": "CE",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "WAL:Louis Rees-Zammit",
+      "union_code": "WAL",
+      "name": "Louis Rees-Zammit",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "WAL:Tom Rogers",
+      "union_code": "WAL",
+      "name": "Tom Rogers",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "WAL:Tomos Williams",
+      "union_code": "WAL",
+      "name": "Tomos Williams",
+      "position_group": "SH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FRA:Grégory Alldritt",
+      "union_code": "FRA",
+      "name": "Grégory Alldritt",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FRA:Hugo Auradou",
+      "union_code": "FRA",
+      "name": "Hugo Auradou",
+      "position_group": "LK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FRA:Paul Boudehent",
+      "union_code": "FRA",
+      "name": "Paul Boudehent",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FRA:Joshua Brennan",
+      "union_code": "FRA",
+      "name": "Joshua Brennan",
+      "position_group": "LK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FRA:Esteban Capilla",
+      "union_code": "FRA",
+      "name": "Esteban Capilla",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FRA:Guillaume Cramont",
+      "union_code": "FRA",
+      "name": "Guillaume Cramont",
+      "position_group": "FX",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FRA:François Cros",
+      "union_code": "FRA",
+      "name": "François Cros",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FRA:Tyler Duguid",
+      "union_code": "FRA",
+      "name": "Tyler Duguid",
+      "position_group": "FX",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FRA:Sipili Falatea",
+      "union_code": "FRA",
+      "name": "Sipili Falatea",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FRA:Alexandre Fischer",
+      "union_code": "FRA",
+      "name": "Alexandre Fischer",
+      "position_group": "FX",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FRA:Jean-Baptiste Gros",
+      "union_code": "FRA",
+      "name": "Jean-Baptiste Gros",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FRA:Mickaël Guillard",
+      "union_code": "FRA",
+      "name": "Mickaël Guillard",
+      "position_group": "LK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FRA:Oscar Jegou",
+      "union_code": "FRA",
+      "name": "Oscar Jegou",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FRA:Anthony Jelonch",
+      "union_code": "FRA",
+      "name": "Anthony Jelonch",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FRA:Thomas Laclayat",
+      "union_code": "FRA",
+      "name": "Thomas Laclayat",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FRA:Maxime Lamothe",
+      "union_code": "FRA",
+      "name": "Maxime Lamothe",
+      "position_group": "HK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FRA:Peato Mauvaka",
+      "union_code": "FRA",
+      "name": "Peato Mauvaka",
+      "position_group": "HK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FRA:Charles Ollivon",
+      "union_code": "FRA",
+      "name": "Charles Ollivon",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FRA:Jefferson Poirot",
+      "union_code": "FRA",
+      "name": "Jefferson Poirot",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FRA:Thomas Staniforth",
+      "union_code": "FRA",
+      "name": "Thomas Staniforth",
+      "position_group": "LK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FRA:Tevita Tatafu",
+      "union_code": "FRA",
+      "name": "Tevita Tatafu",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FRA:Reda Wardi",
+      "union_code": "FRA",
+      "name": "Reda Wardi",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FRA:Cameron Woki",
+      "union_code": "FRA",
+      "name": "Cameron Woki",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FRA:Théo Attissogbe",
+      "union_code": "FRA",
+      "name": "Théo Attissogbe",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FRA:Léo Barré",
+      "union_code": "FRA",
+      "name": "Léo Barré",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FRA:Louis Bielle-Biarrey",
+      "union_code": "FRA",
+      "name": "Louis Bielle-Biarrey",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FRA:Nicolas Depoortere",
+      "union_code": "FRA",
+      "name": "Nicolas Depoortere",
+      "position_group": "CE",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FRA:Axel Desperes",
+      "union_code": "FRA",
+      "name": "Axel Desperes",
+      "position_group": "BX",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FRA:Antoine Dupont",
+      "union_code": "FRA",
+      "name": "Antoine Dupont",
+      "position_group": "SH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FRA:Mathis Ferté",
+      "union_code": "FRA",
+      "name": "Mathis Ferté",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FRA:Théo Forner",
+      "union_code": "FRA",
+      "name": "Théo Forner",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FRA:Émilien Gailleton",
+      "union_code": "FRA",
+      "name": "Émilien Gailleton",
+      "position_group": "CE",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FRA:Kalvin Gourgues",
+      "union_code": "FRA",
+      "name": "Kalvin Gourgues",
+      "position_group": "CE",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FRA:Aaron Grandidier Nkanang",
+      "union_code": "FRA",
+      "name": "Aaron Grandidier Nkanang",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FRA:Louis Le Brun",
+      "union_code": "FRA",
+      "name": "Louis Le Brun",
+      "position_group": "FH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FRA:Nolann Le Garrec",
+      "union_code": "FRA",
+      "name": "Nolann Le Garrec",
+      "position_group": "SH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FRA:Maxime Lucu",
+      "union_code": "FRA",
+      "name": "Maxime Lucu",
+      "position_group": "SH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FRA:Yoram Moefana",
+      "union_code": "FRA",
+      "name": "Yoram Moefana",
+      "position_group": "CE",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FRA:Romain Ntamack",
+      "union_code": "FRA",
+      "name": "Romain Ntamack",
+      "position_group": "FH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FRA:Damian Penaud",
+      "union_code": "FRA",
+      "name": "Damian Penaud",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FRA:Tani Vili",
+      "union_code": "FRA",
+      "name": "Tani Vili",
+      "position_group": "CE",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ITA:Simone Ferrari",
+      "union_code": "ITA",
+      "name": "Simone Ferrari",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ITA:Danilo Fischetti",
+      "union_code": "ITA",
+      "name": "Danilo Fischetti",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ITA:Muhamed Hasa",
+      "union_code": "ITA",
+      "name": "Muhamed Hasa",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ITA:Ion Neculai",
+      "union_code": "ITA",
+      "name": "Ion Neculai",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ITA:Ivan Nemer",
+      "union_code": "ITA",
+      "name": "Ivan Nemer",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ITA:Marco Riccioni",
+      "union_code": "ITA",
+      "name": "Marco Riccioni",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ITA:Tommaso Di Bartolomeo",
+      "union_code": "ITA",
+      "name": "Tommaso Di Bartolomeo",
+      "position_group": "HK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ITA:Gianmarco Lucchesi",
+      "union_code": "ITA",
+      "name": "Gianmarco Lucchesi",
+      "position_group": "HK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ITA:Giacomo Nicotera",
+      "union_code": "ITA",
+      "name": "Giacomo Nicotera",
+      "position_group": "HK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ITA:Niccolò Cannone",
+      "union_code": "ITA",
+      "name": "Niccolò Cannone",
+      "position_group": "LK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ITA:Mattia Midena",
+      "union_code": "ITA",
+      "name": "Mattia Midena",
+      "position_group": "LK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ITA:Enoch Opoku Gyamfi",
+      "union_code": "ITA",
+      "name": "Enoch Opoku Gyamfi",
+      "position_group": "LK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ITA:Federico Ruzza",
+      "union_code": "ITA",
+      "name": "Federico Ruzza",
+      "position_group": "LK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ITA:Lorenzo Cannone",
+      "union_code": "ITA",
+      "name": "Lorenzo Cannone",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ITA:Samuele Locatelli",
+      "union_code": "ITA",
+      "name": "Samuele Locatelli",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ITA:Alessandro Ortombina",
+      "union_code": "ITA",
+      "name": "Alessandro Ortombina",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ITA:Ross Vintcent",
+      "union_code": "ITA",
+      "name": "Ross Vintcent",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ITA:Manuel Zuliani",
+      "union_code": "ITA",
+      "name": "Manuel Zuliani",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ITA:Alessandro Garbisi",
+      "union_code": "ITA",
+      "name": "Alessandro Garbisi",
+      "position_group": "SH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ITA:Alessandro Fusco",
+      "union_code": "ITA",
+      "name": "Alessandro Fusco",
+      "position_group": "SH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ITA:Stephen Varney",
+      "union_code": "ITA",
+      "name": "Stephen Varney",
+      "position_group": "SH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ITA:Tommaso Allan",
+      "union_code": "ITA",
+      "name": "Tommaso Allan",
+      "position_group": "FH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ITA:Paolo Garbisi",
+      "union_code": "ITA",
+      "name": "Paolo Garbisi",
+      "position_group": "FH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ITA:Leonardo Marin",
+      "union_code": "ITA",
+      "name": "Leonardo Marin",
+      "position_group": "CE",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ITA:Damiano Mazza",
+      "union_code": "ITA",
+      "name": "Damiano Mazza",
+      "position_group": "CE",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ITA:Federico Mori",
+      "union_code": "ITA",
+      "name": "Federico Mori",
+      "position_group": "CE",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ITA:Paolo Odogwu",
+      "union_code": "ITA",
+      "name": "Paolo Odogwu",
+      "position_group": "CE",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ITA:Mirko Belloni",
+      "union_code": "ITA",
+      "name": "Mirko Belloni",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ITA:Matt Gallagher",
+      "union_code": "ITA",
+      "name": "Matt Gallagher",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ITA:Monty Ioane",
+      "union_code": "ITA",
+      "name": "Monty Ioane",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ITA:Giovanni Montemauri",
+      "union_code": "ITA",
+      "name": "Giovanni Montemauri",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ITA:Lorenzo Pani",
+      "union_code": "ITA",
+      "name": "Lorenzo Pani",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ITA:Federico Zanandrea",
+      "union_code": "ITA",
+      "name": "Federico Zanandrea",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "NZL:Codie Taylor",
+      "union_code": "NZL",
+      "name": "Codie Taylor",
+      "position_group": "HK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "NZL:Asafo Aumua",
+      "union_code": "NZL",
+      "name": "Asafo Aumua",
+      "position_group": "HK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "NZL:George Bell",
+      "union_code": "NZL",
+      "name": "George Bell",
+      "position_group": "HK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "NZL:Ethan de Groot",
+      "union_code": "NZL",
+      "name": "Ethan de Groot",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "NZL:George Bower",
+      "union_code": "NZL",
+      "name": "George Bower",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "NZL:Xavier Numia",
+      "union_code": "NZL",
+      "name": "Xavier Numia",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "NZL:Fletcher Newell",
+      "union_code": "NZL",
+      "name": "Fletcher Newell",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "NZL:Pasilio Tosi",
+      "union_code": "NZL",
+      "name": "Pasilio Tosi",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "NZL:Saula Ma'u",
+      "union_code": "NZL",
+      "name": "Saula Ma'u",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "NZL:Scott Barrett",
+      "union_code": "NZL",
+      "name": "Scott Barrett",
+      "position_group": "LK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "NZL:Josh Lord",
+      "union_code": "NZL",
+      "name": "Josh Lord",
+      "position_group": "LK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "NZL:Fabian Holland",
+      "union_code": "NZL",
+      "name": "Fabian Holland",
+      "position_group": "LK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "NZL:Jamie Hannah",
+      "union_code": "NZL",
+      "name": "Jamie Hannah",
+      "position_group": "LK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "NZL:Tupou Vaa'i",
+      "union_code": "NZL",
+      "name": "Tupou Vaa'i",
+      "position_group": "LK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "NZL:Anton Segner",
+      "union_code": "NZL",
+      "name": "Anton Segner",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "NZL:Leicester Fainga'anuku",
+      "union_code": "NZL",
+      "name": "Leicester Fainga'anuku",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "NZL:Ethan Blackadder",
+      "union_code": "NZL",
+      "name": "Ethan Blackadder",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "NZL:Christian Lio-Willie",
+      "union_code": "NZL",
+      "name": "Christian Lio-Willie",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "NZL:Peter Lakai",
+      "union_code": "NZL",
+      "name": "Peter Lakai",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "NZL:Wallace Sititi",
+      "union_code": "NZL",
+      "name": "Wallace Sititi",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "NZL:Cam Roigard",
+      "union_code": "NZL",
+      "name": "Cam Roigard",
+      "position_group": "SH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "NZL:Kyle Preston",
+      "union_code": "NZL",
+      "name": "Kyle Preston",
+      "position_group": "SH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "NZL:Cortez Ratima",
+      "union_code": "NZL",
+      "name": "Cortez Ratima",
+      "position_group": "SH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "NZL:Richie Mo'unga",
+      "union_code": "NZL",
+      "name": "Richie Mo'unga",
+      "position_group": "FH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "NZL:Damian McKenzie",
+      "union_code": "NZL",
+      "name": "Damian McKenzie",
+      "position_group": "FH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "NZL:Josh Jacomb",
+      "union_code": "NZL",
+      "name": "Josh Jacomb",
+      "position_group": "FH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "NZL:Jordie Barrett",
+      "union_code": "NZL",
+      "name": "Jordie Barrett",
+      "position_group": "CE",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "NZL:Quinn Tupaea",
+      "union_code": "NZL",
+      "name": "Quinn Tupaea",
+      "position_group": "CE",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "NZL:Timoci Tavatavanawai",
+      "union_code": "NZL",
+      "name": "Timoci Tavatavanawai",
+      "position_group": "CE",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "NZL:Anton Lienert-Brown",
+      "union_code": "NZL",
+      "name": "Anton Lienert-Brown",
+      "position_group": "CE",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "NZL:Rieko Ioane",
+      "union_code": "NZL",
+      "name": "Rieko Ioane",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "NZL:Chay Fihaki",
+      "union_code": "NZL",
+      "name": "Chay Fihaki",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "NZL:Fehi Fineanganofo",
+      "union_code": "NZL",
+      "name": "Fehi Fineanganofo",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "NZL:Josh Moorby",
+      "union_code": "NZL",
+      "name": "Josh Moorby",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "NZL:Will Jordan",
+      "union_code": "NZL",
+      "name": "Will Jordan",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "NZL:Beauden Barrett",
+      "union_code": "NZL",
+      "name": "Beauden Barrett",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "AUS:Allan Alaalatoa",
+      "union_code": "AUS",
+      "name": "Allan Alaalatoa",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "AUS:Miles Amatosero",
+      "union_code": "AUS",
+      "name": "Miles Amatosero",
+      "position_group": "LK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "AUS:Angus Bell",
+      "union_code": "AUS",
+      "name": "Angus Bell",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "AUS:Josh Canham",
+      "union_code": "AUS",
+      "name": "Josh Canham",
+      "position_group": "LK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "AUS:Massimo De Lutiis",
+      "union_code": "AUS",
+      "name": "Massimo De Lutiis",
+      "position_group": "FX",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "AUS:Tom Hooper",
+      "union_code": "AUS",
+      "name": "Tom Hooper",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "AUS:Isaac Kailea",
+      "union_code": "AUS",
+      "name": "Isaac Kailea",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "AUS:Tom Lambert",
+      "union_code": "AUS",
+      "name": "Tom Lambert",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "AUS:Fraser McReight",
+      "union_code": "AUS",
+      "name": "Fraser McReight",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "AUS:Josh Nasser",
+      "union_code": "AUS",
+      "name": "Josh Nasser",
+      "position_group": "HK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "AUS:Brandon Paenga-Amosa",
+      "union_code": "AUS",
+      "name": "Brandon Paenga-Amosa",
+      "position_group": "HK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "AUS:Billy Pollard",
+      "union_code": "AUS",
+      "name": "Billy Pollard",
+      "position_group": "HK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "AUS:Lukhan Salakaia-Loto",
+      "union_code": "AUS",
+      "name": "Lukhan Salakaia-Loto",
+      "position_group": "LK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "AUS:Lachlan Shaw",
+      "union_code": "AUS",
+      "name": "Lachlan Shaw",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "AUS:Carlo Tizzano",
+      "union_code": "AUS",
+      "name": "Carlo Tizzano",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "AUS:Taniela Tupou",
+      "union_code": "AUS",
+      "name": "Taniela Tupou",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "AUS:Rob Valetini",
+      "union_code": "AUS",
+      "name": "Rob Valetini",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "AUS:Jeremy Williams",
+      "union_code": "AUS",
+      "name": "Jeremy Williams",
+      "position_group": "LK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "AUS:Harry Wilson",
+      "union_code": "AUS",
+      "name": "Harry Wilson",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "AUS:Filipo Daugunu",
+      "union_code": "AUS",
+      "name": "Filipo Daugunu",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "AUS:Ben Donaldson",
+      "union_code": "AUS",
+      "name": "Ben Donaldson",
+      "position_group": "FH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "AUS:Carter Gordon",
+      "union_code": "AUS",
+      "name": "Carter Gordon",
+      "position_group": "FH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "AUS:Isaac Henry",
+      "union_code": "AUS",
+      "name": "Isaac Henry",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "AUS:Len Ikitau",
+      "union_code": "AUS",
+      "name": "Len Ikitau",
+      "position_group": "CE",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "AUS:Max Jorgensen",
+      "union_code": "AUS",
+      "name": "Max Jorgensen",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "AUS:Ryan Lonergan",
+      "union_code": "AUS",
+      "name": "Ryan Lonergan",
+      "position_group": "SH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "AUS:Tate McDermott",
+      "union_code": "AUS",
+      "name": "Tate McDermott",
+      "position_group": "SH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "AUS:Declan Meredith",
+      "union_code": "AUS",
+      "name": "Declan Meredith",
+      "position_group": "FH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "AUS:Hunter Paisami",
+      "union_code": "AUS",
+      "name": "Hunter Paisami",
+      "position_group": "CE",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "AUS:Harry Potter",
+      "union_code": "AUS",
+      "name": "Harry Potter",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "AUS:Joseph-Aukuso Suaalii",
+      "union_code": "AUS",
+      "name": "Joseph-Aukuso Suaalii",
+      "position_group": "CE",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "AUS:Teddy Wilson",
+      "union_code": "AUS",
+      "name": "Teddy Wilson",
+      "position_group": "SH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "AUS:Tom Wright",
+      "union_code": "AUS",
+      "name": "Tom Wright",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ARG:Efraín Elías",
+      "union_code": "ARG",
+      "name": "Efraín Elías",
+      "position_group": "FX",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ARG:Juan Martín González",
+      "union_code": "ARG",
+      "name": "Juan Martín González",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ARG:Santiago Grondona",
+      "union_code": "ARG",
+      "name": "Santiago Grondona",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ARG:Marcos Kremer",
+      "union_code": "ARG",
+      "name": "Marcos Kremer",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ARG:Tomás Lavanini",
+      "union_code": "ARG",
+      "name": "Tomás Lavanini",
+      "position_group": "LK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ARG:Rodrigo Martínez",
+      "union_code": "ARG",
+      "name": "Rodrigo Martínez",
+      "position_group": "FX",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ARG:Pablo Matera",
+      "union_code": "ARG",
+      "name": "Pablo Matera",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ARG:Julián Montoya",
+      "union_code": "ARG",
+      "name": "Julián Montoya",
+      "position_group": "HK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ARG:Francisco Moreno",
+      "union_code": "ARG",
+      "name": "Francisco Moreno",
+      "position_group": "FX",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ARG:Joaquín Moro",
+      "union_code": "ARG",
+      "name": "Joaquín Moro",
+      "position_group": "FX",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ARG:Leonel Oviedo",
+      "union_code": "ARG",
+      "name": "Leonel Oviedo",
+      "position_group": "FX",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ARG:Guido Petti",
+      "union_code": "ARG",
+      "name": "Guido Petti",
+      "position_group": "LK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ARG:Tomás Rapetti",
+      "union_code": "ARG",
+      "name": "Tomás Rapetti",
+      "position_group": "FX",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ARG:Pedro Rubiolo",
+      "union_code": "ARG",
+      "name": "Pedro Rubiolo",
+      "position_group": "LK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ARG:Juan Martín Scelzo",
+      "union_code": "ARG",
+      "name": "Juan Martín Scelzo",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ARG:Joel Sclavi",
+      "union_code": "ARG",
+      "name": "Joel Sclavi",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ARG:Mayco Vivas",
+      "union_code": "ARG",
+      "name": "Mayco Vivas",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ARG:Boris Wenger",
+      "union_code": "ARG",
+      "name": "Boris Wenger",
+      "position_group": "FX",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ARG:Tomás Albornoz",
+      "union_code": "ARG",
+      "name": "Tomás Albornoz",
+      "position_group": "FH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ARG:Simón Benítez Cruz",
+      "union_code": "ARG",
+      "name": "Simón Benítez Cruz",
+      "position_group": "SH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ARG:Mateo Carreras",
+      "union_code": "ARG",
+      "name": "Mateo Carreras",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ARG:Lucio Cinti",
+      "union_code": "ARG",
+      "name": "Lucio Cinti",
+      "position_group": "CE",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ARG:Bautista Delguy",
+      "union_code": "ARG",
+      "name": "Bautista Delguy",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ARG:Gonzalo García",
+      "union_code": "ARG",
+      "name": "Gonzalo García",
+      "position_group": "SH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ARG:Rodrigo Isgró",
+      "union_code": "ARG",
+      "name": "Rodrigo Isgró",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ARG:Juan Cruz Mallía",
+      "union_code": "ARG",
+      "name": "Juan Cruz Mallía",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ARG:Ignacio Mendy",
+      "union_code": "ARG",
+      "name": "Ignacio Mendy",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ARG:Matías Moroni",
+      "union_code": "ARG",
+      "name": "Matías Moroni",
+      "position_group": "CE",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ARG:Agustín Moyano",
+      "union_code": "ARG",
+      "name": "Agustín Moyano",
+      "position_group": "SH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ARG:Justo Piccardo",
+      "union_code": "ARG",
+      "name": "Justo Piccardo",
+      "position_group": "BX",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ARG:Gerónimo Prisciantelli",
+      "union_code": "ARG",
+      "name": "Gerónimo Prisciantelli",
+      "position_group": "FH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ARG:Faustino Sánchez Valarolo",
+      "union_code": "ARG",
+      "name": "Faustino Sánchez Valarolo",
+      "position_group": "BX",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "ARG:Mateo Soler",
+      "union_code": "ARG",
+      "name": "Mateo Soler",
+      "position_group": "BX",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "JPN:Sojiro Otsuka",
+      "union_code": "JPN",
+      "name": "Sojiro Otsuka",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "JPN:Sena Kimura",
+      "union_code": "JPN",
+      "name": "Sena Kimura",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "JPN:Yota Kamimori",
+      "union_code": "JPN",
+      "name": "Yota Kamimori",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "JPN:Mamoru Harada",
+      "union_code": "JPN",
+      "name": "Mamoru Harada",
+      "position_group": "HK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "JPN:Kenji Sato",
+      "union_code": "JPN",
+      "name": "Kenji Sato",
+      "position_group": "HK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "JPN:Kanato Hirano",
+      "union_code": "JPN",
+      "name": "Kanato Hirano",
+      "position_group": "HK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "JPN:Shuhei Takeuchi",
+      "union_code": "JPN",
+      "name": "Shuhei Takeuchi",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "JPN:Keijiro Tamefusa",
+      "union_code": "JPN",
+      "name": "Keijiro Tamefusa",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "JPN:Ryosuke Iwaihara",
+      "union_code": "JPN",
+      "name": "Ryosuke Iwaihara",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "JPN:Jack Cornelsen",
+      "union_code": "JPN",
+      "name": "Jack Cornelsen",
+      "position_group": "LK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "JPN:Warner Dearns",
+      "union_code": "JPN",
+      "name": "Warner Dearns",
+      "position_group": "LK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "JPN:Harry Hockings",
+      "union_code": "JPN",
+      "name": "Harry Hockings",
+      "position_group": "LK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "JPN:Michael Stolberg",
+      "union_code": "JPN",
+      "name": "Michael Stolberg",
+      "position_group": "LK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "JPN:Ruan Botha",
+      "union_code": "JPN",
+      "name": "Ruan Botha",
+      "position_group": "LK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "JPN:Kanji Shimokawa",
+      "union_code": "JPN",
+      "name": "Kanji Shimokawa",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "JPN:Ben Gunter",
+      "union_code": "JPN",
+      "name": "Ben Gunter",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "JPN:Tiennan Costley",
+      "union_code": "JPN",
+      "name": "Tiennan Costley",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "JPN:Esei Ha'angana",
+      "union_code": "JPN",
+      "name": "Esei Ha'angana",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "JPN:Miu Austin Moriyama",
+      "union_code": "JPN",
+      "name": "Miu Austin Moriyama",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "JPN:Naoto Saito",
+      "union_code": "JPN",
+      "name": "Naoto Saito",
+      "position_group": "SH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "JPN:Shinobu Fujiwara",
+      "union_code": "JPN",
+      "name": "Shinobu Fujiwara",
+      "position_group": "SH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "JPN:Kenta Fukuda",
+      "union_code": "JPN",
+      "name": "Kenta Fukuda",
+      "position_group": "SH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "JPN:Shinya Komura",
+      "union_code": "JPN",
+      "name": "Shinya Komura",
+      "position_group": "FH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "JPN:Riku Kitahara",
+      "union_code": "JPN",
+      "name": "Riku Kitahara",
+      "position_group": "FH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "JPN:Dylan Riley",
+      "union_code": "JPN",
+      "name": "Dylan Riley",
+      "position_group": "CE",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "JPN:Charlie Lawrence",
+      "union_code": "JPN",
+      "name": "Charlie Lawrence",
+      "position_group": "CE",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "JPN:Samisoni Tua",
+      "union_code": "JPN",
+      "name": "Samisoni Tua",
+      "position_group": "CE",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "JPN:Yuki Ikeda",
+      "union_code": "JPN",
+      "name": "Yuki Ikeda",
+      "position_group": "CE",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "JPN:Lee Chi Su",
+      "union_code": "JPN",
+      "name": "Lee Chi Su",
+      "position_group": "CE",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "JPN:Kippei Ishida",
+      "union_code": "JPN",
+      "name": "Kippei Ishida",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "JPN:Kazuma Ueda",
+      "union_code": "JPN",
+      "name": "Kazuma Ueda",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "JPN:Koga Nezuka",
+      "union_code": "JPN",
+      "name": "Koga Nezuka",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "JPN:Inoke Burua",
+      "union_code": "JPN",
+      "name": "Inoke Burua",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "JPN:Riku Tokito",
+      "union_code": "JPN",
+      "name": "Riku Tokito",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "JPN:Takuro Matsunaga",
+      "union_code": "JPN",
+      "name": "Takuro Matsunaga",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FIJ:Peni Ravai",
+      "union_code": "FIJ",
+      "name": "Peni Ravai",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FIJ:Tevita Ikanivere",
+      "union_code": "FIJ",
+      "name": "Tevita Ikanivere",
+      "position_group": "HK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FIJ:Inoke Ravuiwasa",
+      "union_code": "FIJ",
+      "name": "Inoke Ravuiwasa",
+      "position_group": "FX",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FIJ:Penaia Cakobau",
+      "union_code": "FIJ",
+      "name": "Penaia Cakobau",
+      "position_group": "FX",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FIJ:Samu Tawake",
+      "union_code": "FIJ",
+      "name": "Samu Tawake",
+      "position_group": "FX",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FIJ:Kavaia Tagivetaua",
+      "union_code": "FIJ",
+      "name": "Kavaia Tagivetaua",
+      "position_group": "FX",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FIJ:Meli Tuni",
+      "union_code": "FIJ",
+      "name": "Meli Tuni",
+      "position_group": "FX",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FIJ:Mesake Doge",
+      "union_code": "FIJ",
+      "name": "Mesake Doge",
+      "position_group": "PR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FIJ:Mesake Vocevoce",
+      "union_code": "FIJ",
+      "name": "Mesake Vocevoce",
+      "position_group": "FX",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FIJ:Isoa Nasilasila",
+      "union_code": "FIJ",
+      "name": "Isoa Nasilasila",
+      "position_group": "LK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FIJ:Vilive Miramira",
+      "union_code": "FIJ",
+      "name": "Vilive Miramira",
+      "position_group": "FX",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FIJ:Kitione Salawa",
+      "union_code": "FIJ",
+      "name": "Kitione Salawa",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FIJ:Motikiai Murray",
+      "union_code": "FIJ",
+      "name": "Motikiai Murray",
+      "position_group": "FX",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FIJ:Apolosi Vuniyawa",
+      "union_code": "FIJ",
+      "name": "Apolosi Vuniyawa",
+      "position_group": "FX",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FIJ:Manueli Ratuniyarawa",
+      "union_code": "FIJ",
+      "name": "Manueli Ratuniyarawa",
+      "position_group": "LK",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FIJ:Isoa Tuwai",
+      "union_code": "FIJ",
+      "name": "Isoa Tuwai",
+      "position_group": "BR",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FIJ:Terio Tamani",
+      "union_code": "FIJ",
+      "name": "Terio Tamani",
+      "position_group": "SH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FIJ:Frank Lomani",
+      "union_code": "FIJ",
+      "name": "Frank Lomani",
+      "position_group": "SH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FIJ:Sam Wye",
+      "union_code": "FIJ",
+      "name": "Sam Wye",
+      "position_group": "SH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FIJ:Kemu Valetini",
+      "union_code": "FIJ",
+      "name": "Kemu Valetini",
+      "position_group": "FH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FIJ:Isaiah Armstrong-Ravula",
+      "union_code": "FIJ",
+      "name": "Isaiah Armstrong-Ravula",
+      "position_group": "FH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FIJ:Ben Volavola",
+      "union_code": "FIJ",
+      "name": "Ben Volavola",
+      "position_group": "FH",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FIJ:Joji Nasova",
+      "union_code": "FIJ",
+      "name": "Joji Nasova",
+      "position_group": "B3",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FIJ:Isikeli Rabitu",
+      "union_code": "FIJ",
+      "name": "Isikeli Rabitu",
+      "position_group": "BX",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FIJ:Maleli Nauvasi",
+      "union_code": "FIJ",
+      "name": "Maleli Nauvasi",
+      "position_group": "BX",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FIJ:Kavekini Boselawa",
+      "union_code": "FIJ",
+      "name": "Kavekini Boselawa",
+      "position_group": "BX",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FIJ:Issac Ratumaitavuki-Kneepkens",
+      "union_code": "FIJ",
+      "name": "Issac Ratumaitavuki-Kneepkens",
+      "position_group": "BX",
+      "availability": "Squad",
+      "note": ""
+    },
+    {
+      "id": "FIJ:Nacani Boginisoko",
+      "union_code": "FIJ",
+      "name": "Nacani Boginisoko",
+      "position_group": "BX",
+      "availability": "Squad",
+      "note": ""
+    }
+  ]
+}

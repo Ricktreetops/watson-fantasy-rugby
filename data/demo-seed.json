@@ -1,0 +1,146 @@
+{
+  "note": "Invented teams for the on-phone preview. Not anyone's real picks.",
+  "teams": {
+    "Sharon": {
+      "slots": {
+        "1": "ENG:Joe Heyes",
+        "2": "ENG:Luke Cowan-Dickie",
+        "3": "ENG:Will Stuart",
+        "4": "SCO:Seb Stephen",
+        "5": "SCO:Gregor Brown",
+        "6": "SCO:Jamie Ritchie",
+        "7": "WAL:James Botham",
+        "8": "WAL:Jac Morgan",
+        "9": "WAL:Reuben Morgan-Williams",
+        "10": "FRA:Romain Ntamack",
+        "11": "FRA:Mathis Ferté",
+        "12": "FRA:Axel Desperes",
+        "13": "ITA:Federico Mori",
+        "14": "ITA:Giovanni Montemauri",
+        "15": "ITA:Matt Gallagher"
+      },
+      "captain": "FRA:Romain Ntamack",
+      "supersub": "IRE:Rob Baloucoune",
+      "predictions": {
+        "R4-01": {
+          "winner": "Ireland",
+          "margin": 4
+        },
+        "R4-02": {
+          "winner": "South Africa",
+          "margin": 5
+        },
+        "R4-03": {
+          "winner": "Scotland",
+          "margin": 6
+        },
+        "R4-04": {
+          "winner": "Japan",
+          "margin": 7
+        },
+        "R4-05": {
+          "winner": "France",
+          "margin": 8
+        },
+        "R4-06": {
+          "winner": "Australia",
+          "margin": 9
+        }
+      }
+    },
+    "Brooke": {
+      "slots": {
+        "1": "FRA:Jean-Baptiste Gros",
+        "2": "FRA:Tyler Duguid",
+        "3": "FRA:Reda Wardi",
+        "4": "ITA:Niccolò Cannone",
+        "5": "ITA:Mattia Midena",
+        "6": "ITA:Lorenzo Cannone",
+        "7": "NZL:Wallace Sititi",
+        "8": "NZL:Ethan Blackadder",
+        "9": "NZL:Kyle Preston",
+        "10": "AUS:Declan Meredith",
+        "11": "AUS:Filipo Daugunu",
+        "12": "AUS:Hunter Paisami",
+        "13": "ARG:Justo Piccardo",
+        "14": "ARG:Ignacio Mendy",
+        "15": "ARG:Bautista Delguy"
+      },
+      "captain": "AUS:Declan Meredith",
+      "supersub": "WAL:Gabriel Hamer-Webb",
+      "predictions": {
+        "R4-01": {
+          "winner": "Argentina",
+          "margin": 7
+        },
+        "R4-02": {
+          "winner": "Italy",
+          "margin": 8
+        },
+        "R4-03": {
+          "winner": "New Zealand",
+          "margin": 9
+        },
+        "R4-04": {
+          "winner": "Wales",
+          "margin": 10
+        },
+        "R4-05": {
+          "winner": "Fiji",
+          "margin": 11
+        },
+        "R4-06": {
+          "winner": "England",
+          "margin": 12
+        }
+      }
+    },
+    "Cameron": {
+      "slots": {
+        "1": "AUS:Massimo De Lutiis",
+        "2": "AUS:Josh Nasser",
+        "3": "AUS:Allan Alaalatoa",
+        "4": "ARG:Tomás Lavanini",
+        "5": "ARG:Joaquín Moro",
+        "6": "ARG:Marcos Kremer",
+        "7": "JPN:Miu Austin Moriyama",
+        "8": "JPN:Esei Ha'angana",
+        "9": "JPN:Shinobu Fujiwara",
+        "10": "FIJ:Isaiah Armstrong-Ravula",
+        "11": "FIJ:Joji Nasova",
+        "12": "FIJ:Nacani Boginisoko",
+        "13": "IRE:Stuart McCloskey",
+        "14": "IRE:Rob Baloucoune",
+        "15": "IRE:Jamie Osborne"
+      },
+      "captain": "FIJ:Isaiah Armstrong-Ravula",
+      "supersub": "NZL:Quinn Tupaea",
+      "predictions": {
+        "R4-01": {
+          "winner": "Ireland",
+          "margin": 10
+        },
+        "R4-02": {
+          "winner": "South Africa",
+          "margin": 11
+        },
+        "R4-03": {
+          "winner": "Scotland",
+          "margin": 12
+        },
+        "R4-04": {
+          "winner": "Japan",
+          "margin": 13
+        },
+        "R4-05": {
+          "winner": "France",
+          "margin": 14
+        },
+        "R4-06": {
+          "winner": "Australia",
+          "margin": 15
+        }
+      }
+    }
+  }
+}

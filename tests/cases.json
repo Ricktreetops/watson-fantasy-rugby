@@ -1,0 +1,191 @@
+{
+  "rules": {
+    "player_points": {
+      "try_forward": 15,
+      "try_back": 10,
+      "conversion": 2,
+      "penalty_goal": 3,
+      "drop_goal": 5,
+      "metres_carried_per_10": 1,
+      "tackle": 1,
+      "player_of_the_match": 15,
+      "yellow_card": -3,
+      "red_card": -6
+    },
+    "prediction_bonus": {
+      "winner_points": 3,
+      "margin_band_points": 2,
+      "exact_margin_points": 3,
+      "margin_bands": [[1, 7], [8, 14], [15, 999]]
+    },
+    "captain_multiplier": 2,
+    "supersub": { "multiplier": 3, "if_starts_multiplier": 0.5 }
+  },
+  "cases": [
+    {
+      "name": "captain forward try, metres, tackles and an exact margin",
+      "groups": { "IRE:Dan Sheehan": "HK" },
+      "fixtures": [{ "id": "M1", "round_id": "R4", "home": "Ireland", "away": "Argentina" }],
+      "results": { "M1": { "home": 24, "away": 14 } },
+      "stats": { "M1": { "IRE:Dan Sheehan": { "tries": 1, "metres_carried": 34, "tackles": 8, "started": true } } },
+      "team": {
+        "slots": { "2": "IRE:Dan Sheehan" },
+        "captain": "IRE:Dan Sheehan",
+        "predictions": { "M1": { "winner": "Ireland", "margin": 10 } }
+      },
+      "round": "R4",
+      "expect": { "fantasy": 52, "prediction": 8, "total": 60, "correctWinners": 1 }
+    },
+    {
+      "name": "back scores two tries and a wrong draw call scores nothing",
+      "groups": { "FRA:Louis Bielle-Biarrey": "B3" },
+      "fixtures": [{ "id": "M1", "round_id": "R4", "home": "France", "away": "Fiji" }],
+      "results": { "M1": { "home": 40, "away": 12 } },
+      "stats": { "M1": { "FRA:Louis Bielle-Biarrey": { "tries": 2 } } },
+      "team": { "slots": { "11": "FRA:Louis Bielle-Biarrey" }, "predictions": { "M1": { "winner": "Draw" } } },
+      "round": "R4",
+      "expect": { "fantasy": 20, "prediction": 0, "total": 20, "correctWinners": 0 }
+    },
+    {
+      "name": "supersub on the bench scores triple",
+      "groups": { "FRA:Antoine Dupont": "SH" },
+      "fixtures": [{ "id": "M1", "round_id": "R4", "home": "France", "away": "Fiji" }],
+      "results": { "M1": { "home": 20, "away": 10 } },
+      "stats": { "M1": { "FRA:Antoine Dupont": { "tackles": 4, "started": false } } },
+      "team": { "slots": {}, "supersub": "FRA:Antoine Dupont" },
+      "round": "R4",
+      "expect": { "fantasy": 12, "prediction": 0, "total": 12, "correctWinners": 0 }
+    },
+    {
+      "name": "supersub who starts scores half",
+      "groups": { "FRA:Antoine Dupont": "SH" },
+      "fixtures": [{ "id": "M1", "round_id": "R4", "home": "France", "away": "Fiji" }],
+      "results": { "M1": { "home": 20, "away": 10 } },
+      "stats": { "M1": { "FRA:Antoine Dupont": { "tackles": 4, "started": true } } },
+      "team": { "slots": {}, "supersub": "FRA:Antoine Dupont" },
+      "round": "R4",
+      "expect": { "fantasy": 2, "prediction": 0, "total": 2, "correctWinners": 0 }
+    },
+    {
+      "name": "cards can take a player below zero",
+      "groups": { "ENG:Maro Itoje": "LK" },
+      "fixtures": [{ "id": "M1", "round_id": "R4", "home": "England", "away": "Australia" }],
+      "results": { "M1": { "home": 18, "away": 15 } },
+      "stats": { "M1": { "ENG:Maro Itoje": { "yellow": 1, "red": 1 } } },
+      "team": { "slots": { "4": "ENG:Maro Itoje" } },
+      "round": "R4",
+      "expect": { "fantasy": -9, "prediction": 0, "total": -9, "correctWinners": 0 }
+    },
+    {
+      "name": "penalties alias and a drop goal",
+      "groups": { "ENG:George Ford": "FH" },
+      "fixtures": [{ "id": "M1", "round_id": "R4", "home": "England", "away": "Australia" }],
+      "results": { "M1": { "home": 18, "away": 15 } },
+      "stats": { "M1": { "ENG:George Ford": { "penalties": 2, "drop_goals": 1 } } },
+      "team": { "slots": { "10": "ENG:George Ford" } },
+      "round": "R4",
+      "expect": { "fantasy": 11, "prediction": 0, "total": 11, "correctWinners": 0 }
+    },
+    {
+      "name": "two matches are added before the captain multiplier",
+      "groups": { "IRE:Josh van der Flier": "BR" },
+      "fixtures": [
+        { "id": "M1", "round_id": "R4", "home": "Ireland", "away": "Argentina" },
+        { "id": "M2", "round_id": "R4", "home": "Ireland", "away": "Fiji" }
+      ],
+      "results": { "M1": { "home": 20, "away": 10 }, "M2": { "home": 30, "away": 8 } },
+      "stats": {
+        "M1": { "IRE:Josh van der Flier": { "tries": 1 } },
+        "M2": { "IRE:Josh van der Flier": { "tries": 1 } }
+      },
+      "team": { "slots": { "7": "IRE:Josh van der Flier" }, "captain": "IRE:Josh van der Flier" },
+      "round": "R4",
+      "expect": { "fantasy": 60, "prediction": 0, "total": 60, "correctWinners": 0 }
+    },
+    {
+      "name": "a wrong winner scores nothing even when the margin number matches",
+      "groups": {},
+      "fixtures": [{ "id": "M1", "round_id": "R4", "home": "Wales", "away": "Japan" }],
+      "results": { "M1": { "home": 25, "away": 10 } },
+      "stats": {},
+      "team": { "slots": {}, "predictions": { "M1": { "winner": "Japan", "margin": 15 } } },
+      "round": "R4",
+      "expect": { "fantasy": 0, "prediction": 0, "total": 0, "correctWinners": 0 }
+    },
+    {
+      "name": "a correct draw scores 8 and does not count as a correct winner",
+      "groups": {},
+      "fixtures": [{ "id": "M1", "round_id": "R4", "home": "Scotland", "away": "New Zealand" }],
+      "results": { "M1": { "home": 17, "away": 17 } },
+      "stats": {},
+      "team": { "slots": {}, "predictions": { "M1": { "winner": "Draw", "margin": 3 } } },
+      "round": "R4",
+      "expect": { "fantasy": 0, "prediction": 8, "total": 8, "correctWinners": 0 }
+    },
+    {
+      "name": "margin band 15 or more without the exact number",
+      "groups": {},
+      "fixtures": [{ "id": "M1", "round_id": "R4", "home": "Italy", "away": "South Africa" }],
+      "results": { "M1": { "home": 10, "away": 25 } },
+      "stats": {},
+      "team": { "slots": {}, "predictions": { "M1": { "winner": "South Africa", "margin": 40 } } },
+      "round": "R4",
+      "expect": { "fantasy": 0, "prediction": 5, "total": 5, "correctWinners": 1 }
+    },
+    {
+      "name": "14 and 15 are different bands",
+      "groups": {},
+      "fixtures": [{ "id": "M1", "round_id": "R4", "home": "Italy", "away": "South Africa" }],
+      "results": { "M1": { "home": 10, "away": 25 } },
+      "stats": {},
+      "team": { "slots": {}, "predictions": { "M1": { "winner": "South Africa", "margin": 14 } } },
+      "round": "R4",
+      "expect": { "fantasy": 0, "prediction": 3, "total": 3, "correctWinners": 1 }
+    },
+    {
+      "name": "a picked player with no published stats scores zero",
+      "groups": { "WAL:Jac Morgan": "BR" },
+      "fixtures": [{ "id": "M1", "round_id": "R4", "home": "Wales", "away": "Japan" }],
+      "results": { "M1": { "home": 20, "away": 18 } },
+      "stats": {},
+      "team": { "slots": { "8": "WAL:Jac Morgan" }, "captain": "WAL:Jac Morgan" },
+      "round": "R4",
+      "expect": { "fantasy": 0, "prediction": 0, "total": 0, "correctWinners": 0 }
+    },
+    {
+      "name": "player of the match",
+      "groups": { "NZL:Will Jordan": "B3" },
+      "fixtures": [{ "id": "M1", "round_id": "R4", "home": "Scotland", "away": "New Zealand" }],
+      "results": { "M1": { "home": 10, "away": 30 } },
+      "stats": { "M1": { "NZL:Will Jordan": { "potm": true, "metres_carried": 9 } } },
+      "team": { "slots": { "14": "NZL:Will Jordan" } },
+      "round": "R4",
+      "expect": { "fantasy": 15, "prediction": 0, "total": 15, "correctWinners": 0 }
+    },
+    {
+      "name": "ten metres scores one and nine scores none",
+      "groups": { "ARG:Pablo Matera": "BR" },
+      "fixtures": [{ "id": "M1", "round_id": "R4", "home": "Ireland", "away": "Argentina" }],
+      "results": { "M1": { "home": 19, "away": 18 } },
+      "stats": { "M1": { "ARG:Pablo Matera": { "metres_carried": 10 } } },
+      "team": { "slots": { "6": "ARG:Pablo Matera" } },
+      "round": "R4",
+      "expect": { "fantasy": 1, "prediction": 0, "total": 1, "correctWinners": 0 }
+    },
+    {
+      "name": "starter points and supersub points are added, and the captain boost stays on the starter",
+      "groups": { "SCO:Finn Russell": "FH", "SCO:Ben White": "SH" },
+      "fixtures": [{ "id": "M1", "round_id": "R4", "home": "Scotland", "away": "New Zealand" }],
+      "results": { "M1": { "home": 21, "away": 28 } },
+      "stats": {
+        "M1": {
+          "SCO:Finn Russell": { "conversions": 1, "penalty_goals": 1 },
+          "SCO:Ben White": { "tackles": 4, "started": false }
+        }
+      },
+      "team": { "slots": { "10": "SCO:Finn Russell" }, "captain": "SCO:Finn Russell", "supersub": "SCO:Ben White" },
+      "round": "R4",
+      "expect": { "fantasy": 22, "prediction": 0, "total": 22, "correctWinners": 0 }
+    }
+  ]
+}
