@@ -1,3130 +1,3130 @@
 {
- "players": [
-  "Richard",
-  "Sharon",
-  "Brooke",
-  "Cameron"
- ],
- "rules": {
-  "max": 3,
-  "pts": {
-   "starts": 2,
-   "off_bench": 1,
-   "try": 5,
-   "conversion": 2,
-   "penalty_or_drop_goal": 3,
-   "player_of_the_match": 5,
-   "yellow_card": -3,
-   "red_card": -6
+  "players": [
+    "Richard",
+    "Sharon",
+    "Brooke",
+    "Cameron"
+  ],
+  "rules": {
+    "max": 3,
+    "pts": {
+      "starts": 2,
+      "off_bench": 1,
+      "try": 5,
+      "conversion": 2,
+      "penalty_or_drop_goal": 3,
+      "player_of_the_match": 5,
+      "yellow_card": -3,
+      "red_card": -6
+    },
+    "slots": {
+      "1": [
+        "PR",
+        "FX"
+      ],
+      "2": [
+        "HK",
+        "FX"
+      ],
+      "3": [
+        "PR",
+        "FX"
+      ],
+      "4": [
+        "LK",
+        "FX"
+      ],
+      "5": [
+        "LK",
+        "FX"
+      ],
+      "6": [
+        "BR",
+        "FX"
+      ],
+      "7": [
+        "BR",
+        "FX"
+      ],
+      "8": [
+        "BR",
+        "FX"
+      ],
+      "9": [
+        "SH",
+        "BX"
+      ],
+      "10": [
+        "FH",
+        "BX"
+      ],
+      "11": [
+        "B3",
+        "BX"
+      ],
+      "12": [
+        "CE",
+        "BX"
+      ],
+      "13": [
+        "CE",
+        "BX"
+      ],
+      "14": [
+        "B3",
+        "BX"
+      ],
+      "15": [
+        "B3",
+        "BX"
+      ]
+    }
   },
-  "slots": {
-   "1": [
-    "PR",
-    "FX"
-   ],
-   "2": [
-    "HK",
-    "FX"
-   ],
-   "3": [
-    "PR",
-    "FX"
-   ],
-   "4": [
-    "LK",
-    "FX"
-   ],
-   "5": [
-    "LK",
-    "FX"
-   ],
-   "6": [
-    "BR",
-    "FX"
-   ],
-   "7": [
-    "BR",
-    "FX"
-   ],
-   "8": [
-    "BR",
-    "FX"
-   ],
-   "9": [
-    "SH",
-    "BX"
-   ],
-   "10": [
-    "FH",
-    "BX"
-   ],
-   "11": [
-    "B3",
-    "BX"
-   ],
-   "12": [
-    "CE",
-    "BX"
-   ],
-   "13": [
-    "CE",
-    "BX"
-   ],
-   "14": [
-    "B3",
-    "BX"
-   ],
-   "15": [
-    "B3",
-    "BX"
-   ]
+  "rounds": {
+    "R4": "2026-11-06 20:10",
+    "R5": "2026-11-13 20:10",
+    "R6": "2026-11-21 14:10",
+    "F": "2026-11-27 16:40"
+  },
+  "asof": "6 Nov 2026, 18:20 UK",
+  "fixtures": [
+    {
+      "id": "R4-01",
+      "r": "R4",
+      "d": "Fri 6 Nov",
+      "ko": "20:10",
+      "h": "Ireland",
+      "a": "Argentina",
+      "v": "Aviva Stadium, Dublin",
+      "x": "named (IRE 4 Nov, ARG 4 Nov)"
+    },
+    {
+      "id": "R4-02",
+      "r": "R4",
+      "d": "Sat 7 Nov",
+      "ko": "11:40",
+      "h": "Italy",
+      "a": "South Africa",
+      "v": "Allianz Stadium, Turin",
+      "x": "named (ITA 5 Nov, SA 2 Nov)"
+    },
+    {
+      "id": "R4-03",
+      "r": "R4",
+      "d": "Sat 7 Nov",
+      "ko": "14:10",
+      "h": "Scotland",
+      "a": "New Zealand",
+      "v": "Scottish Gas Murrayfield, Edinburgh",
+      "x": "named (SCO 5 Nov, NZ 5 Nov)"
+    },
+    {
+      "id": "R4-04",
+      "r": "R4",
+      "d": "Sat 7 Nov",
+      "ko": "16:40",
+      "h": "Wales",
+      "a": "Japan",
+      "v": "Principality Stadium, Cardiff",
+      "x": "named (WAL 5 Nov, JPN 5 Nov)"
+    },
+    {
+      "id": "R4-05",
+      "r": "R4",
+      "d": "Sat 7 Nov",
+      "ko": "20:10",
+      "h": "France",
+      "a": "Fiji",
+      "v": "Groupama Stadium, Lyon",
+      "x": "named (FRA 5 Nov, FIJ 5 Nov)"
+    },
+    {
+      "id": "R4-06",
+      "r": "R4",
+      "d": "Sun 8 Nov",
+      "ko": "15:10",
+      "h": "England",
+      "a": "Australia",
+      "v": "Allianz Stadium, Twickenham",
+      "x": "named (ENG 6 Nov, AUS 6 Nov)"
+    },
+    {
+      "id": "R5-07",
+      "r": "R5",
+      "d": "Fri 13 Nov",
+      "ko": "20:10",
+      "h": "France",
+      "a": "South Africa",
+      "v": "Stade de France, Paris",
+      "x": "Wed 11 or Thu 12 Nov (estimate)"
+    },
+    {
+      "id": "R5-08",
+      "r": "R5",
+      "d": "Sat 14 Nov",
+      "ko": "11:40",
+      "h": "Italy",
+      "a": "Argentina",
+      "v": "Stadio Luigi Ferraris, Genoa",
+      "x": "Thu 12 Nov"
+    },
+    {
+      "id": "R5-09",
+      "r": "R5",
+      "d": "Sat 14 Nov",
+      "ko": "14:10",
+      "h": "Wales",
+      "a": "New Zealand",
+      "v": "Principality Stadium, Cardiff",
+      "x": "Thu 12 Nov"
+    },
+    {
+      "id": "R5-10",
+      "r": "R5",
+      "d": "Sat 14 Nov",
+      "ko": "16:40",
+      "h": "England",
+      "a": "Japan",
+      "v": "Allianz Stadium, Twickenham",
+      "x": "Thu 12 Nov"
+    },
+    {
+      "id": "R5-11",
+      "r": "R5",
+      "d": "Sat 14 Nov",
+      "ko": "20:10",
+      "h": "Ireland",
+      "a": "Fiji",
+      "v": "Aviva Stadium, Dublin",
+      "x": "Thu 12 Nov"
+    },
+    {
+      "id": "R5-12",
+      "r": "R5",
+      "d": "Sun 15 Nov",
+      "ko": "15:10",
+      "h": "Scotland",
+      "a": "Australia",
+      "v": "Scottish Gas Murrayfield, Edinburgh",
+      "x": "Fri 13 Nov (estimate)"
+    },
+    {
+      "id": "R6-13",
+      "r": "R6",
+      "d": "Sat 21 Nov",
+      "ko": "14:10",
+      "h": "England",
+      "a": "New Zealand",
+      "v": "Allianz Stadium, Twickenham",
+      "x": "Thu 19 Nov"
+    },
+    {
+      "id": "R6-14",
+      "r": "R6",
+      "d": "Sat 21 Nov",
+      "ko": "14:10",
+      "h": "Scotland",
+      "a": "Japan",
+      "v": "Scottish Gas Murrayfield, Edinburgh",
+      "x": "Thu 19 Nov"
+    },
+    {
+      "id": "R6-15",
+      "r": "R6",
+      "d": "Sat 21 Nov",
+      "ko": "16:40",
+      "h": "Ireland",
+      "a": "South Africa",
+      "v": "Aviva Stadium, Dublin",
+      "x": "Thu 19 Nov"
+    },
+    {
+      "id": "R6-16",
+      "r": "R6",
+      "d": "Sat 21 Nov",
+      "ko": "16:40",
+      "h": "Italy",
+      "a": "Fiji",
+      "v": "Bluenergy Stadium, Udine",
+      "x": "Thu 19 Nov"
+    },
+    {
+      "id": "R6-17",
+      "r": "R6",
+      "d": "Sat 21 Nov",
+      "ko": "20:10",
+      "h": "France",
+      "a": "Argentina",
+      "v": "Stade de France, Paris",
+      "x": "Thu 19 Nov"
+    },
+    {
+      "id": "R6-18",
+      "r": "R6",
+      "d": "Sat 21 Nov",
+      "ko": "20:10",
+      "h": "Wales",
+      "a": "Australia",
+      "v": "Principality Stadium, Cardiff",
+      "x": "Thu 19 Nov"
+    },
+    {
+      "id": "F-19",
+      "r": "F",
+      "d": "Fri 27 Nov",
+      "ko": "16:40",
+      "h": "6th North",
+      "a": "6th South",
+      "v": "Allianz Stadium, Twickenham",
+      "x": "After pool positions settle on 21 Nov; teams likely named Wed/Thu 25–26 Nov (estimate)"
+    },
+    {
+      "id": "F-20",
+      "r": "F",
+      "d": "Fri 27 Nov",
+      "ko": "20:10",
+      "h": "3rd North",
+      "a": "3rd South",
+      "v": "Allianz Stadium, Twickenham",
+      "x": "After pool positions settle on 21 Nov; teams likely named Wed/Thu 25–26 Nov (estimate)"
+    },
+    {
+      "id": "F-21",
+      "r": "F",
+      "d": "Sat 28 Nov",
+      "ko": "13:10",
+      "h": "5th North",
+      "a": "5th South",
+      "v": "Allianz Stadium, Twickenham",
+      "x": "After pool positions settle on 21 Nov; teams likely named Wed/Thu 25–26 Nov (estimate)"
+    },
+    {
+      "id": "F-22",
+      "r": "F",
+      "d": "Sat 28 Nov",
+      "ko": "16:40",
+      "h": "2nd North",
+      "a": "2nd South",
+      "v": "Allianz Stadium, Twickenham",
+      "x": "After pool positions settle on 21 Nov; teams likely named Wed/Thu 25–26 Nov (estimate)"
+    },
+    {
+      "id": "F-23",
+      "r": "F",
+      "d": "Sun 29 Nov",
+      "ko": "13:10",
+      "h": "4th North",
+      "a": "4th South",
+      "v": "Allianz Stadium, Twickenham",
+      "x": "After pool positions settle on 21 Nov; teams likely named Wed/Thu 25–26 Nov (estimate)"
+    },
+    {
+      "id": "F-24",
+      "r": "F",
+      "d": "Sun 29 Nov",
+      "ko": "16:40",
+      "h": "1st North",
+      "a": "1st South",
+      "v": "Allianz Stadium, Twickenham",
+      "x": "After pool positions settle on 21 Nov; teams likely named Wed/Thu 25–26 Nov (estimate)"
+    }
+  ],
+  "squads": {
+    "IRE": {
+      "team": "Ireland",
+      "status": "announced",
+      "announced": "2026-10-21",
+      "note": "Matchday 23 v Argentina named 4 Nov (IRFU), Sheehan captain. Furlong cleared at citing; Prendergast passed fit. Ringrose (hamstring) out. Doris and Conan injured, not in squad.",
+      "source": "https://www.irishrugby.ie/news/farrell-names-ireland-squad-nations-championship-northern-hemisphere-series",
+      "players": [
+        [
+          "Ryan Baird",
+          "LK",
+          "Starting",
+          ""
+        ],
+        [
+          "Tadhg Beirne",
+          "LK",
+          "Starting",
+          ""
+        ],
+        [
+          "Billy Bohan",
+          "PR",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Thomas Clarkson",
+          "PR",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Tadhg Furlong",
+          "PR",
+          "Starting",
+          "Cleared at citing hearing; starts v Argentina (IRFU/BBC 4 Nov)"
+        ],
+        [
+          "Sam Illo",
+          "PR",
+          "Bench",
+          ""
+        ],
+        [
+          "Sean Jansen",
+          "BR",
+          "Starting",
+          ""
+        ],
+        [
+          "Rónan Kelleher",
+          "HK",
+          "Bench",
+          ""
+        ],
+        [
+          "Joe McCarthy",
+          "LK",
+          "Starting",
+          ""
+        ],
+        [
+          "James McNabney",
+          "BR",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Darragh Murray",
+          "LK",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Tom O'Toole",
+          "PR",
+          "Bench",
+          ""
+        ],
+        [
+          "Andrew Porter",
+          "PR",
+          "Starting",
+          ""
+        ],
+        [
+          "Cian Prendergast",
+          "BR",
+          "Not in 23",
+          ""
+        ],
+        [
+          "James Ryan",
+          "LK",
+          "Bench",
+          ""
+        ],
+        [
+          "Dan Sheehan",
+          "HK",
+          "Starting",
+          ""
+        ],
+        [
+          "Tom Stewart",
+          "HK",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Nick Timoney",
+          "BR",
+          "Starting",
+          ""
+        ],
+        [
+          "Josh van der Flier",
+          "BR",
+          "Bench",
+          ""
+        ],
+        [
+          "Bundee Aki",
+          "CE",
+          "Bench",
+          ""
+        ],
+        [
+          "Rob Baloucoune",
+          "B3",
+          "Starting",
+          ""
+        ],
+        [
+          "Jamie Benson",
+          "FH",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Craig Casey",
+          "SH",
+          "Starting",
+          ""
+        ],
+        [
+          "Nathan Doak",
+          "SH",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Ciaran Frawley",
+          "FH",
+          "Bench",
+          ""
+        ],
+        [
+          "Jamison Gibson-Park",
+          "SH",
+          "Bench",
+          ""
+        ],
+        [
+          "Mack Hansen",
+          "B3",
+          "Starting",
+          ""
+        ],
+        [
+          "Robbie Henshaw",
+          "CE",
+          "Starting",
+          ""
+        ],
+        [
+          "Hugo Keenan",
+          "B3",
+          "Starting",
+          ""
+        ],
+        [
+          "Stuart McCloskey",
+          "CE",
+          "Starting",
+          ""
+        ],
+        [
+          "Jimmy O'Brien",
+          "B3",
+          "Not in 23",
+          "Resumed full training (IRFU statement, 1 Nov)"
+        ],
+        [
+          "Tommy O'Brien",
+          "B3",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Jamie Osborne",
+          "B3",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Sam Prendergast",
+          "FH",
+          "Starting",
+          "Passed fit (wrist); starts v Argentina (IRFU/ESPN 4 Nov)"
+        ],
+        [
+          "Garry Ringrose",
+          "CE",
+          "Out",
+          "Out: hamstring, unlikely for all three Tests (IRFU 27 Oct)"
+        ],
+        [
+          "Jacob Stockdale",
+          "B3",
+          "Not in 23",
+          ""
+        ]
+      ]
+    },
+    "ENG": {
+      "team": "England",
+      "status": "announced (updated)",
+      "announced": "2026-10-25",
+      "note": "RFU 36-man Nations Championship squad named 2 Nov 2026. Tom Curry an injury doubt (5 Nov); team v Australia due Fri 6 Nov.; matchday 23 vs Australia named 6 Nov 2026 (RFU)",
+      "source": "https://www.englandrugby.com/follow/news-and-media/borthwick-names-squad-three-day-training-camp-nations-championship-home-leg",
+      "players": [
+        [
+          "Fin Baxter",
+          "PR",
+          "Starting",
+          ""
+        ],
+        [
+          "Ollie Chessum",
+          "LK",
+          "Starting",
+          ""
+        ],
+        [
+          "Arthur Clark",
+          "LK",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Alex Coles",
+          "LK",
+          "Starting",
+          ""
+        ],
+        [
+          "Luke Cowan-Dickie",
+          "HK",
+          "Bench",
+          ""
+        ],
+        [
+          "Ben Curry",
+          "BR",
+          "Starting",
+          "starts at 7 vs Australia (RFU 6 Nov)"
+        ],
+        [
+          "Tom Curry",
+          "BR",
+          "Out",
+          "ruled out vs Australia (ESPN 6 Nov; omitted from RFU matchday 23)"
+        ],
+        [
+          "Ben Earl",
+          "BR",
+          "Starting",
+          ""
+        ],
+        [
+          "Greg Fisilau",
+          "BR",
+          "Bench",
+          "uncapped; named among replacements vs Australia (RFU 6 Nov)"
+        ],
+        [
+          "Jamie George",
+          "HK",
+          "Starting",
+          ""
+        ],
+        [
+          "Ellis Genge",
+          "PR",
+          "Bench",
+          ""
+        ],
+        [
+          "Joe Heyes",
+          "PR",
+          "Starting",
+          ""
+        ],
+        [
+          "Maro Itoje",
+          "LK",
+          "Starting",
+          "captain vs Australia (RFU 6 Nov)"
+        ],
+        [
+          "Emmanuel Iyogun",
+          "PR",
+          "Not in 23",
+          ""
+        ],
+        [
+          "George Martin",
+          "LK",
+          "Bench",
+          ""
+        ],
+        [
+          "Asher Opoku-Fordjour",
+          "PR",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Tom Pearson",
+          "BR",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Henry Pollock",
+          "BR",
+          "Bench",
+          ""
+        ],
+        [
+          "Will Stuart",
+          "PR",
+          "Bench",
+          ""
+        ],
+        [
+          "Kepueli Tuipulotu",
+          "FX",
+          "Out",
+          "injured in camp; replaced by Theo Dan"
+        ],
+        [
+          "Charlie Atkinson",
+          "FH",
+          "Out",
+          "not selected in 36 (was Fin Smith camp cover)"
+        ],
+        [
+          "Noah Caluori",
+          "B3",
+          "Out",
+          "not selected in 36"
+        ],
+        [
+          "Fraser Dingwall",
+          "CE",
+          "Not in 23",
+          ""
+        ],
+        [
+          "George Ford",
+          "FH",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Tommy Freeman",
+          "B3",
+          "Starting",
+          ""
+        ],
+        [
+          "George Furbank",
+          "B3",
+          "Starting",
+          ""
+        ],
+        [
+          "Will Joseph",
+          "CE",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Joe Marchant",
+          "CE",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Archie McParland",
+          "SH",
+          "Out",
+          "calf injury"
+        ],
+        [
+          "Alex Mitchell",
+          "SH",
+          "Out",
+          "hamstring; ruled out of November Tests"
+        ],
+        [
+          "Cadan Murley",
+          "B3",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Max Ojomoh",
+          "CE",
+          "Out",
+          "not selected in 36"
+        ],
+        [
+          "Henry Slade",
+          "CE",
+          "Starting",
+          ""
+        ],
+        [
+          "Marcus Smith",
+          "FH",
+          "Bench",
+          ""
+        ],
+        [
+          "Freddie Steward",
+          "B3",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Jack van Poortvliet",
+          "SH",
+          "Starting",
+          ""
+        ],
+        [
+          "Theo Dan",
+          "HK",
+          "Not in 23",
+          "Added to 36-man squad 2 Nov"
+        ],
+        [
+          "Seb Atkinson",
+          "CE",
+          "Starting",
+          "Added to 36-man squad 2 Nov"
+        ],
+        [
+          "Immanuel Feyi-Waboso",
+          "B3",
+          "Starting",
+          "Added to 36-man squad 2 Nov"
+        ],
+        [
+          "Harry Randall",
+          "SH",
+          "Not in 23",
+          "Added to 36-man squad 2 Nov"
+        ],
+        [
+          "Ben Spencer",
+          "SH",
+          "Bench",
+          "Added to 36-man squad 2 Nov"
+        ],
+        [
+          "Fin Smith",
+          "FH",
+          "Starting",
+          "starts at 10 vs Australia (RFU 6 Nov); cleared calf fitness watch"
+        ]
+      ]
+    },
+    "SCO": {
+      "team": "Scotland",
+      "status": "announced (updated)",
+      "announced": "2026-10-26",
+      "note": "Matchday 23 v New Zealand named 5 Nov 2026 (Tuipulotu captain).",
+      "source": "https://www.scotlandrugbynews.com/news/26668250.scotland-squad-named-nations-championship-home-series/",
+      "players": [
+        [
+          "Ewan Ashman",
+          "HK",
+          "Starting",
+          ""
+        ],
+        [
+          "Josh Bayliss",
+          "BR",
+          "Bench",
+          ""
+        ],
+        [
+          "Gregor Brown",
+          "LK",
+          "Starting",
+          ""
+        ],
+        [
+          "Scott Cummings",
+          "LK",
+          "Starting",
+          ""
+        ],
+        [
+          "Alex Craig",
+          "LK",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Rory Darge",
+          "BR",
+          "Starting",
+          ""
+        ],
+        [
+          "Jack Dempsey",
+          "BR",
+          "Starting",
+          ""
+        ],
+        [
+          "Matt Fagerson",
+          "BR",
+          "Starting",
+          ""
+        ],
+        [
+          "Zander Fagerson",
+          "PR",
+          "Starting",
+          ""
+        ],
+        [
+          "Jonny Gray",
+          "LK",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Gregor Hiddleston",
+          "FX",
+          "Bench",
+          ""
+        ],
+        [
+          "Will Hurd",
+          "PR",
+          "Bench",
+          ""
+        ],
+        [
+          "Ollie Leatherbarrow",
+          "BR",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Nathan McBeth",
+          "PR",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Liam McConnell",
+          "BR",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Elliot Millar Mills",
+          "PR",
+          "Out",
+          "leg injury (club); withdrawn 2 Nov"
+        ],
+        [
+          "Jamie Ritchie",
+          "BR",
+          "Out",
+          "knee injury (club); withdrawn 2 Nov"
+        ],
+        [
+          "Pierre Schoeman",
+          "PR",
+          "Bench",
+          ""
+        ],
+        [
+          "Rory Sutherland",
+          "PR",
+          "Starting",
+          ""
+        ],
+        [
+          "Seb Stephen",
+          "FX",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Max Williamson",
+          "LK",
+          "Bench",
+          ""
+        ],
+        [
+          "Fergus Burke",
+          "FH",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Jamie Dobie",
+          "SH",
+          "Starting",
+          ""
+        ],
+        [
+          "Darcy Graham",
+          "B3",
+          "Not in 23",
+          ""
+        ],
+        [
+          "George Horne",
+          "SH",
+          "Bench",
+          ""
+        ],
+        [
+          "Rory Hutchinson",
+          "CE",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Huw Jones",
+          "CE",
+          "Starting",
+          ""
+        ],
+        [
+          "Tom Jordan",
+          "B3",
+          "Bench",
+          ""
+        ],
+        [
+          "Blair Kinghorn",
+          "B3",
+          "Bench",
+          ""
+        ],
+        [
+          "Stafford McDowall",
+          "CE",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Kyle Rowe",
+          "B3",
+          "Starting",
+          ""
+        ],
+        [
+          "Finn Russell",
+          "FH",
+          "Starting",
+          ""
+        ],
+        [
+          "Ollie Smith",
+          "B3",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Kyle Steyn",
+          "B3",
+          "Starting",
+          ""
+        ],
+        [
+          "Sione Tuipulotu",
+          "CE",
+          "Starting",
+          ""
+        ],
+        [
+          "Duhan van der Merwe",
+          "B3",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Ben White",
+          "SH",
+          "Starting",
+          ""
+        ],
+        [
+          "Ollie Blyth-Lafferty",
+          "PR",
+          "Not in 23",
+          "Uncapped Edinburgh tighthead; called up 2 Nov"
+        ],
+        [
+          "D'Arcy Rae",
+          "PR",
+          "Not in 23",
+          "Edinburgh; called up 2 Nov"
+        ],
+        [
+          "Freddy Douglas",
+          "BR",
+          "Not in 23",
+          "Edinburgh back row; called up 2 Nov"
+        ]
+      ]
+    },
+    "WAL": {
+      "team": "Wales",
+      "status": "announced (updated)",
+      "announced": "2026-10-20",
+      "note": "39-player squad, Dewi Lake captain. Update (WRU, Oct): uncapped Macs Page in; Rio Dyer released (hamstring).",
+      "source": "https://www.wru.wales/2026/10/squad-update-5/",
+      "players": [
+        [
+          "Rhys Barratt",
+          "PR",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Taine Basham",
+          "BR",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Adam Beard",
+          "LK",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Liam Belcher",
+          "HK",
+          "Not in 23",
+          ""
+        ],
+        [
+          "James Botham",
+          "BR",
+          "Bench",
+          ""
+        ],
+        [
+          "Rhys Carre",
+          "PR",
+          "Bench",
+          ""
+        ],
+        [
+          "Ben Carter",
+          "LK",
+          "Starting",
+          ""
+        ],
+        [
+          "Seb Davies",
+          "LK",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Ryan Elias",
+          "HK",
+          "Bench",
+          ""
+        ],
+        [
+          "Tomas Francis",
+          "PR",
+          "Bench",
+          ""
+        ],
+        [
+          "Archie Griffin",
+          "PR",
+          "Starting",
+          ""
+        ],
+        [
+          "Kane James",
+          "BR",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Dafydd Jenkins",
+          "LK",
+          "Starting",
+          ""
+        ],
+        [
+          "Dewi Lake",
+          "HK",
+          "Starting",
+          ""
+        ],
+        [
+          "Dillon Lewis",
+          "PR",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Alex Mann",
+          "BR",
+          "Starting",
+          ""
+        ],
+        [
+          "Jac Morgan",
+          "BR",
+          "Starting",
+          ""
+        ],
+        [
+          "Taine Plumtree",
+          "BR",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Nicky Smith",
+          "PR",
+          "Starting",
+          ""
+        ],
+        [
+          "Gareth Thomas",
+          "PR",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Aaron Wainwright",
+          "BR",
+          "Starting",
+          ""
+        ],
+        [
+          "Teddy Williams",
+          "LK",
+          "Bench",
+          ""
+        ],
+        [
+          "Josh Adams",
+          "B3",
+          "Starting",
+          ""
+        ],
+        [
+          "Sam Costelow",
+          "FH",
+          "Starting",
+          ""
+        ],
+        [
+          "Dan Edwards",
+          "FH",
+          "Bench",
+          ""
+        ],
+        [
+          "Gabriel Hamer-Webb",
+          "B3",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Joe Hawkins",
+          "CE",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Louie Hennessey",
+          "CE",
+          "Bench",
+          ""
+        ],
+        [
+          "Che Hope",
+          "SH",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Eddie James",
+          "CE",
+          "Starting",
+          ""
+        ],
+        [
+          "Max Llewellyn",
+          "CE",
+          "Starting",
+          ""
+        ],
+        [
+          "Ellis Mee",
+          "B3",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Reuben Morgan-Williams",
+          "SH",
+          "Bench",
+          ""
+        ],
+        [
+          "Blair Murray",
+          "B3",
+          "Starting",
+          ""
+        ],
+        [
+          "Aneurin Owen",
+          "CE",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Louis Rees-Zammit",
+          "B3",
+          "Starting",
+          ""
+        ],
+        [
+          "Tom Rogers",
+          "B3",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Tomos Williams",
+          "SH",
+          "Starting",
+          ""
+        ],
+        [
+          "Macs Page",
+          "B3",
+          "Not in 23",
+          ""
+        ]
+      ]
+    },
+    "FRA": {
+      "team": "France",
+      "status": "announced (updated)",
+      "announced": "2026-10-31",
+      "note": "Jelonch/Brennan out, Kanté Samba/Deliance in (2 Nov). Matchday 23 v Fiji named; Jegou late out, Capilla on bench.",
+      "source": "https://www.ffr.fr/actualites/xv-de-france/xv-de-france-le-groupe-pour-preparer-les-fidji-2",
+      "players": [
+        [
+          "Grégory Alldritt",
+          "BR",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Hugo Auradou",
+          "LK",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Paul Boudehent",
+          "BR",
+          "Starting",
+          ""
+        ],
+        [
+          "Joshua Brennan",
+          "LK",
+          "Out",
+          "injured; forfait 2 Nov"
+        ],
+        [
+          "Esteban Capilla",
+          "BR",
+          "Bench",
+          ""
+        ],
+        [
+          "Guillaume Cramont",
+          "FX",
+          "Not in 23",
+          ""
+        ],
+        [
+          "François Cros",
+          "BR",
+          "Starting",
+          ""
+        ],
+        [
+          "Tyler Duguid",
+          "FX",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Sipili Falatea",
+          "PR",
+          "Starting",
+          ""
+        ],
+        [
+          "Jean-Baptiste Gros",
+          "PR",
+          "Starting",
+          ""
+        ],
+        [
+          "Mickaël Guillard",
+          "LK",
+          "Starting",
+          ""
+        ],
+        [
+          "Oscar Jegou",
+          "BR",
+          "Out",
+          "ribs; late forfait from matchday 23"
+        ],
+        [
+          "Anthony Jelonch",
+          "BR",
+          "Out",
+          "concussion protocol; forfait 2 Nov"
+        ],
+        [
+          "Thomas Laclayat",
+          "PR",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Maxime Lamothe",
+          "HK",
+          "Starting",
+          ""
+        ],
+        [
+          "Peato Mauvaka",
+          "HK",
+          "Bench",
+          ""
+        ],
+        [
+          "Charles Ollivon",
+          "BR",
+          "Bench",
+          ""
+        ],
+        [
+          "Jefferson Poirot",
+          "PR",
+          "Bench",
+          ""
+        ],
+        [
+          "Tom Staniforth",
+          "LK",
+          "Bench",
+          ""
+        ],
+        [
+          "Cameron Woki",
+          "BR",
+          "Starting",
+          ""
+        ],
+        [
+          "Théo Attissogbe",
+          "B3",
+          "Starting",
+          ""
+        ],
+        [
+          "Léo Barré",
+          "B3",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Louis Bielle-Biarrey",
+          "B3",
+          "Starting",
+          ""
+        ],
+        [
+          "Nicolas Depoortere",
+          "CE",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Axel Desperes",
+          "BX",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Antoine Dupont",
+          "SH",
+          "Starting",
+          ""
+        ],
+        [
+          "Mathis Ferté",
+          "B3",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Théo Forner",
+          "B3",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Émilien Gailleton",
+          "CE",
+          "Bench",
+          ""
+        ],
+        [
+          "Kalvin Gourgues",
+          "CE",
+          "Starting",
+          ""
+        ],
+        [
+          "Aaron Grandidier Nkanang",
+          "B3",
+          "Starting",
+          ""
+        ],
+        [
+          "Louis Le Brun",
+          "FH",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Maxime Lucu",
+          "SH",
+          "Bench",
+          ""
+        ],
+        [
+          "Yoram Moefana",
+          "CE",
+          "Starting",
+          ""
+        ],
+        [
+          "Romain Ntamack",
+          "FH",
+          "Starting",
+          ""
+        ],
+        [
+          "Damian Penaud",
+          "B3",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Tani Vili",
+          "CE",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Florian Verhaeghe",
+          "LK",
+          "Starting",
+          ""
+        ],
+        [
+          "Régis Montagne",
+          "PR",
+          "Bench",
+          ""
+        ],
+        [
+          "Rodrigue Neti",
+          "PR",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Paul Graou",
+          "SH",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Léon Darricarrère",
+          "CE",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Charles Kanté Samba",
+          "LK",
+          "Not in 23",
+          "La Rochelle uncapped lock; called up 2 Nov"
+        ],
+        [
+          "Antoine Deliance",
+          "BR",
+          "Not in 23",
+          "Lyon uncapped back row; called up 2 Nov"
+        ]
+      ]
+    },
+    "ITA": {
+      "team": "Italy",
+      "status": "announced",
+      "announced": "2026-11-01",
+      "note": "Turin list for South Africa (FIR, 1 Nov): 35 names listed (the article text says 33). Zilocchi replaces Riccioni (family reasons); Miotti first call-up; Capuozzo back; Jaheim Noel Wilson added; Montemauri not listed.",
+      "source": "https://www.federugby.it/italrugby-gli-azzurri-convocati-per-il-sudafrica/",
+      "players": [
+        [
+          "Simone Ferrari",
+          "PR",
+          "Starting",
+          ""
+        ],
+        [
+          "Danilo Fischetti",
+          "PR",
+          "Bench",
+          ""
+        ],
+        [
+          "Muhamed Hasa",
+          "PR",
+          "Starting",
+          ""
+        ],
+        [
+          "Ion Neculai",
+          "PR",
+          "Bench",
+          ""
+        ],
+        [
+          "Ivan Nemer",
+          "PR",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Tommaso Di Bartolomeo",
+          "HK",
+          "Bench",
+          ""
+        ],
+        [
+          "Gianmarco Lucchesi",
+          "HK",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Giacomo Nicotera",
+          "HK",
+          "Starting",
+          ""
+        ],
+        [
+          "Niccolò Cannone",
+          "LK",
+          "Starting",
+          ""
+        ],
+        [
+          "Mattia Midena",
+          "LK",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Enoch Opoku Gyamfi",
+          "LK",
+          "Bench",
+          ""
+        ],
+        [
+          "Federico Ruzza",
+          "LK",
+          "Starting",
+          ""
+        ],
+        [
+          "Lorenzo Cannone",
+          "BR",
+          "Starting",
+          ""
+        ],
+        [
+          "Samuele Locatelli",
+          "BR",
+          "Starting",
+          ""
+        ],
+        [
+          "Alessandro Ortombina",
+          "BR",
+          "Starting",
+          ""
+        ],
+        [
+          "Ross Vintcent",
+          "BR",
+          "Bench",
+          ""
+        ],
+        [
+          "Manuel Zuliani",
+          "BR",
+          "Bench",
+          ""
+        ],
+        [
+          "Alessandro Garbisi",
+          "SH",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Alessandro Fusco",
+          "SH",
+          "Starting",
+          ""
+        ],
+        [
+          "Stephen Varney",
+          "SH",
+          "Bench",
+          ""
+        ],
+        [
+          "Tommaso Allan",
+          "FH",
+          "Bench",
+          ""
+        ],
+        [
+          "Paolo Garbisi",
+          "FH",
+          "Starting",
+          ""
+        ],
+        [
+          "Leonardo Marin",
+          "CE",
+          "Starting",
+          ""
+        ],
+        [
+          "Damiano Mazza",
+          "CE",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Federico Mori",
+          "CE",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Paolo Odogwu",
+          "CE",
+          "Starting",
+          ""
+        ],
+        [
+          "Mirko Belloni",
+          "B3",
+          "Starting",
+          ""
+        ],
+        [
+          "Matt Gallagher",
+          "B3",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Monty Ioane",
+          "B3",
+          "Starting",
+          ""
+        ],
+        [
+          "Lorenzo Pani",
+          "B3",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Federico Zanandrea",
+          "B3",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Giosuè Zilocchi",
+          "PR",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Domingo Miotti",
+          "FH",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Ange Capuozzo",
+          "B3",
+          "Starting",
+          ""
+        ],
+        [
+          "Jaheim Noel Wilson",
+          "B3",
+          "Not in 23",
+          ""
+        ]
+      ]
+    },
+    "NZL": {
+      "team": "New Zealand",
+      "status": "announced",
+      "announced": "2026-10-27",
+      "note": "36-strong squad, Codie Taylor captain.",
+      "source": "https://super.rugby/therugbychampionship/news/all-blacks-squad-named-for-nations-championship-northern-series/",
+      "players": [
+        [
+          "Codie Taylor",
+          "HK",
+          "Starting",
+          ""
+        ],
+        [
+          "Asafo Aumua",
+          "HK",
+          "Bench",
+          ""
+        ],
+        [
+          "George Bell",
+          "HK",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Ethan de Groot",
+          "PR",
+          "Starting",
+          ""
+        ],
+        [
+          "George Bower",
+          "PR",
+          "Bench",
+          ""
+        ],
+        [
+          "Xavier Numia",
+          "PR",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Fletcher Newell",
+          "PR",
+          "Starting",
+          ""
+        ],
+        [
+          "Pasilio Tosi",
+          "PR",
+          "Bench",
+          ""
+        ],
+        [
+          "Saula Ma'u",
+          "PR",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Scott Barrett",
+          "LK",
+          "Starting",
+          ""
+        ],
+        [
+          "Josh Lord",
+          "LK",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Fabian Holland",
+          "LK",
+          "Starting",
+          ""
+        ],
+        [
+          "Jamie Hannah",
+          "LK",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Tupou Vaa'i",
+          "LK",
+          "Starting",
+          ""
+        ],
+        [
+          "Anton Segner",
+          "BR",
+          "Bench",
+          ""
+        ],
+        [
+          "Leicester Fainga'anuku",
+          "BR",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Ethan Blackadder",
+          "BR",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Christian Lio-Willie",
+          "BR",
+          "Bench",
+          ""
+        ],
+        [
+          "Peter Lakai",
+          "BR",
+          "Starting",
+          ""
+        ],
+        [
+          "Wallace Sititi",
+          "BR",
+          "Starting",
+          ""
+        ],
+        [
+          "Cam Roigard",
+          "SH",
+          "Starting",
+          ""
+        ],
+        [
+          "Kyle Preston",
+          "SH",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Cortez Ratima",
+          "SH",
+          "Bench",
+          ""
+        ],
+        [
+          "Richie Mo'unga",
+          "FH",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Damian McKenzie",
+          "FH",
+          "Starting",
+          ""
+        ],
+        [
+          "Josh Jacomb",
+          "FH",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Jordie Barrett",
+          "CE",
+          "Starting",
+          ""
+        ],
+        [
+          "Quinn Tupaea",
+          "CE",
+          "Starting",
+          ""
+        ],
+        [
+          "Timoci Tavatavanawai",
+          "CE",
+          "Bench",
+          ""
+        ],
+        [
+          "Anton Lienert-Brown",
+          "CE",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Rieko Ioane",
+          "B3",
+          "Bench",
+          ""
+        ],
+        [
+          "Chay Fihaki",
+          "B3",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Fehi Fineanganofo",
+          "B3",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Josh Moorby",
+          "B3",
+          "Starting",
+          ""
+        ],
+        [
+          "Will Jordan",
+          "B3",
+          "Starting",
+          ""
+        ],
+        [
+          "Beauden Barrett",
+          "B3",
+          "Starting",
+          ""
+        ]
+      ]
+    },
+    "RSA": {
+      "team": "South Africa",
+      "status": "announced",
+      "announced": "2026-10-28",
+      "note": "37-man squad named by Rassie Erasmus (SA Rugby, as reported by The Citizen, 28 Oct). Six uncapped: Ahmed, De Klerk, Giliomee, Muller, Norton, E. Tshituka. Injured, not selected: Kolbe, Etzebeth, Esterhuizen, Pollard.",
+      "source": "https://www.citizen.co.za/sport/rugby/springboks-squad-named-for-nations-championship-tests-in-november/",
+      "players": [
+        [
+          "Thomas du Toit",
+          "PR",
+          "Starting",
+          ""
+        ],
+        [
+          "Ox Nche",
+          "PR",
+          "Starting",
+          ""
+        ],
+        [
+          "Wilco Louw",
+          "PR",
+          "Bench",
+          ""
+        ],
+        [
+          "Ntuthuko Mchunu",
+          "PR",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Zachary Porthen",
+          "PR",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Gerhard Steenekamp",
+          "PR",
+          "Bench",
+          ""
+        ],
+        [
+          "Malcolm Marx",
+          "HK",
+          "Starting",
+          ""
+        ],
+        [
+          "Jan-Hendrik Wessels",
+          "HK",
+          "Bench",
+          ""
+        ],
+        [
+          "Lood de Jager",
+          "LK",
+          "Bench",
+          ""
+        ],
+        [
+          "Salmaan Moerat",
+          "LK",
+          "Starting",
+          ""
+        ],
+        [
+          "Ruan Nortje",
+          "LK",
+          "Starting",
+          ""
+        ],
+        [
+          "Riley Norton",
+          "LK",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Franco Mostert",
+          "LK",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Paul de Villiers",
+          "BR",
+          "Bench",
+          ""
+        ],
+        [
+          "Siya Kolisi",
+          "BR",
+          "Starting",
+          ""
+        ],
+        [
+          "Cameron Hanekom",
+          "BR",
+          "Bench",
+          ""
+        ],
+        [
+          "Emmanuel Tshituka",
+          "BR",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Jasper Wiese",
+          "BR",
+          "Starting",
+          ""
+        ],
+        [
+          "Pieter-Steph du Toit",
+          "BR",
+          "Starting",
+          "Utility forward (LK/BR) per squad list"
+        ],
+        [
+          "Marco van Staden",
+          "BR",
+          "Not in 23",
+          "Utility forward (LK/BR) per squad list"
+        ],
+        [
+          "Cobus Reinach",
+          "SH",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Morne van den Berg",
+          "SH",
+          "Starting",
+          ""
+        ],
+        [
+          "Grant Williams",
+          "SH",
+          "Bench",
+          ""
+        ],
+        [
+          "Yaqeen Ahmed",
+          "FH",
+          "Not in 23",
+          "shoulder watch (Erasmus 2–3 Nov); no SA Rugby withdrawal as of 5 Nov — keep Not in 23 (not Out)"
+        ],
+        [
+          "Sacha Feinberg-Mngomezulu",
+          "FH",
+          "Starting",
+          ""
+        ],
+        [
+          "Luan Giliomee",
+          "FH",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Manie Libbok",
+          "FH",
+          "Bench",
+          ""
+        ],
+        [
+          "Damian de Allende",
+          "CE",
+          "Starting",
+          ""
+        ],
+        [
+          "Jesse Kriel",
+          "CE",
+          "Starting",
+          ""
+        ],
+        [
+          "Markus Muller",
+          "CE",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Canan Moodie",
+          "CE",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Sebastian de Klerk",
+          "B3",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Aphelele Fassi",
+          "B3",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Ethan Hooker",
+          "B3",
+          "Starting",
+          ""
+        ],
+        [
+          "Edwill van der Merwe",
+          "B3",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Kurt-Lee Arendse",
+          "B3",
+          "Starting",
+          ""
+        ],
+        [
+          "Damian Willemse",
+          "B3",
+          "Starting",
+          ""
+        ]
+      ]
+    },
+    "AUS": {
+      "team": "Australia",
+      "status": "announced (updated)",
+      "announced": "2026-10-28",
+      "note": "Finalised 35-man squad (Rugby Australia, 28 Oct, as reported by Planet Rugby). Beale (mainly inside centre), Ramm, Kalani Thomas in; Paisami withdrawn (personal reasons). Harry Wilson captain.; matchday 23 vs England named 6 Nov 2026 (Rugby Australia)",
+      "source": "https://www.planetrugby.com/news/wallabies-kurtley-beale-to-end-five-year-test-hiatus-as-les-kiss-confirms-his-primary-position-after-shock-recall",
+      "players": [
+        [
+          "Allan Alaalatoa",
+          "PR",
+          "Starting",
+          ""
+        ],
+        [
+          "Miles Amatosero",
+          "LK",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Angus Bell",
+          "PR",
+          "Starting",
+          ""
+        ],
+        [
+          "Josh Canham",
+          "LK",
+          "Starting",
+          ""
+        ],
+        [
+          "Massimo De Lutiis",
+          "FX",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Tom Hooper",
+          "BR",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Isaac Kailea",
+          "PR",
+          "Bench",
+          ""
+        ],
+        [
+          "Tom Lambert",
+          "PR",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Fraser McReight",
+          "BR",
+          "Starting",
+          ""
+        ],
+        [
+          "Josh Nasser",
+          "HK",
+          "Bench",
+          ""
+        ],
+        [
+          "Brandon Paenga-Amosa",
+          "HK",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Billy Pollard",
+          "HK",
+          "Starting",
+          ""
+        ],
+        [
+          "Lukhan Salakaia-Loto",
+          "LK",
+          "Starting",
+          ""
+        ],
+        [
+          "Lachlan Shaw",
+          "BR",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Carlo Tizzano",
+          "BR",
+          "Bench",
+          ""
+        ],
+        [
+          "Taniela Tupou",
+          "PR",
+          "Bench",
+          "returns on bench vs England (Rugby Australia 6 Nov)"
+        ],
+        [
+          "Rob Valetini",
+          "BR",
+          "Bench",
+          ""
+        ],
+        [
+          "Jeremy Williams",
+          "LK",
+          "Starting",
+          ""
+        ],
+        [
+          "Harry Wilson",
+          "BR",
+          "Starting",
+          "captain vs England (Rugby Australia 6 Nov)"
+        ],
+        [
+          "Filipo Daugunu",
+          "B3",
+          "Bench",
+          ""
+        ],
+        [
+          "Ben Donaldson",
+          "FH",
+          "Bench",
+          ""
+        ],
+        [
+          "Carter Gordon",
+          "FH",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Isaac Henry",
+          "B3",
+          "Starting",
+          ""
+        ],
+        [
+          "Len Ikitau",
+          "CE",
+          "Starting",
+          ""
+        ],
+        [
+          "Max Jorgensen",
+          "B3",
+          "Starting",
+          ""
+        ],
+        [
+          "Ryan Lonergan",
+          "SH",
+          "Starting",
+          ""
+        ],
+        [
+          "Tate McDermott",
+          "SH",
+          "Bench",
+          ""
+        ],
+        [
+          "Declan Meredith",
+          "FH",
+          "Starting",
+          ""
+        ],
+        [
+          "Harry Potter",
+          "B3",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Joseph-Aukuso Suaalii",
+          "CE",
+          "Starting",
+          ""
+        ],
+        [
+          "Teddy Wilson",
+          "SH",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Tom Wright",
+          "B3",
+          "Starting",
+          ""
+        ],
+        [
+          "Kurtley Beale",
+          "CE",
+          "Not in 23",
+          ""
+        ],
+        [
+          "James Ramm",
+          "B3",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Kalani Thomas",
+          "SH",
+          "Not in 23",
+          ""
+        ]
+      ]
+    },
+    "ARG": {
+      "team": "Argentina",
+      "status": "announced",
+      "announced": "2026-10-30",
+      "note": "Final 33 after the London camp (UAR, 30 Oct). Isa in for injured Grondona; Chocobares in; Moroni out. UAR says the list may change week to week.",
+      "source": "https://uar.com.ar/los-pumas-ya-tienen-plantel-para-el-cierre-del-nations-championship/",
+      "players": [
+        [
+          "Efraín Elías",
+          "FX",
+          "Bench",
+          ""
+        ],
+        [
+          "Juan Martín González",
+          "BR",
+          "Starting",
+          ""
+        ],
+        [
+          "Marcos Kremer",
+          "BR",
+          "Starting",
+          ""
+        ],
+        [
+          "Tomás Lavanini",
+          "LK",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Rodrigo Martínez",
+          "FX",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Pablo Matera",
+          "BR",
+          "Starting",
+          ""
+        ],
+        [
+          "Julián Montoya",
+          "HK",
+          "Starting",
+          ""
+        ],
+        [
+          "Francisco Moreno",
+          "FX",
+          "Starting",
+          ""
+        ],
+        [
+          "Joaquín Moro",
+          "FX",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Leonel Oviedo",
+          "FX",
+          "Bench",
+          ""
+        ],
+        [
+          "Guido Petti",
+          "LK",
+          "Starting",
+          ""
+        ],
+        [
+          "Tomás Rapetti",
+          "FX",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Pedro Rubiolo",
+          "LK",
+          "Starting",
+          ""
+        ],
+        [
+          "Juan Martín Scelzo",
+          "PR",
+          "Bench",
+          ""
+        ],
+        [
+          "Joel Sclavi",
+          "PR",
+          "Bench",
+          ""
+        ],
+        [
+          "Mayco Vivas",
+          "PR",
+          "Bench",
+          ""
+        ],
+        [
+          "Boris Wenger",
+          "FX",
+          "Starting",
+          ""
+        ],
+        [
+          "Tomás Albornoz",
+          "FH",
+          "Starting",
+          ""
+        ],
+        [
+          "Simón Benítez Cruz",
+          "SH",
+          "Bench",
+          ""
+        ],
+        [
+          "Mateo Carreras",
+          "B3",
+          "Starting",
+          ""
+        ],
+        [
+          "Lucio Cinti",
+          "CE",
+          "Bench",
+          ""
+        ],
+        [
+          "Bautista Delguy",
+          "B3",
+          "Starting",
+          ""
+        ],
+        [
+          "Gonzalo García",
+          "SH",
+          "Starting",
+          ""
+        ],
+        [
+          "Rodrigo Isgró",
+          "B3",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Juan Cruz Mallía",
+          "B3",
+          "Starting",
+          ""
+        ],
+        [
+          "Ignacio Mendy",
+          "B3",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Agustín Moyano",
+          "SH",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Justo Piccardo",
+          "BX",
+          "Starting",
+          ""
+        ],
+        [
+          "Gerónimo Prisciantelli",
+          "FH",
+          "Bench",
+          ""
+        ],
+        [
+          "Faustino Sánchez Valarolo",
+          "BX",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Mateo Soler",
+          "BX",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Facundo Isa",
+          "BR",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Santiago Chocobares",
+          "CE",
+          "Starting",
+          ""
+        ]
+      ]
+    },
+    "JPN": {
+      "team": "Japan",
+      "status": "announced",
+      "announced": "2026-10-26",
+      "note": "35-player squad (forwards cross-checked with RugbyPass 26 Oct). Wing spelt Tokito (asierugby) / Tokita (RugbyPass).",
+      "source": "https://www.asierugby.com/post/le-groupe-des-brave-blossoms-pour-la-tourn%C3%A9e-en-europe-2",
+      "players": [
+        [
+          "Sojiro Otsuka",
+          "PR",
+          "Bench",
+          ""
+        ],
+        [
+          "Sena Kimura",
+          "PR",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Yota Kamimori",
+          "PR",
+          "Starting",
+          ""
+        ],
+        [
+          "Mamoru Harada",
+          "HK",
+          "Starting",
+          ""
+        ],
+        [
+          "Kenji Sato",
+          "HK",
+          "Bench",
+          ""
+        ],
+        [
+          "Kanato Hirano",
+          "HK",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Shuhei Takeuchi",
+          "PR",
+          "Starting",
+          ""
+        ],
+        [
+          "Keijiro Tamefusa",
+          "PR",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Ryosuke Iwaihara",
+          "PR",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Jack Cornelsen",
+          "LK",
+          "Starting",
+          ""
+        ],
+        [
+          "Warner Dearns",
+          "LK",
+          "Starting",
+          ""
+        ],
+        [
+          "Harry Hockings",
+          "LK",
+          "Starting",
+          ""
+        ],
+        [
+          "Michael Stolberg",
+          "LK",
+          "Bench",
+          ""
+        ],
+        [
+          "Ruan Botha",
+          "LK",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Kanji Shimokawa",
+          "BR",
+          "Starting",
+          ""
+        ],
+        [
+          "Ben Gunter",
+          "BR",
+          "Starting",
+          ""
+        ],
+        [
+          "Tiennan Costley",
+          "BR",
+          "Bench",
+          ""
+        ],
+        [
+          "Esei Ha'angana",
+          "BR",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Miu Austin Moriyama",
+          "BR",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Naoto Saito",
+          "SH",
+          "Starting",
+          ""
+        ],
+        [
+          "Shinobu Fujiwara",
+          "SH",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Kenta Fukuda",
+          "SH",
+          "Bench",
+          ""
+        ],
+        [
+          "Shinya Komura",
+          "FH",
+          "Bench",
+          ""
+        ],
+        [
+          "Riku Kitahara",
+          "FH",
+          "Starting",
+          ""
+        ],
+        [
+          "Dylan Riley",
+          "CE",
+          "Starting",
+          ""
+        ],
+        [
+          "Charlie Lawrence",
+          "CE",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Samisoni Tua",
+          "CE",
+          "Starting",
+          ""
+        ],
+        [
+          "Yuki Ikeda",
+          "CE",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Jisu Lee",
+          "CE",
+          "Bench",
+          "Romanisation aligned to JRFU matchday 23 (was Lee Chi Su)."
+        ],
+        [
+          "Kippei Ishida",
+          "B3",
+          "Starting",
+          ""
+        ],
+        [
+          "Kazuma Ueda",
+          "B3",
+          "Starting",
+          ""
+        ],
+        [
+          "Koga Nezuka",
+          "B3",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Inoke Burua",
+          "B3",
+          "Starting",
+          ""
+        ],
+        [
+          "Riku Tokito",
+          "B3",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Takuro Matsunaga",
+          "B3",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Opeti Helu",
+          "PR",
+          "Bench",
+          "Added from JRFU Wales matchday 23 (5 Nov 2026); not on prior 35-man list in league.json."
+        ]
+      ]
+    },
+    "FIJ": {
+      "team": "Fiji",
+      "status": "announced",
+      "announced": "2026-10-30",
+      "note": "Matchday 23 v France named 5 Nov 2026 (Ikanivere captain; Nathan Hughes debut).",
+      "source": "https://www.fijitimes.com.fj/whites-test-squadnamed/",
+      "players": [
+        [
+          "Peni Ravai",
+          "PR",
+          "Bench",
+          ""
+        ],
+        [
+          "Tevita Ikanivere",
+          "HK",
+          "Starting",
+          ""
+        ],
+        [
+          "Inoke Ravuiwasa",
+          "FX",
+          "Bench",
+          ""
+        ],
+        [
+          "Mesake Vocevoce",
+          "FX",
+          "Starting",
+          ""
+        ],
+        [
+          "Isoa Nasilasila",
+          "LK",
+          "Starting",
+          ""
+        ],
+        [
+          "Kitione Salawa",
+          "BR",
+          "Starting",
+          ""
+        ],
+        [
+          "Terio Tamani",
+          "SH",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Frank Lomani",
+          "SH",
+          "Bench",
+          ""
+        ],
+        [
+          "Ben Volavola",
+          "FH",
+          "Bench",
+          ""
+        ],
+        [
+          "Isikeli Rabitu",
+          "BX",
+          "Starting",
+          ""
+        ],
+        [
+          "Eroni Mawi",
+          "FX",
+          "Starting",
+          ""
+        ],
+        [
+          "Luke Tagi",
+          "FX",
+          "Starting",
+          ""
+        ],
+        [
+          "Zuriel Togiatama",
+          "FX",
+          "Bench",
+          ""
+        ],
+        [
+          "Peniami Narisia",
+          "FX",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Vilikesa Nairau",
+          "FX",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Marika Parker",
+          "FX",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Setareki Turagacoke",
+          "FX",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Pita-Gus Sowakula",
+          "FX",
+          "Starting",
+          ""
+        ],
+        [
+          "Lekima Tagitagivalu",
+          "FX",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Nathan Hughes",
+          "FX",
+          "Starting",
+          ""
+        ],
+        [
+          "Peceli Yato",
+          "FX",
+          "Bench",
+          ""
+        ],
+        [
+          "Joseva Tamani",
+          "FX",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Elia Canakaivata",
+          "FX",
+          "Bench",
+          ""
+        ],
+        [
+          "Simione Kuruvoli",
+          "BX",
+          "Starting",
+          ""
+        ],
+        [
+          "Caleb Muntz",
+          "BX",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Vilimoni Botitu",
+          "BX",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Setareki Bituniyata",
+          "BX",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Vinaya Habosi",
+          "BX",
+          "Starting",
+          ""
+        ],
+        [
+          "Josua Tuisova",
+          "BX",
+          "Not in 23",
+          ""
+        ],
+        [
+          "Sireli Maqala",
+          "BX",
+          "Bench",
+          ""
+        ],
+        [
+          "Iosefo Masi",
+          "BX",
+          "Starting",
+          ""
+        ],
+        [
+          "Jiuta Wainiqolo",
+          "BX",
+          "Starting",
+          ""
+        ],
+        [
+          "Selestino Ravutaumada",
+          "BX",
+          "Starting",
+          ""
+        ],
+        [
+          "Salesi Rayasi",
+          "BX",
+          "Starting",
+          ""
+        ],
+        [
+          "Ponipate Loganimasi",
+          "BX",
+          "Not in 23",
+          ""
+        ]
+      ]
+    }
   }
- },
- "rounds": {
-  "R4": "2026-11-06 20:10",
-  "R5": "2026-11-13 20:10",
-  "R6": "2026-11-21 14:10",
-  "F": "2026-11-27 16:40"
- },
- "asof": "5 Nov 2026, 18:15 UK",
- "fixtures": [
-  {
-   "id": "R4-01",
-   "r": "R4",
-   "d": "Fri 6 Nov",
-   "ko": "20:10",
-   "h": "Ireland",
-   "a": "Argentina",
-   "v": "Aviva Stadium, Dublin",
-   "x": "named (IRE 4 Nov, ARG 4 Nov)"
-  },
-  {
-   "id": "R4-02",
-   "r": "R4",
-   "d": "Sat 7 Nov",
-   "ko": "11:40",
-   "h": "Italy",
-   "a": "South Africa",
-   "v": "Allianz Stadium, Turin",
-   "x": "named (ITA 5 Nov, SA 2 Nov)"
-  },
-  {
-   "id": "R4-03",
-   "r": "R4",
-   "d": "Sat 7 Nov",
-   "ko": "14:10",
-   "h": "Scotland",
-   "a": "New Zealand",
-   "v": "Scottish Gas Murrayfield, Edinburgh",
-   "x": "named (SCO 5 Nov, NZ 5 Nov)"
-  },
-  {
-   "id": "R4-04",
-   "r": "R4",
-   "d": "Sat 7 Nov",
-   "ko": "16:40",
-   "h": "Wales",
-   "a": "Japan",
-   "v": "Principality Stadium, Cardiff",
-   "x": "named (WAL 5 Nov, JPN 5 Nov)"
-  },
-  {
-   "id": "R4-05",
-   "r": "R4",
-   "d": "Sat 7 Nov",
-   "ko": "20:10",
-   "h": "France",
-   "a": "Fiji",
-   "v": "Groupama Stadium, Lyon",
-   "x": "named (FRA 5 Nov, FIJ 5 Nov)"
-  },
-  {
-   "id": "R4-06",
-   "r": "R4",
-   "d": "Sun 8 Nov",
-   "ko": "15:10",
-   "h": "England",
-   "a": "Australia",
-   "v": "Allianz Stadium, Twickenham",
-   "x": "Fri 6 Nov (estimate)"
-  },
-  {
-   "id": "R5-07",
-   "r": "R5",
-   "d": "Fri 13 Nov",
-   "ko": "20:10",
-   "h": "France",
-   "a": "South Africa",
-   "v": "Stade de France, Paris",
-   "x": "Wed 11 or Thu 12 Nov (estimate)"
-  },
-  {
-   "id": "R5-08",
-   "r": "R5",
-   "d": "Sat 14 Nov",
-   "ko": "11:40",
-   "h": "Italy",
-   "a": "Argentina",
-   "v": "Stadio Luigi Ferraris, Genoa",
-   "x": "Thu 12 Nov"
-  },
-  {
-   "id": "R5-09",
-   "r": "R5",
-   "d": "Sat 14 Nov",
-   "ko": "14:10",
-   "h": "Wales",
-   "a": "New Zealand",
-   "v": "Principality Stadium, Cardiff",
-   "x": "Thu 12 Nov"
-  },
-  {
-   "id": "R5-10",
-   "r": "R5",
-   "d": "Sat 14 Nov",
-   "ko": "16:40",
-   "h": "England",
-   "a": "Japan",
-   "v": "Allianz Stadium, Twickenham",
-   "x": "Thu 12 Nov"
-  },
-  {
-   "id": "R5-11",
-   "r": "R5",
-   "d": "Sat 14 Nov",
-   "ko": "20:10",
-   "h": "Ireland",
-   "a": "Fiji",
-   "v": "Aviva Stadium, Dublin",
-   "x": "Thu 12 Nov"
-  },
-  {
-   "id": "R5-12",
-   "r": "R5",
-   "d": "Sun 15 Nov",
-   "ko": "15:10",
-   "h": "Scotland",
-   "a": "Australia",
-   "v": "Scottish Gas Murrayfield, Edinburgh",
-   "x": "Fri 13 Nov (estimate)"
-  },
-  {
-   "id": "R6-13",
-   "r": "R6",
-   "d": "Sat 21 Nov",
-   "ko": "14:10",
-   "h": "England",
-   "a": "New Zealand",
-   "v": "Allianz Stadium, Twickenham",
-   "x": "Thu 19 Nov"
-  },
-  {
-   "id": "R6-14",
-   "r": "R6",
-   "d": "Sat 21 Nov",
-   "ko": "14:10",
-   "h": "Scotland",
-   "a": "Japan",
-   "v": "Scottish Gas Murrayfield, Edinburgh",
-   "x": "Thu 19 Nov"
-  },
-  {
-   "id": "R6-15",
-   "r": "R6",
-   "d": "Sat 21 Nov",
-   "ko": "16:40",
-   "h": "Ireland",
-   "a": "South Africa",
-   "v": "Aviva Stadium, Dublin",
-   "x": "Thu 19 Nov"
-  },
-  {
-   "id": "R6-16",
-   "r": "R6",
-   "d": "Sat 21 Nov",
-   "ko": "16:40",
-   "h": "Italy",
-   "a": "Fiji",
-   "v": "Bluenergy Stadium, Udine",
-   "x": "Thu 19 Nov"
-  },
-  {
-   "id": "R6-17",
-   "r": "R6",
-   "d": "Sat 21 Nov",
-   "ko": "20:10",
-   "h": "France",
-   "a": "Argentina",
-   "v": "Stade de France, Paris",
-   "x": "Thu 19 Nov"
-  },
-  {
-   "id": "R6-18",
-   "r": "R6",
-   "d": "Sat 21 Nov",
-   "ko": "20:10",
-   "h": "Wales",
-   "a": "Australia",
-   "v": "Principality Stadium, Cardiff",
-   "x": "Thu 19 Nov"
-  },
-  {
-   "id": "F-19",
-   "r": "F",
-   "d": "Fri 27 Nov",
-   "ko": "16:40",
-   "h": "6th North",
-   "a": "6th South",
-   "v": "Allianz Stadium, Twickenham",
-   "x": "After pool positions settle on 21 Nov; teams likely named Wed/Thu 25–26 Nov (estimate)"
-  },
-  {
-   "id": "F-20",
-   "r": "F",
-   "d": "Fri 27 Nov",
-   "ko": "20:10",
-   "h": "3rd North",
-   "a": "3rd South",
-   "v": "Allianz Stadium, Twickenham",
-   "x": "After pool positions settle on 21 Nov; teams likely named Wed/Thu 25–26 Nov (estimate)"
-  },
-  {
-   "id": "F-21",
-   "r": "F",
-   "d": "Sat 28 Nov",
-   "ko": "13:10",
-   "h": "5th North",
-   "a": "5th South",
-   "v": "Allianz Stadium, Twickenham",
-   "x": "After pool positions settle on 21 Nov; teams likely named Wed/Thu 25–26 Nov (estimate)"
-  },
-  {
-   "id": "F-22",
-   "r": "F",
-   "d": "Sat 28 Nov",
-   "ko": "16:40",
-   "h": "2nd North",
-   "a": "2nd South",
-   "v": "Allianz Stadium, Twickenham",
-   "x": "After pool positions settle on 21 Nov; teams likely named Wed/Thu 25–26 Nov (estimate)"
-  },
-  {
-   "id": "F-23",
-   "r": "F",
-   "d": "Sun 29 Nov",
-   "ko": "13:10",
-   "h": "4th North",
-   "a": "4th South",
-   "v": "Allianz Stadium, Twickenham",
-   "x": "After pool positions settle on 21 Nov; teams likely named Wed/Thu 25–26 Nov (estimate)"
-  },
-  {
-   "id": "F-24",
-   "r": "F",
-   "d": "Sun 29 Nov",
-   "ko": "16:40",
-   "h": "1st North",
-   "a": "1st South",
-   "v": "Allianz Stadium, Twickenham",
-   "x": "After pool positions settle on 21 Nov; teams likely named Wed/Thu 25–26 Nov (estimate)"
-  }
- ],
- "squads": {
-  "IRE": {
-   "team": "Ireland",
-   "status": "announced",
-   "announced": "2026-10-21",
-   "note": "Matchday 23 v Argentina named 4 Nov (IRFU), Sheehan captain. Furlong cleared at citing; Prendergast passed fit. Ringrose (hamstring) out. Doris and Conan injured, not in squad.",
-   "source": "https://www.irishrugby.ie/news/farrell-names-ireland-squad-nations-championship-northern-hemisphere-series",
-   "players": [
-    [
-     "Ryan Baird",
-     "LK",
-     "Starting",
-     ""
-    ],
-    [
-     "Tadhg Beirne",
-     "LK",
-     "Starting",
-     ""
-    ],
-    [
-     "Billy Bohan",
-     "PR",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Thomas Clarkson",
-     "PR",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Tadhg Furlong",
-     "PR",
-     "Starting",
-     "Cleared at citing hearing; starts v Argentina (IRFU/BBC 4 Nov)"
-    ],
-    [
-     "Sam Illo",
-     "PR",
-     "Bench",
-     ""
-    ],
-    [
-     "Sean Jansen",
-     "BR",
-     "Starting",
-     ""
-    ],
-    [
-     "Rónan Kelleher",
-     "HK",
-     "Bench",
-     ""
-    ],
-    [
-     "Joe McCarthy",
-     "LK",
-     "Starting",
-     ""
-    ],
-    [
-     "James McNabney",
-     "BR",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Darragh Murray",
-     "LK",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Tom O'Toole",
-     "PR",
-     "Bench",
-     ""
-    ],
-    [
-     "Andrew Porter",
-     "PR",
-     "Starting",
-     ""
-    ],
-    [
-     "Cian Prendergast",
-     "BR",
-     "Not in 23",
-     ""
-    ],
-    [
-     "James Ryan",
-     "LK",
-     "Bench",
-     ""
-    ],
-    [
-     "Dan Sheehan",
-     "HK",
-     "Starting",
-     ""
-    ],
-    [
-     "Tom Stewart",
-     "HK",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Nick Timoney",
-     "BR",
-     "Starting",
-     ""
-    ],
-    [
-     "Josh van der Flier",
-     "BR",
-     "Bench",
-     ""
-    ],
-    [
-     "Bundee Aki",
-     "CE",
-     "Bench",
-     ""
-    ],
-    [
-     "Rob Baloucoune",
-     "B3",
-     "Starting",
-     ""
-    ],
-    [
-     "Jamie Benson",
-     "FH",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Craig Casey",
-     "SH",
-     "Starting",
-     ""
-    ],
-    [
-     "Nathan Doak",
-     "SH",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Ciaran Frawley",
-     "FH",
-     "Bench",
-     ""
-    ],
-    [
-     "Jamison Gibson-Park",
-     "SH",
-     "Bench",
-     ""
-    ],
-    [
-     "Mack Hansen",
-     "B3",
-     "Starting",
-     ""
-    ],
-    [
-     "Robbie Henshaw",
-     "CE",
-     "Starting",
-     ""
-    ],
-    [
-     "Hugo Keenan",
-     "B3",
-     "Starting",
-     ""
-    ],
-    [
-     "Stuart McCloskey",
-     "CE",
-     "Starting",
-     ""
-    ],
-    [
-     "Jimmy O'Brien",
-     "B3",
-     "Not in 23",
-     "Resumed full training (IRFU statement, 1 Nov)"
-    ],
-    [
-     "Tommy O'Brien",
-     "B3",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Jamie Osborne",
-     "B3",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Sam Prendergast",
-     "FH",
-     "Starting",
-     "Passed fit (wrist); starts v Argentina (IRFU/ESPN 4 Nov)"
-    ],
-    [
-     "Garry Ringrose",
-     "CE",
-     "Out",
-     "Out: hamstring, unlikely for all three Tests (IRFU 27 Oct)"
-    ],
-    [
-     "Jacob Stockdale",
-     "B3",
-     "Not in 23",
-     ""
-    ]
-   ]
-  },
-  "ENG": {
-   "team": "England",
-   "status": "announced",
-   "announced": "2026-10-25",
-   "note": "RFU 36-man Nations Championship squad named 2 Nov 2026. Tom Curry an injury doubt (5 Nov); team v Australia due Fri 6 Nov.",
-   "source": "https://www.englandrugby.com/follow/news-and-media/borthwick-names-squad-three-day-training-camp-nations-championship-home-leg",
-   "players": [
-    [
-     "Fin Baxter",
-     "PR",
-     "Squad",
-     ""
-    ],
-    [
-     "Ollie Chessum",
-     "LK",
-     "Squad",
-     ""
-    ],
-    [
-     "Arthur Clark",
-     "LK",
-     "Squad",
-     ""
-    ],
-    [
-     "Alex Coles",
-     "LK",
-     "Squad",
-     ""
-    ],
-    [
-     "Luke Cowan-Dickie",
-     "HK",
-     "Squad",
-     ""
-    ],
-    [
-     "Ben Curry",
-     "BR",
-     "Squad",
-     ""
-    ],
-    [
-     "Tom Curry",
-     "BR",
-     "Doubt",
-     "injury doubt after Wednesday training (Guardian, 5 Nov); England team due Fri 6 Nov"
-    ],
-    [
-     "Ben Earl",
-     "BR",
-     "Squad",
-     ""
-    ],
-    [
-     "Greg Fisilau",
-     "BR",
-     "Squad",
-     ""
-    ],
-    [
-     "Jamie George",
-     "HK",
-     "Squad",
-     ""
-    ],
-    [
-     "Ellis Genge",
-     "PR",
-     "Squad",
-     ""
-    ],
-    [
-     "Joe Heyes",
-     "PR",
-     "Squad",
-     ""
-    ],
-    [
-     "Maro Itoje",
-     "LK",
-     "Squad",
-     ""
-    ],
-    [
-     "Emmanuel Iyogun",
-     "PR",
-     "Squad",
-     ""
-    ],
-    [
-     "George Martin",
-     "LK",
-     "Squad",
-     ""
-    ],
-    [
-     "Asher Opoku-Fordjour",
-     "PR",
-     "Squad",
-     ""
-    ],
-    [
-     "Tom Pearson",
-     "BR",
-     "Squad",
-     ""
-    ],
-    [
-     "Henry Pollock",
-     "BR",
-     "Squad",
-     ""
-    ],
-    [
-     "Will Stuart",
-     "PR",
-     "Squad",
-     ""
-    ],
-    [
-     "Kepueli Tuipulotu",
-     "FX",
-     "Out",
-     "injured in camp; replaced by Theo Dan"
-    ],
-    [
-     "Charlie Atkinson",
-     "FH",
-     "Out",
-     "not selected in 36 (was Fin Smith camp cover)"
-    ],
-    [
-     "Noah Caluori",
-     "B3",
-     "Out",
-     "not selected in 36"
-    ],
-    [
-     "Fraser Dingwall",
-     "CE",
-     "Squad",
-     ""
-    ],
-    [
-     "George Ford",
-     "FH",
-     "Squad",
-     ""
-    ],
-    [
-     "Tommy Freeman",
-     "B3",
-     "Squad",
-     ""
-    ],
-    [
-     "George Furbank",
-     "B3",
-     "Squad",
-     ""
-    ],
-    [
-     "Will Joseph",
-     "CE",
-     "Squad",
-     ""
-    ],
-    [
-     "Joe Marchant",
-     "CE",
-     "Squad",
-     ""
-    ],
-    [
-     "Archie McParland",
-     "SH",
-     "Out",
-     "calf injury"
-    ],
-    [
-     "Alex Mitchell",
-     "SH",
-     "Out",
-     "hamstring; ruled out of November Tests"
-    ],
-    [
-     "Cadan Murley",
-     "B3",
-     "Squad",
-     ""
-    ],
-    [
-     "Max Ojomoh",
-     "CE",
-     "Out",
-     "not selected in 36"
-    ],
-    [
-     "Henry Slade",
-     "CE",
-     "Squad",
-     ""
-    ],
-    [
-     "Marcus Smith",
-     "FH",
-     "Squad",
-     ""
-    ],
-    [
-     "Freddie Steward",
-     "B3",
-     "Squad",
-     ""
-    ],
-    [
-     "Jack van Poortvliet",
-     "SH",
-     "Squad",
-     ""
-    ],
-    [
-     "Theo Dan",
-     "HK",
-     "Squad",
-     "Added to 36-man squad 2 Nov"
-    ],
-    [
-     "Seb Atkinson",
-     "CE",
-     "Squad",
-     "Added to 36-man squad 2 Nov"
-    ],
-    [
-     "Immanuel Feyi-Waboso",
-     "B3",
-     "Squad",
-     "Added to 36-man squad 2 Nov"
-    ],
-    [
-     "Harry Randall",
-     "SH",
-     "Squad",
-     "Added to 36-man squad 2 Nov"
-    ],
-    [
-     "Ben Spencer",
-     "SH",
-     "Squad",
-     "Added to 36-man squad 2 Nov"
-    ],
-    [
-     "Fin Smith",
-     "FH",
-     "Squad",
-     "Added to 36-man squad 2 Nov"
-    ]
-   ]
-  },
-  "SCO": {
-   "team": "Scotland",
-   "status": "announced (updated)",
-   "announced": "2026-10-26",
-   "note": "Matchday 23 v New Zealand named 5 Nov 2026 (Tuipulotu captain).",
-   "source": "https://www.scotlandrugbynews.com/news/26668250.scotland-squad-named-nations-championship-home-series/",
-   "players": [
-    [
-     "Ewan Ashman",
-     "HK",
-     "Starting",
-     ""
-    ],
-    [
-     "Josh Bayliss",
-     "BR",
-     "Bench",
-     ""
-    ],
-    [
-     "Gregor Brown",
-     "LK",
-     "Starting",
-     ""
-    ],
-    [
-     "Scott Cummings",
-     "LK",
-     "Starting",
-     ""
-    ],
-    [
-     "Alex Craig",
-     "LK",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Rory Darge",
-     "BR",
-     "Starting",
-     ""
-    ],
-    [
-     "Jack Dempsey",
-     "BR",
-     "Starting",
-     ""
-    ],
-    [
-     "Matt Fagerson",
-     "BR",
-     "Starting",
-     ""
-    ],
-    [
-     "Zander Fagerson",
-     "PR",
-     "Starting",
-     ""
-    ],
-    [
-     "Jonny Gray",
-     "LK",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Gregor Hiddleston",
-     "FX",
-     "Bench",
-     ""
-    ],
-    [
-     "Will Hurd",
-     "PR",
-     "Bench",
-     ""
-    ],
-    [
-     "Ollie Leatherbarrow",
-     "BR",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Nathan McBeth",
-     "PR",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Liam McConnell",
-     "BR",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Elliot Millar Mills",
-     "PR",
-     "Out",
-     "leg injury (club); withdrawn 2 Nov"
-    ],
-    [
-     "Jamie Ritchie",
-     "BR",
-     "Out",
-     "knee injury (club); withdrawn 2 Nov"
-    ],
-    [
-     "Pierre Schoeman",
-     "PR",
-     "Bench",
-     ""
-    ],
-    [
-     "Rory Sutherland",
-     "PR",
-     "Starting",
-     ""
-    ],
-    [
-     "Seb Stephen",
-     "FX",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Max Williamson",
-     "LK",
-     "Bench",
-     ""
-    ],
-    [
-     "Fergus Burke",
-     "FH",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Jamie Dobie",
-     "SH",
-     "Starting",
-     ""
-    ],
-    [
-     "Darcy Graham",
-     "B3",
-     "Not in 23",
-     ""
-    ],
-    [
-     "George Horne",
-     "SH",
-     "Bench",
-     ""
-    ],
-    [
-     "Rory Hutchinson",
-     "CE",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Huw Jones",
-     "CE",
-     "Starting",
-     ""
-    ],
-    [
-     "Tom Jordan",
-     "B3",
-     "Bench",
-     ""
-    ],
-    [
-     "Blair Kinghorn",
-     "B3",
-     "Bench",
-     ""
-    ],
-    [
-     "Stafford McDowall",
-     "CE",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Kyle Rowe",
-     "B3",
-     "Starting",
-     ""
-    ],
-    [
-     "Finn Russell",
-     "FH",
-     "Starting",
-     ""
-    ],
-    [
-     "Ollie Smith",
-     "B3",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Kyle Steyn",
-     "B3",
-     "Starting",
-     ""
-    ],
-    [
-     "Sione Tuipulotu",
-     "CE",
-     "Starting",
-     ""
-    ],
-    [
-     "Duhan van der Merwe",
-     "B3",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Ben White",
-     "SH",
-     "Starting",
-     ""
-    ],
-    [
-     "Ollie Blyth-Lafferty",
-     "PR",
-     "Not in 23",
-     "Uncapped Edinburgh tighthead; called up 2 Nov"
-    ],
-    [
-     "D'Arcy Rae",
-     "PR",
-     "Not in 23",
-     "Edinburgh; called up 2 Nov"
-    ],
-    [
-     "Freddy Douglas",
-     "BR",
-     "Not in 23",
-     "Edinburgh back row; called up 2 Nov"
-    ]
-   ]
-  },
-  "WAL": {
-   "team": "Wales",
-   "status": "announced (updated)",
-   "announced": "2026-10-20",
-   "note": "39-player squad, Dewi Lake captain. Update (WRU, Oct): uncapped Macs Page in; Rio Dyer released (hamstring).",
-   "source": "https://www.wru.wales/2026/10/squad-update-5/",
-   "players": [
-    [
-     "Rhys Barratt",
-     "PR",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Taine Basham",
-     "BR",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Adam Beard",
-     "LK",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Liam Belcher",
-     "HK",
-     "Not in 23",
-     ""
-    ],
-    [
-     "James Botham",
-     "BR",
-     "Bench",
-     ""
-    ],
-    [
-     "Rhys Carre",
-     "PR",
-     "Bench",
-     ""
-    ],
-    [
-     "Ben Carter",
-     "LK",
-     "Starting",
-     ""
-    ],
-    [
-     "Seb Davies",
-     "LK",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Ryan Elias",
-     "HK",
-     "Bench",
-     ""
-    ],
-    [
-     "Tomas Francis",
-     "PR",
-     "Bench",
-     ""
-    ],
-    [
-     "Archie Griffin",
-     "PR",
-     "Starting",
-     ""
-    ],
-    [
-     "Kane James",
-     "BR",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Dafydd Jenkins",
-     "LK",
-     "Starting",
-     ""
-    ],
-    [
-     "Dewi Lake",
-     "HK",
-     "Starting",
-     ""
-    ],
-    [
-     "Dillon Lewis",
-     "PR",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Alex Mann",
-     "BR",
-     "Starting",
-     ""
-    ],
-    [
-     "Jac Morgan",
-     "BR",
-     "Starting",
-     ""
-    ],
-    [
-     "Taine Plumtree",
-     "BR",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Nicky Smith",
-     "PR",
-     "Starting",
-     ""
-    ],
-    [
-     "Gareth Thomas",
-     "PR",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Aaron Wainwright",
-     "BR",
-     "Starting",
-     ""
-    ],
-    [
-     "Teddy Williams",
-     "LK",
-     "Bench",
-     ""
-    ],
-    [
-     "Josh Adams",
-     "B3",
-     "Starting",
-     ""
-    ],
-    [
-     "Sam Costelow",
-     "FH",
-     "Starting",
-     ""
-    ],
-    [
-     "Dan Edwards",
-     "FH",
-     "Bench",
-     ""
-    ],
-    [
-     "Gabriel Hamer-Webb",
-     "B3",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Joe Hawkins",
-     "CE",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Louie Hennessey",
-     "CE",
-     "Bench",
-     ""
-    ],
-    [
-     "Che Hope",
-     "SH",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Eddie James",
-     "CE",
-     "Starting",
-     ""
-    ],
-    [
-     "Max Llewellyn",
-     "CE",
-     "Starting",
-     ""
-    ],
-    [
-     "Ellis Mee",
-     "B3",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Reuben Morgan-Williams",
-     "SH",
-     "Bench",
-     ""
-    ],
-    [
-     "Blair Murray",
-     "B3",
-     "Starting",
-     ""
-    ],
-    [
-     "Aneurin Owen",
-     "CE",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Louis Rees-Zammit",
-     "B3",
-     "Starting",
-     ""
-    ],
-    [
-     "Tom Rogers",
-     "B3",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Tomos Williams",
-     "SH",
-     "Starting",
-     ""
-    ],
-    [
-     "Macs Page",
-     "B3",
-     "Not in 23",
-     ""
-    ]
-   ]
-  },
-  "FRA": {
-   "team": "France",
-   "status": "announced (updated)",
-   "announced": "2026-10-31",
-   "note": "Jelonch/Brennan out, Kanté Samba/Deliance in (2 Nov). Matchday 23 v Fiji named; Jegou late out, Capilla on bench.",
-   "source": "https://www.ffr.fr/actualites/xv-de-france/xv-de-france-le-groupe-pour-preparer-les-fidji-2",
-   "players": [
-    [
-     "Grégory Alldritt",
-     "BR",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Hugo Auradou",
-     "LK",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Paul Boudehent",
-     "BR",
-     "Starting",
-     ""
-    ],
-    [
-     "Joshua Brennan",
-     "LK",
-     "Out",
-     "injured; forfait 2 Nov"
-    ],
-    [
-     "Esteban Capilla",
-     "BR",
-     "Bench",
-     ""
-    ],
-    [
-     "Guillaume Cramont",
-     "FX",
-     "Not in 23",
-     ""
-    ],
-    [
-     "François Cros",
-     "BR",
-     "Starting",
-     ""
-    ],
-    [
-     "Tyler Duguid",
-     "FX",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Sipili Falatea",
-     "PR",
-     "Starting",
-     ""
-    ],
-    [
-     "Jean-Baptiste Gros",
-     "PR",
-     "Starting",
-     ""
-    ],
-    [
-     "Mickaël Guillard",
-     "LK",
-     "Starting",
-     ""
-    ],
-    [
-     "Oscar Jegou",
-     "BR",
-     "Out",
-     "ribs; late forfait from matchday 23"
-    ],
-    [
-     "Anthony Jelonch",
-     "BR",
-     "Out",
-     "concussion protocol; forfait 2 Nov"
-    ],
-    [
-     "Thomas Laclayat",
-     "PR",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Maxime Lamothe",
-     "HK",
-     "Starting",
-     ""
-    ],
-    [
-     "Peato Mauvaka",
-     "HK",
-     "Bench",
-     ""
-    ],
-    [
-     "Charles Ollivon",
-     "BR",
-     "Bench",
-     ""
-    ],
-    [
-     "Jefferson Poirot",
-     "PR",
-     "Bench",
-     ""
-    ],
-    [
-     "Tom Staniforth",
-     "LK",
-     "Bench",
-     ""
-    ],
-    [
-     "Cameron Woki",
-     "BR",
-     "Starting",
-     ""
-    ],
-    [
-     "Théo Attissogbe",
-     "B3",
-     "Starting",
-     ""
-    ],
-    [
-     "Léo Barré",
-     "B3",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Louis Bielle-Biarrey",
-     "B3",
-     "Starting",
-     ""
-    ],
-    [
-     "Nicolas Depoortere",
-     "CE",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Axel Desperes",
-     "BX",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Antoine Dupont",
-     "SH",
-     "Starting",
-     ""
-    ],
-    [
-     "Mathis Ferté",
-     "B3",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Théo Forner",
-     "B3",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Émilien Gailleton",
-     "CE",
-     "Bench",
-     ""
-    ],
-    [
-     "Kalvin Gourgues",
-     "CE",
-     "Starting",
-     ""
-    ],
-    [
-     "Aaron Grandidier Nkanang",
-     "B3",
-     "Starting",
-     ""
-    ],
-    [
-     "Louis Le Brun",
-     "FH",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Maxime Lucu",
-     "SH",
-     "Bench",
-     ""
-    ],
-    [
-     "Yoram Moefana",
-     "CE",
-     "Starting",
-     ""
-    ],
-    [
-     "Romain Ntamack",
-     "FH",
-     "Starting",
-     ""
-    ],
-    [
-     "Damian Penaud",
-     "B3",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Tani Vili",
-     "CE",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Florian Verhaeghe",
-     "LK",
-     "Starting",
-     ""
-    ],
-    [
-     "Régis Montagne",
-     "PR",
-     "Bench",
-     ""
-    ],
-    [
-     "Rodrigue Neti",
-     "PR",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Paul Graou",
-     "SH",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Léon Darricarrère",
-     "CE",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Charles Kanté Samba",
-     "LK",
-     "Not in 23",
-     "La Rochelle uncapped lock; called up 2 Nov"
-    ],
-    [
-     "Antoine Deliance",
-     "BR",
-     "Not in 23",
-     "Lyon uncapped back row; called up 2 Nov"
-    ]
-   ]
-  },
-  "ITA": {
-   "team": "Italy",
-   "status": "announced",
-   "announced": "2026-11-01",
-   "note": "Turin list for South Africa (FIR, 1 Nov): 35 names listed (the article text says 33). Zilocchi replaces Riccioni (family reasons); Miotti first call-up; Capuozzo back; Jaheim Noel Wilson added; Montemauri not listed.",
-   "source": "https://www.federugby.it/italrugby-gli-azzurri-convocati-per-il-sudafrica/",
-   "players": [
-    [
-     "Simone Ferrari",
-     "PR",
-     "Starting",
-     ""
-    ],
-    [
-     "Danilo Fischetti",
-     "PR",
-     "Bench",
-     ""
-    ],
-    [
-     "Muhamed Hasa",
-     "PR",
-     "Starting",
-     ""
-    ],
-    [
-     "Ion Neculai",
-     "PR",
-     "Bench",
-     ""
-    ],
-    [
-     "Ivan Nemer",
-     "PR",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Tommaso Di Bartolomeo",
-     "HK",
-     "Bench",
-     ""
-    ],
-    [
-     "Gianmarco Lucchesi",
-     "HK",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Giacomo Nicotera",
-     "HK",
-     "Starting",
-     ""
-    ],
-    [
-     "Niccolò Cannone",
-     "LK",
-     "Starting",
-     ""
-    ],
-    [
-     "Mattia Midena",
-     "LK",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Enoch Opoku Gyamfi",
-     "LK",
-     "Bench",
-     ""
-    ],
-    [
-     "Federico Ruzza",
-     "LK",
-     "Starting",
-     ""
-    ],
-    [
-     "Lorenzo Cannone",
-     "BR",
-     "Starting",
-     ""
-    ],
-    [
-     "Samuele Locatelli",
-     "BR",
-     "Starting",
-     ""
-    ],
-    [
-     "Alessandro Ortombina",
-     "BR",
-     "Starting",
-     ""
-    ],
-    [
-     "Ross Vintcent",
-     "BR",
-     "Bench",
-     ""
-    ],
-    [
-     "Manuel Zuliani",
-     "BR",
-     "Bench",
-     ""
-    ],
-    [
-     "Alessandro Garbisi",
-     "SH",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Alessandro Fusco",
-     "SH",
-     "Starting",
-     ""
-    ],
-    [
-     "Stephen Varney",
-     "SH",
-     "Bench",
-     ""
-    ],
-    [
-     "Tommaso Allan",
-     "FH",
-     "Bench",
-     ""
-    ],
-    [
-     "Paolo Garbisi",
-     "FH",
-     "Starting",
-     ""
-    ],
-    [
-     "Leonardo Marin",
-     "CE",
-     "Starting",
-     ""
-    ],
-    [
-     "Damiano Mazza",
-     "CE",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Federico Mori",
-     "CE",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Paolo Odogwu",
-     "CE",
-     "Starting",
-     ""
-    ],
-    [
-     "Mirko Belloni",
-     "B3",
-     "Starting",
-     ""
-    ],
-    [
-     "Matt Gallagher",
-     "B3",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Monty Ioane",
-     "B3",
-     "Starting",
-     ""
-    ],
-    [
-     "Lorenzo Pani",
-     "B3",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Federico Zanandrea",
-     "B3",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Giosuè Zilocchi",
-     "PR",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Domingo Miotti",
-     "FH",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Ange Capuozzo",
-     "B3",
-     "Starting",
-     ""
-    ],
-    [
-     "Jaheim Noel Wilson",
-     "B3",
-     "Not in 23",
-     ""
-    ]
-   ]
-  },
-  "NZL": {
-   "team": "New Zealand",
-   "status": "announced",
-   "announced": "2026-10-27",
-   "note": "36-strong squad, Codie Taylor captain.",
-   "source": "https://super.rugby/therugbychampionship/news/all-blacks-squad-named-for-nations-championship-northern-series/",
-   "players": [
-    [
-     "Codie Taylor",
-     "HK",
-     "Starting",
-     ""
-    ],
-    [
-     "Asafo Aumua",
-     "HK",
-     "Bench",
-     ""
-    ],
-    [
-     "George Bell",
-     "HK",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Ethan de Groot",
-     "PR",
-     "Starting",
-     ""
-    ],
-    [
-     "George Bower",
-     "PR",
-     "Bench",
-     ""
-    ],
-    [
-     "Xavier Numia",
-     "PR",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Fletcher Newell",
-     "PR",
-     "Starting",
-     ""
-    ],
-    [
-     "Pasilio Tosi",
-     "PR",
-     "Bench",
-     ""
-    ],
-    [
-     "Saula Ma'u",
-     "PR",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Scott Barrett",
-     "LK",
-     "Starting",
-     ""
-    ],
-    [
-     "Josh Lord",
-     "LK",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Fabian Holland",
-     "LK",
-     "Starting",
-     ""
-    ],
-    [
-     "Jamie Hannah",
-     "LK",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Tupou Vaa'i",
-     "LK",
-     "Starting",
-     ""
-    ],
-    [
-     "Anton Segner",
-     "BR",
-     "Bench",
-     ""
-    ],
-    [
-     "Leicester Fainga'anuku",
-     "BR",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Ethan Blackadder",
-     "BR",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Christian Lio-Willie",
-     "BR",
-     "Bench",
-     ""
-    ],
-    [
-     "Peter Lakai",
-     "BR",
-     "Starting",
-     ""
-    ],
-    [
-     "Wallace Sititi",
-     "BR",
-     "Starting",
-     ""
-    ],
-    [
-     "Cam Roigard",
-     "SH",
-     "Starting",
-     ""
-    ],
-    [
-     "Kyle Preston",
-     "SH",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Cortez Ratima",
-     "SH",
-     "Bench",
-     ""
-    ],
-    [
-     "Richie Mo'unga",
-     "FH",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Damian McKenzie",
-     "FH",
-     "Starting",
-     ""
-    ],
-    [
-     "Josh Jacomb",
-     "FH",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Jordie Barrett",
-     "CE",
-     "Starting",
-     ""
-    ],
-    [
-     "Quinn Tupaea",
-     "CE",
-     "Starting",
-     ""
-    ],
-    [
-     "Timoci Tavatavanawai",
-     "CE",
-     "Bench",
-     ""
-    ],
-    [
-     "Anton Lienert-Brown",
-     "CE",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Rieko Ioane",
-     "B3",
-     "Bench",
-     ""
-    ],
-    [
-     "Chay Fihaki",
-     "B3",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Fehi Fineanganofo",
-     "B3",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Josh Moorby",
-     "B3",
-     "Starting",
-     ""
-    ],
-    [
-     "Will Jordan",
-     "B3",
-     "Starting",
-     ""
-    ],
-    [
-     "Beauden Barrett",
-     "B3",
-     "Starting",
-     ""
-    ]
-   ]
-  },
-  "RSA": {
-   "team": "South Africa",
-   "status": "announced",
-   "announced": "2026-10-28",
-   "note": "37-man squad named by Rassie Erasmus (SA Rugby, as reported by The Citizen, 28 Oct). Six uncapped: Ahmed, De Klerk, Giliomee, Muller, Norton, E. Tshituka. Injured, not selected: Kolbe, Etzebeth, Esterhuizen, Pollard.",
-   "source": "https://www.citizen.co.za/sport/rugby/springboks-squad-named-for-nations-championship-tests-in-november/",
-   "players": [
-    [
-     "Thomas du Toit",
-     "PR",
-     "Starting",
-     ""
-    ],
-    [
-     "Ox Nche",
-     "PR",
-     "Starting",
-     ""
-    ],
-    [
-     "Wilco Louw",
-     "PR",
-     "Bench",
-     ""
-    ],
-    [
-     "Ntuthuko Mchunu",
-     "PR",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Zachary Porthen",
-     "PR",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Gerhard Steenekamp",
-     "PR",
-     "Bench",
-     ""
-    ],
-    [
-     "Malcolm Marx",
-     "HK",
-     "Starting",
-     ""
-    ],
-    [
-     "Jan-Hendrik Wessels",
-     "HK",
-     "Bench",
-     ""
-    ],
-    [
-     "Lood de Jager",
-     "LK",
-     "Bench",
-     ""
-    ],
-    [
-     "Salmaan Moerat",
-     "LK",
-     "Starting",
-     ""
-    ],
-    [
-     "Ruan Nortje",
-     "LK",
-     "Starting",
-     ""
-    ],
-    [
-     "Riley Norton",
-     "LK",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Franco Mostert",
-     "LK",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Paul de Villiers",
-     "BR",
-     "Bench",
-     ""
-    ],
-    [
-     "Siya Kolisi",
-     "BR",
-     "Starting",
-     ""
-    ],
-    [
-     "Cameron Hanekom",
-     "BR",
-     "Bench",
-     ""
-    ],
-    [
-     "Emmanuel Tshituka",
-     "BR",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Jasper Wiese",
-     "BR",
-     "Starting",
-     ""
-    ],
-    [
-     "Pieter-Steph du Toit",
-     "BR",
-     "Starting",
-     "Utility forward (LK/BR) per squad list"
-    ],
-    [
-     "Marco van Staden",
-     "BR",
-     "Not in 23",
-     "Utility forward (LK/BR) per squad list"
-    ],
-    [
-     "Cobus Reinach",
-     "SH",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Morne van den Berg",
-     "SH",
-     "Starting",
-     ""
-    ],
-    [
-     "Grant Williams",
-     "SH",
-     "Bench",
-     ""
-    ],
-    [
-     "Yaqeen Ahmed",
-     "FH",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Sacha Feinberg-Mngomezulu",
-     "FH",
-     "Starting",
-     ""
-    ],
-    [
-     "Luan Giliomee",
-     "FH",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Manie Libbok",
-     "FH",
-     "Bench",
-     ""
-    ],
-    [
-     "Damian de Allende",
-     "CE",
-     "Starting",
-     ""
-    ],
-    [
-     "Jesse Kriel",
-     "CE",
-     "Starting",
-     ""
-    ],
-    [
-     "Markus Muller",
-     "CE",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Canan Moodie",
-     "CE",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Sebastian de Klerk",
-     "B3",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Aphelele Fassi",
-     "B3",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Ethan Hooker",
-     "B3",
-     "Starting",
-     ""
-    ],
-    [
-     "Edwill van der Merwe",
-     "B3",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Kurt-Lee Arendse",
-     "B3",
-     "Starting",
-     ""
-    ],
-    [
-     "Damian Willemse",
-     "B3",
-     "Starting",
-     ""
-    ]
-   ]
-  },
-  "AUS": {
-   "team": "Australia",
-   "status": "announced (finalised)",
-   "announced": "2026-10-28",
-   "note": "Finalised 35-man squad (Rugby Australia, 28 Oct, as reported by Planet Rugby). Beale (mainly inside centre), Ramm, Kalani Thomas in; Paisami withdrawn (personal reasons). Harry Wilson captain.",
-   "source": "https://www.planetrugby.com/news/wallabies-kurtley-beale-to-end-five-year-test-hiatus-as-les-kiss-confirms-his-primary-position-after-shock-recall",
-   "players": [
-    [
-     "Allan Alaalatoa",
-     "PR",
-     "Squad",
-     ""
-    ],
-    [
-     "Miles Amatosero",
-     "LK",
-     "Squad",
-     ""
-    ],
-    [
-     "Angus Bell",
-     "PR",
-     "Squad",
-     ""
-    ],
-    [
-     "Josh Canham",
-     "LK",
-     "Squad",
-     ""
-    ],
-    [
-     "Massimo De Lutiis",
-     "FX",
-     "Squad",
-     ""
-    ],
-    [
-     "Tom Hooper",
-     "BR",
-     "Squad",
-     ""
-    ],
-    [
-     "Isaac Kailea",
-     "PR",
-     "Squad",
-     ""
-    ],
-    [
-     "Tom Lambert",
-     "PR",
-     "Squad",
-     ""
-    ],
-    [
-     "Fraser McReight",
-     "BR",
-     "Squad",
-     ""
-    ],
-    [
-     "Josh Nasser",
-     "HK",
-     "Squad",
-     ""
-    ],
-    [
-     "Brandon Paenga-Amosa",
-     "HK",
-     "Squad",
-     ""
-    ],
-    [
-     "Billy Pollard",
-     "HK",
-     "Squad",
-     ""
-    ],
-    [
-     "Lukhan Salakaia-Loto",
-     "LK",
-     "Squad",
-     ""
-    ],
-    [
-     "Lachlan Shaw",
-     "BR",
-     "Squad",
-     ""
-    ],
-    [
-     "Carlo Tizzano",
-     "BR",
-     "Squad",
-     ""
-    ],
-    [
-     "Taniela Tupou",
-     "PR",
-     "Squad",
-     ""
-    ],
-    [
-     "Rob Valetini",
-     "BR",
-     "Squad",
-     ""
-    ],
-    [
-     "Jeremy Williams",
-     "LK",
-     "Squad",
-     ""
-    ],
-    [
-     "Harry Wilson",
-     "BR",
-     "Squad",
-     ""
-    ],
-    [
-     "Filipo Daugunu",
-     "B3",
-     "Squad",
-     ""
-    ],
-    [
-     "Ben Donaldson",
-     "FH",
-     "Squad",
-     ""
-    ],
-    [
-     "Carter Gordon",
-     "FH",
-     "Squad",
-     ""
-    ],
-    [
-     "Isaac Henry",
-     "B3",
-     "Squad",
-     ""
-    ],
-    [
-     "Len Ikitau",
-     "CE",
-     "Squad",
-     ""
-    ],
-    [
-     "Max Jorgensen",
-     "B3",
-     "Squad",
-     ""
-    ],
-    [
-     "Ryan Lonergan",
-     "SH",
-     "Squad",
-     ""
-    ],
-    [
-     "Tate McDermott",
-     "SH",
-     "Squad",
-     ""
-    ],
-    [
-     "Declan Meredith",
-     "FH",
-     "Squad",
-     ""
-    ],
-    [
-     "Harry Potter",
-     "B3",
-     "Squad",
-     ""
-    ],
-    [
-     "Joseph-Aukuso Suaalii",
-     "CE",
-     "Squad",
-     ""
-    ],
-    [
-     "Teddy Wilson",
-     "SH",
-     "Squad",
-     ""
-    ],
-    [
-     "Tom Wright",
-     "B3",
-     "Squad",
-     ""
-    ],
-    [
-     "Kurtley Beale",
-     "CE",
-     "Squad",
-     ""
-    ],
-    [
-     "James Ramm",
-     "B3",
-     "Squad",
-     ""
-    ],
-    [
-     "Kalani Thomas",
-     "SH",
-     "Squad",
-     ""
-    ]
-   ]
-  },
-  "ARG": {
-   "team": "Argentina",
-   "status": "announced",
-   "announced": "2026-10-30",
-   "note": "Final 33 after the London camp (UAR, 30 Oct). Isa in for injured Grondona; Chocobares in; Moroni out. UAR says the list may change week to week.",
-   "source": "https://uar.com.ar/los-pumas-ya-tienen-plantel-para-el-cierre-del-nations-championship/",
-   "players": [
-    [
-     "Efraín Elías",
-     "FX",
-     "Bench",
-     ""
-    ],
-    [
-     "Juan Martín González",
-     "BR",
-     "Starting",
-     ""
-    ],
-    [
-     "Marcos Kremer",
-     "BR",
-     "Starting",
-     ""
-    ],
-    [
-     "Tomás Lavanini",
-     "LK",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Rodrigo Martínez",
-     "FX",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Pablo Matera",
-     "BR",
-     "Starting",
-     ""
-    ],
-    [
-     "Julián Montoya",
-     "HK",
-     "Starting",
-     ""
-    ],
-    [
-     "Francisco Moreno",
-     "FX",
-     "Starting",
-     ""
-    ],
-    [
-     "Joaquín Moro",
-     "FX",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Leonel Oviedo",
-     "FX",
-     "Bench",
-     ""
-    ],
-    [
-     "Guido Petti",
-     "LK",
-     "Starting",
-     ""
-    ],
-    [
-     "Tomás Rapetti",
-     "FX",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Pedro Rubiolo",
-     "LK",
-     "Starting",
-     ""
-    ],
-    [
-     "Juan Martín Scelzo",
-     "PR",
-     "Bench",
-     ""
-    ],
-    [
-     "Joel Sclavi",
-     "PR",
-     "Bench",
-     ""
-    ],
-    [
-     "Mayco Vivas",
-     "PR",
-     "Bench",
-     ""
-    ],
-    [
-     "Boris Wenger",
-     "FX",
-     "Starting",
-     ""
-    ],
-    [
-     "Tomás Albornoz",
-     "FH",
-     "Starting",
-     ""
-    ],
-    [
-     "Simón Benítez Cruz",
-     "SH",
-     "Bench",
-     ""
-    ],
-    [
-     "Mateo Carreras",
-     "B3",
-     "Starting",
-     ""
-    ],
-    [
-     "Lucio Cinti",
-     "CE",
-     "Bench",
-     ""
-    ],
-    [
-     "Bautista Delguy",
-     "B3",
-     "Starting",
-     ""
-    ],
-    [
-     "Gonzalo García",
-     "SH",
-     "Starting",
-     ""
-    ],
-    [
-     "Rodrigo Isgró",
-     "B3",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Juan Cruz Mallía",
-     "B3",
-     "Starting",
-     ""
-    ],
-    [
-     "Ignacio Mendy",
-     "B3",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Agustín Moyano",
-     "SH",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Justo Piccardo",
-     "BX",
-     "Starting",
-     ""
-    ],
-    [
-     "Gerónimo Prisciantelli",
-     "FH",
-     "Bench",
-     ""
-    ],
-    [
-     "Faustino Sánchez Valarolo",
-     "BX",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Mateo Soler",
-     "BX",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Facundo Isa",
-     "BR",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Santiago Chocobares",
-     "CE",
-     "Starting",
-     ""
-    ]
-   ]
-  },
-  "JPN": {
-   "team": "Japan",
-   "status": "announced",
-   "announced": "2026-10-26",
-   "note": "35-player squad (forwards cross-checked with RugbyPass 26 Oct). Wing spelt Tokito (asierugby) / Tokita (RugbyPass).",
-   "source": "https://www.asierugby.com/post/le-groupe-des-brave-blossoms-pour-la-tourn%C3%A9e-en-europe-2",
-   "players": [
-    [
-     "Sojiro Otsuka",
-     "PR",
-     "Bench",
-     ""
-    ],
-    [
-     "Sena Kimura",
-     "PR",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Yota Kamimori",
-     "PR",
-     "Starting",
-     ""
-    ],
-    [
-     "Mamoru Harada",
-     "HK",
-     "Starting",
-     ""
-    ],
-    [
-     "Kenji Sato",
-     "HK",
-     "Bench",
-     ""
-    ],
-    [
-     "Kanato Hirano",
-     "HK",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Shuhei Takeuchi",
-     "PR",
-     "Starting",
-     ""
-    ],
-    [
-     "Keijiro Tamefusa",
-     "PR",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Ryosuke Iwaihara",
-     "PR",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Jack Cornelsen",
-     "LK",
-     "Starting",
-     ""
-    ],
-    [
-     "Warner Dearns",
-     "LK",
-     "Starting",
-     ""
-    ],
-    [
-     "Harry Hockings",
-     "LK",
-     "Starting",
-     ""
-    ],
-    [
-     "Michael Stolberg",
-     "LK",
-     "Bench",
-     ""
-    ],
-    [
-     "Ruan Botha",
-     "LK",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Kanji Shimokawa",
-     "BR",
-     "Starting",
-     ""
-    ],
-    [
-     "Ben Gunter",
-     "BR",
-     "Starting",
-     ""
-    ],
-    [
-     "Tiennan Costley",
-     "BR",
-     "Bench",
-     ""
-    ],
-    [
-     "Esei Ha'angana",
-     "BR",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Miu Austin Moriyama",
-     "BR",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Naoto Saito",
-     "SH",
-     "Starting",
-     ""
-    ],
-    [
-     "Shinobu Fujiwara",
-     "SH",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Kenta Fukuda",
-     "SH",
-     "Bench",
-     ""
-    ],
-    [
-     "Shinya Komura",
-     "FH",
-     "Bench",
-     ""
-    ],
-    [
-     "Riku Kitahara",
-     "FH",
-     "Starting",
-     ""
-    ],
-    [
-     "Dylan Riley",
-     "CE",
-     "Starting",
-     ""
-    ],
-    [
-     "Charlie Lawrence",
-     "CE",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Samisoni Tua",
-     "CE",
-     "Starting",
-     ""
-    ],
-    [
-     "Yuki Ikeda",
-     "CE",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Jisu Lee",
-     "CE",
-     "Bench",
-     "Romanisation aligned to JRFU matchday 23 (was Lee Chi Su)."
-    ],
-    [
-     "Kippei Ishida",
-     "B3",
-     "Starting",
-     ""
-    ],
-    [
-     "Kazuma Ueda",
-     "B3",
-     "Starting",
-     ""
-    ],
-    [
-     "Koga Nezuka",
-     "B3",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Inoke Burua",
-     "B3",
-     "Starting",
-     ""
-    ],
-    [
-     "Riku Tokito",
-     "B3",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Takuro Matsunaga",
-     "B3",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Opeti Helu",
-     "PR",
-     "Bench",
-     "Added from JRFU Wales matchday 23 (5 Nov 2026); not on prior 35-man list in league.json."
-    ]
-   ]
-  },
-  "FIJ": {
-   "team": "Fiji",
-   "status": "announced",
-   "announced": "2026-10-30",
-   "note": "Matchday 23 v France named 5 Nov 2026 (Ikanivere captain; Nathan Hughes debut).",
-   "source": "https://www.fijitimes.com.fj/whites-test-squadnamed/",
-   "players": [
-    [
-     "Peni Ravai",
-     "PR",
-     "Bench",
-     ""
-    ],
-    [
-     "Tevita Ikanivere",
-     "HK",
-     "Starting",
-     ""
-    ],
-    [
-     "Inoke Ravuiwasa",
-     "FX",
-     "Bench",
-     ""
-    ],
-    [
-     "Mesake Vocevoce",
-     "FX",
-     "Starting",
-     ""
-    ],
-    [
-     "Isoa Nasilasila",
-     "LK",
-     "Starting",
-     ""
-    ],
-    [
-     "Kitione Salawa",
-     "BR",
-     "Starting",
-     ""
-    ],
-    [
-     "Terio Tamani",
-     "SH",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Frank Lomani",
-     "SH",
-     "Bench",
-     ""
-    ],
-    [
-     "Ben Volavola",
-     "FH",
-     "Bench",
-     ""
-    ],
-    [
-     "Isikeli Rabitu",
-     "BX",
-     "Starting",
-     ""
-    ],
-    [
-     "Eroni Mawi",
-     "FX",
-     "Starting",
-     ""
-    ],
-    [
-     "Luke Tagi",
-     "FX",
-     "Starting",
-     ""
-    ],
-    [
-     "Zuriel Togiatama",
-     "FX",
-     "Bench",
-     ""
-    ],
-    [
-     "Peniami Narisia",
-     "FX",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Vilikesa Nairau",
-     "FX",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Marika Parker",
-     "FX",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Setareki Turagacoke",
-     "FX",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Pita-Gus Sowakula",
-     "FX",
-     "Starting",
-     ""
-    ],
-    [
-     "Lekima Tagitagivalu",
-     "FX",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Nathan Hughes",
-     "FX",
-     "Starting",
-     ""
-    ],
-    [
-     "Peceli Yato",
-     "FX",
-     "Bench",
-     ""
-    ],
-    [
-     "Joseva Tamani",
-     "FX",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Elia Canakaivata",
-     "FX",
-     "Bench",
-     ""
-    ],
-    [
-     "Simione Kuruvoli",
-     "BX",
-     "Starting",
-     ""
-    ],
-    [
-     "Caleb Muntz",
-     "BX",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Vilimoni Botitu",
-     "BX",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Setareki Bituniyata",
-     "BX",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Vinaya Habosi",
-     "BX",
-     "Starting",
-     ""
-    ],
-    [
-     "Josua Tuisova",
-     "BX",
-     "Not in 23",
-     ""
-    ],
-    [
-     "Sireli Maqala",
-     "BX",
-     "Bench",
-     ""
-    ],
-    [
-     "Iosefo Masi",
-     "BX",
-     "Starting",
-     ""
-    ],
-    [
-     "Jiuta Wainiqolo",
-     "BX",
-     "Starting",
-     ""
-    ],
-    [
-     "Selestino Ravutaumada",
-     "BX",
-     "Starting",
-     ""
-    ],
-    [
-     "Salesi Rayasi",
-     "BX",
-     "Starting",
-     ""
-    ],
-    [
-     "Ponipate Loganimasi",
-     "BX",
-     "Not in 23",
-     ""
-    ]
-   ]
-  }
- }
 }
