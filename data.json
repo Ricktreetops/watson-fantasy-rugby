@@ -86,7 +86,1060 @@
     "R6": "2026-11-21 14:10",
     "F": "2026-11-27 16:40"
   },
-  "asof": "7 Nov 2026, 18:10 UK",
+  "asof": "8 Nov 2026, 21:35 UK",
+  "scored_at": "2026-11-08T21:35+00:00",
+  "round4_status": "scored",
+  "leaderboard": [
+    {
+      "rank": 1,
+      "name": "Brooke",
+      "total": 315,
+      "fantasy": 296,
+      "predictions": 19,
+      "correct_winners": 5
+    },
+    {
+      "rank": 2,
+      "name": "Richard",
+      "total": 295,
+      "fantasy": 276,
+      "predictions": 19,
+      "correct_winners": 5
+    },
+    {
+      "rank": 3,
+      "name": "Cameron",
+      "total": 271,
+      "fantasy": 248,
+      "predictions": 23,
+      "correct_winners": 5
+    },
+    {
+      "rank": 4,
+      "name": "Sharon",
+      "total": 230,
+      "fantasy": 213,
+      "predictions": 17,
+      "correct_winners": 5
+    }
+  ],
+  "results": [
+    {
+      "id": "R4-01",
+      "home": "Ireland",
+      "away": "Argentina",
+      "home_score": 42,
+      "away_score": 12,
+      "ht": "21-5",
+      "status": "FT",
+      "date": "2026-11-06",
+      "kickoff_uk": "20:10",
+      "venue": "Aviva Stadium, Dublin"
+    },
+    {
+      "id": "R4-02",
+      "home": "Italy",
+      "away": "South Africa",
+      "home_score": 7,
+      "away_score": 66,
+      "ht": "0-45",
+      "status": "FT",
+      "date": "2026-11-07",
+      "kickoff_uk": "11:40",
+      "venue": "Allianz Stadium, Turin"
+    },
+    {
+      "id": "R4-03",
+      "home": "Scotland",
+      "away": "New Zealand",
+      "home_score": 21,
+      "away_score": 43,
+      "ht": "21-24",
+      "status": "FT",
+      "date": "2026-11-07",
+      "kickoff_uk": "14:10",
+      "venue": "Scottish Gas Murrayfield, Edinburgh"
+    },
+    {
+      "id": "R4-04",
+      "home": "Wales",
+      "away": "Japan",
+      "home_score": 28,
+      "away_score": 21,
+      "ht": "21-14",
+      "status": "FT",
+      "date": "2026-11-07",
+      "kickoff_uk": "16:40",
+      "venue": "Principality Stadium, Cardiff"
+    },
+    {
+      "id": "R4-05",
+      "home": "France",
+      "away": "Fiji",
+      "home_score": 54,
+      "away_score": 17,
+      "ht": "26-3",
+      "status": "FT",
+      "date": "2026-11-07",
+      "kickoff_uk": "20:10",
+      "venue": "Groupama Stadium, Lyon"
+    },
+    {
+      "id": "R4-06",
+      "home": "England",
+      "away": "Australia",
+      "home_score": 45,
+      "away_score": 22,
+      "ht": "19-10",
+      "status": "FT",
+      "date": "2026-11-08",
+      "kickoff_uk": "15:10",
+      "venue": "Allianz Stadium, Twickenham"
+    }
+  ],
+  "locked_teams": {
+    "Brooke": {
+      "round": "R4",
+      "total": 315,
+      "fantasy": 296,
+      "predictions": 19,
+      "correct_winners": 5,
+      "captain": "Louis Bielle-Biarrey",
+      "captain_team": "France",
+      "supersub": "Rob Valetini",
+      "supersub_team": "Australia",
+      "source": "IRL Team and Weekend plans",
+      "sent_at": "2026-11-06T19:09+00:00",
+      "picks": [
+        {
+          "slot": "1",
+          "position": "Loosehead prop",
+          "name": "Jean-Baptiste Gros",
+          "team": "France",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 24
+        },
+        {
+          "slot": "2",
+          "position": "Hooker",
+          "name": "Dan Sheehan",
+          "team": "Ireland",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 16
+        },
+        {
+          "slot": "3",
+          "position": "Tighthead prop",
+          "name": "Tadhg Furlong",
+          "team": "Ireland",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 7
+        },
+        {
+          "slot": "4",
+          "position": "Lock",
+          "name": "Maro Itoje",
+          "team": "England",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 16
+        },
+        {
+          "slot": "5",
+          "position": "Lock",
+          "name": "Ruan Nortje",
+          "team": "South Africa",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 6
+        },
+        {
+          "slot": "6",
+          "position": "Blindside flanker",
+          "name": "Peter Lakai",
+          "team": "New Zealand",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 28
+        },
+        {
+          "slot": "7",
+          "position": "Openside flanker",
+          "name": "Ben Curry",
+          "team": "England",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 5
+        },
+        {
+          "slot": "8",
+          "position": "Number 8",
+          "name": "Jasper Wiese",
+          "team": "South Africa",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 5
+        },
+        {
+          "slot": "9",
+          "position": "Scrum-half",
+          "name": "Antoine Dupont",
+          "team": "France",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 38
+        },
+        {
+          "slot": "10",
+          "position": "Fly-half",
+          "name": "Damian McKenzie",
+          "team": "New Zealand",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 14
+        },
+        {
+          "slot": "11",
+          "position": "Left wing",
+          "name": "Louis Bielle-Biarrey",
+          "team": "France",
+          "started": true,
+          "captain": true,
+          "supersub": false,
+          "multiplier": 2,
+          "points": 20
+        },
+        {
+          "slot": "12",
+          "position": "Inside centre",
+          "name": "Henry Slade",
+          "team": "England",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 23
+        },
+        {
+          "slot": "13",
+          "position": "Outside centre",
+          "name": "Jesse Kriel",
+          "team": "South Africa",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 6
+        },
+        {
+          "slot": "14",
+          "position": "Right wing",
+          "name": "Will Jordan",
+          "team": "New Zealand",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 9
+        },
+        {
+          "slot": "15",
+          "position": "Full-back",
+          "name": "Hugo Keenan",
+          "team": "Ireland",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 61
+        },
+        {
+          "slot": "SS",
+          "position": "Supersub",
+          "name": "Rob Valetini",
+          "team": "Australia",
+          "started": false,
+          "captain": false,
+          "supersub": true,
+          "multiplier": 3,
+          "points": 18
+        }
+      ],
+      "score_picks": [
+        {
+          "id": "R4-01",
+          "match": "Ireland v Argentina",
+          "winner": "Ireland",
+          "margin": 8,
+          "points": 3
+        },
+        {
+          "id": "R4-02",
+          "match": "Italy v South Africa",
+          "winner": "South Africa",
+          "margin": 20,
+          "points": 5
+        },
+        {
+          "id": "R4-03",
+          "match": "Scotland v New Zealand",
+          "winner": "New Zealand",
+          "margin": 18,
+          "points": 5
+        },
+        {
+          "id": "R4-04",
+          "match": "Wales v Japan",
+          "winner": "Japan",
+          "margin": 10,
+          "points": 0
+        },
+        {
+          "id": "R4-05",
+          "match": "France v Fiji",
+          "winner": "France",
+          "margin": 12,
+          "points": 3
+        },
+        {
+          "id": "R4-06",
+          "match": "England v Australia",
+          "winner": "England",
+          "margin": 5,
+          "points": 3
+        }
+      ]
+    },
+    "Richard": {
+      "round": "R4",
+      "total": 295,
+      "fantasy": 276,
+      "predictions": 19,
+      "correct_winners": 5,
+      "captain": "Antoine Dupont",
+      "captain_team": "France",
+      "supersub": "Peato Mauvaka",
+      "supersub_team": "France",
+      "source": "IRL Team and Weekend plans",
+      "sent_at": "2026-11-06T11:30+00:00",
+      "picks": [
+        {
+          "slot": "1",
+          "position": "Loosehead prop",
+          "name": "Andrew Porter",
+          "team": "Ireland",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 10
+        },
+        {
+          "slot": "2",
+          "position": "Hooker",
+          "name": "Dan Sheehan",
+          "team": "Ireland",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 16
+        },
+        {
+          "slot": "3",
+          "position": "Tighthead prop",
+          "name": "Thomas du Toit",
+          "team": "South Africa",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 0
+        },
+        {
+          "slot": "4",
+          "position": "Lock",
+          "name": "Scott Barrett",
+          "team": "New Zealand",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 20
+        },
+        {
+          "slot": "5",
+          "position": "Lock",
+          "name": "Tadhg Beirne",
+          "team": "Ireland",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 14
+        },
+        {
+          "slot": "6",
+          "position": "Blindside flanker",
+          "name": "Pieter-Steph du Toit",
+          "team": "South Africa",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 12
+        },
+        {
+          "slot": "7",
+          "position": "Openside flanker",
+          "name": "Jac Morgan",
+          "team": "Wales",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 28
+        },
+        {
+          "slot": "8",
+          "position": "Number 8",
+          "name": "Wallace Sititi",
+          "team": "New Zealand",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 25
+        },
+        {
+          "slot": "9",
+          "position": "Scrum-half",
+          "name": "Antoine Dupont",
+          "team": "France",
+          "started": true,
+          "captain": true,
+          "supersub": false,
+          "multiplier": 2,
+          "points": 76
+        },
+        {
+          "slot": "10",
+          "position": "Fly-half",
+          "name": "Finn Russell",
+          "team": "Scotland",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 16
+        },
+        {
+          "slot": "11",
+          "position": "Left wing",
+          "name": "Louis Bielle-Biarrey",
+          "team": "France",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 10
+        },
+        {
+          "slot": "12",
+          "position": "Inside centre",
+          "name": "Sione Tuipulotu",
+          "team": "Scotland",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 10
+        },
+        {
+          "slot": "13",
+          "position": "Outside centre",
+          "name": "Huw Jones",
+          "team": "Scotland",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 11
+        },
+        {
+          "slot": "14",
+          "position": "Right wing",
+          "name": "Will Jordan",
+          "team": "New Zealand",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 9
+        },
+        {
+          "slot": "15",
+          "position": "Full-back",
+          "name": "Blair Murray",
+          "team": "Wales",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 10
+        },
+        {
+          "slot": "SS",
+          "position": "Supersub",
+          "name": "Peato Mauvaka",
+          "team": "France",
+          "started": false,
+          "captain": false,
+          "supersub": true,
+          "multiplier": 3,
+          "points": 9
+        }
+      ],
+      "score_picks": [
+        {
+          "id": "R4-01",
+          "match": "Ireland v Argentina",
+          "winner": "Ireland",
+          "margin": 10,
+          "points": 3
+        },
+        {
+          "id": "R4-02",
+          "match": "Italy v South Africa",
+          "winner": "South Africa",
+          "margin": 35,
+          "points": 5
+        },
+        {
+          "id": "R4-03",
+          "match": "Scotland v New Zealand",
+          "winner": "New Zealand",
+          "margin": 25,
+          "points": 5
+        },
+        {
+          "id": "R4-04",
+          "match": "Wales v Japan",
+          "winner": "Japan",
+          "margin": 5,
+          "points": 0
+        },
+        {
+          "id": "R4-05",
+          "match": "France v Fiji",
+          "winner": "France",
+          "margin": 12,
+          "points": 3
+        },
+        {
+          "id": "R4-06",
+          "match": "England v Australia",
+          "winner": "England",
+          "margin": 10,
+          "points": 3
+        }
+      ]
+    },
+    "Cameron": {
+      "round": "R4",
+      "total": 271,
+      "fantasy": 248,
+      "predictions": 23,
+      "correct_winners": 5,
+      "captain": "Louis Bielle-Biarrey",
+      "captain_team": "France",
+      "supersub": "Timoci Tavatavanawai",
+      "supersub_team": "New Zealand",
+      "source": "IRL Team and Weekend plans",
+      "sent_at": "2026-11-06T11:31+00:00",
+      "picks": [
+        {
+          "slot": "1",
+          "position": "Loosehead prop",
+          "name": "Ox Nche",
+          "team": "South Africa",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 2
+        },
+        {
+          "slot": "2",
+          "position": "Hooker",
+          "name": "Dan Sheehan",
+          "team": "Ireland",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 16
+        },
+        {
+          "slot": "3",
+          "position": "Tighthead prop",
+          "name": "Ellis Genge",
+          "team": "England",
+          "started": false,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 3
+        },
+        {
+          "slot": "4",
+          "position": "Lock",
+          "name": "Tadhg Beirne",
+          "team": "Ireland",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 14
+        },
+        {
+          "slot": "5",
+          "position": "Lock",
+          "name": "Maro Itoje",
+          "team": "England",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 16
+        },
+        {
+          "slot": "6",
+          "position": "Blindside flanker",
+          "name": "Ben Earl",
+          "team": "England",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 18
+        },
+        {
+          "slot": "7",
+          "position": "Openside flanker",
+          "name": "Jac Morgan",
+          "team": "Wales",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 28
+        },
+        {
+          "slot": "8",
+          "position": "Number 8",
+          "name": "Sean Jansen",
+          "team": "Ireland",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 9
+        },
+        {
+          "slot": "9",
+          "position": "Scrum-half",
+          "name": "Antoine Dupont",
+          "team": "France",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 38
+        },
+        {
+          "slot": "10",
+          "position": "Fly-half",
+          "name": "Sacha Feinberg-Mngomezulu",
+          "team": "South Africa",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 45
+        },
+        {
+          "slot": "11",
+          "position": "Left wing",
+          "name": "Kurt-Lee Arendse",
+          "team": "South Africa",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 9
+        },
+        {
+          "slot": "12",
+          "position": "Inside centre",
+          "name": "Yoram Moefana",
+          "team": "France",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 12
+        },
+        {
+          "slot": "13",
+          "position": "Outside centre",
+          "name": "Jordie Barrett",
+          "team": "New Zealand",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 9
+        },
+        {
+          "slot": "14",
+          "position": "Right wing",
+          "name": "Will Jordan",
+          "team": "New Zealand",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 9
+        },
+        {
+          "slot": "15",
+          "position": "Full-back",
+          "name": "Louis Bielle-Biarrey",
+          "team": "France",
+          "started": true,
+          "captain": true,
+          "supersub": false,
+          "multiplier": 2,
+          "points": 20
+        },
+        {
+          "slot": "SS",
+          "position": "Supersub",
+          "name": "Timoci Tavatavanawai",
+          "team": "New Zealand",
+          "started": false,
+          "captain": false,
+          "supersub": true,
+          "multiplier": 3,
+          "points": 0
+        }
+      ],
+      "score_picks": [
+        {
+          "id": "R4-01",
+          "match": "Ireland v Argentina",
+          "winner": "Ireland",
+          "margin": 7,
+          "points": 3
+        },
+        {
+          "id": "R4-02",
+          "match": "Italy v South Africa",
+          "winner": "South Africa",
+          "margin": 30,
+          "points": 5
+        },
+        {
+          "id": "R4-03",
+          "match": "Scotland v New Zealand",
+          "winner": "New Zealand",
+          "margin": 15,
+          "points": 5
+        },
+        {
+          "id": "R4-04",
+          "match": "Wales v Japan",
+          "winner": "Wales",
+          "margin": 5,
+          "points": 5
+        },
+        {
+          "id": "R4-05",
+          "match": "France v Fiji",
+          "winner": "France",
+          "margin": 35,
+          "points": 5
+        },
+        {
+          "id": "R4-06",
+          "match": "England v Australia",
+          "winner": "Australia",
+          "margin": 3,
+          "points": 0
+        }
+      ]
+    },
+    "Sharon": {
+      "round": "R4",
+      "total": 230,
+      "fantasy": 213,
+      "predictions": 17,
+      "correct_winners": 5,
+      "captain": "Mack Hansen",
+      "captain_team": "Ireland",
+      "supersub": "Rob Valetini",
+      "supersub_team": "Australia",
+      "source": "IRL Team and Weekend plans",
+      "sent_at": "2026-11-06T16:21+00:00",
+      "picks": [
+        {
+          "slot": "1",
+          "position": "Loosehead prop",
+          "name": "Thomas du Toit",
+          "team": "South Africa",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 0
+        },
+        {
+          "slot": "2",
+          "position": "Hooker",
+          "name": "Dan Sheehan",
+          "team": "Ireland",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 16
+        },
+        {
+          "slot": "3",
+          "position": "Tighthead prop",
+          "name": "Tadhg Furlong",
+          "team": "Ireland",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 7
+        },
+        {
+          "slot": "4",
+          "position": "Lock",
+          "name": "Tupou Vaa'i",
+          "team": "New Zealand",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 8
+        },
+        {
+          "slot": "5",
+          "position": "Lock",
+          "name": "Scott Barrett",
+          "team": "New Zealand",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 20
+        },
+        {
+          "slot": "6",
+          "position": "Blindside flanker",
+          "name": "Harry Wilson",
+          "team": "Australia",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 13
+        },
+        {
+          "slot": "7",
+          "position": "Openside flanker",
+          "name": "Ben Earl",
+          "team": "England",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 18
+        },
+        {
+          "slot": "8",
+          "position": "Number 8",
+          "name": "François Cros",
+          "team": "France",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 15
+        },
+        {
+          "slot": "9",
+          "position": "Scrum-half",
+          "name": "Antoine Dupont",
+          "team": "France",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 38
+        },
+        {
+          "slot": "10",
+          "position": "Fly-half",
+          "name": "Romain Ntamack",
+          "team": "France",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 3
+        },
+        {
+          "slot": "11",
+          "position": "Left wing",
+          "name": "Mack Hansen",
+          "team": "Ireland",
+          "started": true,
+          "captain": true,
+          "supersub": false,
+          "multiplier": 2,
+          "points": 22
+        },
+        {
+          "slot": "12",
+          "position": "Inside centre",
+          "name": "Jesse Kriel",
+          "team": "South Africa",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 6
+        },
+        {
+          "slot": "13",
+          "position": "Outside centre",
+          "name": "Joseph-Aukuso Suaalii",
+          "team": "Australia",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 11
+        },
+        {
+          "slot": "14",
+          "position": "Right wing",
+          "name": "Kurt-Lee Arendse",
+          "team": "South Africa",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 9
+        },
+        {
+          "slot": "15",
+          "position": "Full-back",
+          "name": "Will Jordan",
+          "team": "New Zealand",
+          "started": true,
+          "captain": false,
+          "supersub": false,
+          "multiplier": 1,
+          "points": 9
+        },
+        {
+          "slot": "SS",
+          "position": "Supersub",
+          "name": "Rob Valetini",
+          "team": "Australia",
+          "started": false,
+          "captain": false,
+          "supersub": true,
+          "multiplier": 3,
+          "points": 18
+        }
+      ],
+      "score_picks": [
+        {
+          "id": "R4-01",
+          "match": "Ireland v Argentina",
+          "winner": "Ireland",
+          "margin": 10,
+          "points": 3
+        },
+        {
+          "id": "R4-02",
+          "match": "Italy v South Africa",
+          "winner": "South Africa",
+          "margin": 13,
+          "points": 3
+        },
+        {
+          "id": "R4-03",
+          "match": "Scotland v New Zealand",
+          "winner": "New Zealand",
+          "margin": 12,
+          "points": 3
+        },
+        {
+          "id": "R4-04",
+          "match": "Wales v Japan",
+          "winner": "Wales",
+          "margin": 5,
+          "points": 5
+        },
+        {
+          "id": "R4-05",
+          "match": "France v Fiji",
+          "winner": "France",
+          "margin": 7,
+          "points": 3
+        },
+        {
+          "id": "R4-06",
+          "match": "England v Australia",
+          "winner": "Australia",
+          "margin": 5,
+          "points": 0
+        }
+      ]
+    }
+  },
+  "squads_asof": "7 Nov 2026, 18:10 UK",
   "fixtures": [
     {
       "id": "R4-01",
@@ -96,7 +1149,11 @@
       "h": "Ireland",
       "a": "Argentina",
       "v": "Aviva Stadium, Dublin",
-      "x": "named (IRE 4 Nov, ARG 4 Nov)"
+      "x": "FT 42-12 (HT 21-5)",
+      "status": "FT",
+      "home_score": 42,
+      "away_score": 12,
+      "ht": "21-5"
     },
     {
       "id": "R4-02",
@@ -106,7 +1163,11 @@
       "h": "Italy",
       "a": "South Africa",
       "v": "Allianz Stadium, Turin",
-      "x": "named (ITA 5 Nov, SA 2 Nov)"
+      "x": "FT 7-66 (HT 0-45)",
+      "status": "FT",
+      "home_score": 7,
+      "away_score": 66,
+      "ht": "0-45"
     },
     {
       "id": "R4-03",
@@ -116,7 +1177,11 @@
       "h": "Scotland",
       "a": "New Zealand",
       "v": "Scottish Gas Murrayfield, Edinburgh",
-      "x": "named (SCO 5 Nov, NZ 5 Nov)"
+      "x": "FT 21-43 (HT 21-24)",
+      "status": "FT",
+      "home_score": 21,
+      "away_score": 43,
+      "ht": "21-24"
     },
     {
       "id": "R4-04",
@@ -126,7 +1191,11 @@
       "h": "Wales",
       "a": "Japan",
       "v": "Principality Stadium, Cardiff",
-      "x": "named (WAL 5 Nov, JPN 5 Nov)"
+      "x": "FT 28-21 (HT 21-14)",
+      "status": "FT",
+      "home_score": 28,
+      "away_score": 21,
+      "ht": "21-14"
     },
     {
       "id": "R4-05",
@@ -136,7 +1205,11 @@
       "h": "France",
       "a": "Fiji",
       "v": "Groupama Stadium, Lyon",
-      "x": "named (FRA 5 Nov, FIJ 5 Nov)"
+      "x": "FT 54-17 (HT 26-3)",
+      "status": "FT",
+      "home_score": 54,
+      "away_score": 17,
+      "ht": "26-3"
     },
     {
       "id": "R4-06",
@@ -146,7 +1219,11 @@
       "h": "England",
       "a": "Australia",
       "v": "Allianz Stadium, Twickenham",
-      "x": "named (ENG 6 Nov, AUS 6 Nov)"
+      "x": "FT 45-22 (HT 19-10)",
+      "status": "FT",
+      "home_score": 45,
+      "away_score": 22,
+      "ht": "19-10"
     },
     {
       "id": "R5-07",
