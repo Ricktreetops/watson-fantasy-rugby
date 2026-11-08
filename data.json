@@ -89,6 +89,10 @@
   "asof": "8 Nov 2026, 21:35 UK",
   "scored_at": "2026-11-08T21:35+00:00",
   "round4_status": "scored",
+  "open_round": "R5",
+  "round5_status": "open",
+  "whatsapp_group": "IRL Team and Weekend plans",
+  "squads_picker_note": "Squad lists used by the Round 5 picker are as of 7 Nov 2026, 18:10 UK (squads_asof). They are not official Round 5 matchday 23s. Player status values Starting, Bench and Not in 23 are Round 4 matchday labels from that list and are not Round 5 availability. The picker does not show those labels. OUT is an existing flag and stays marked. No Round 5 matchday 23s, prices or new injury notes have been added.",
   "leaderboard": [
     {
       "rank": 1,
