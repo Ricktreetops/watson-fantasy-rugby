@@ -92,7 +92,7 @@
   "open_round": "R5",
   "round5_status": "open",
   "whatsapp_group": "IRL Team and Weekend plans",
-  "squads_picker_note": "Squad lists used by the Round 5 picker are as of 7 Nov 2026, 18:10 UK (squads_asof). They are not official Round 5 matchday 23s. Player status values Starting, Bench and Not in 23 are Round 4 matchday labels from that list and are not Round 5 availability. The picker does not show those labels. OUT is an existing flag and stays marked. No Round 5 matchday 23s, prices or new injury notes have been added.",
+  "squads_picker_note": "Squad lists used by the Round 5 picker are as of 11 Nov 2026, 18:15 UK (squads_asof). They include official squad changes announced since 7 Nov. Only the France and South Africa matchday 23s have been named so far; Starting, Bench and Not in 23 labels are not shown by the picker. OUT is flagged where a player has been ruled out or dropped. No prices have been added.",
   "leaderboard": [
     {
       "rank": 1,
@@ -1143,7 +1143,7 @@
       ]
     }
   },
-  "squads_asof": "7 Nov 2026, 18:10 UK",
+  "squads_asof": "11 Nov 2026, 18:15 UK",
   "fixtures": [
     {
       "id": "R4-01",
@@ -1415,7 +1415,7 @@
       "team": "Ireland",
       "status": "announced",
       "announced": "2026-10-21",
-      "note": "Matchday 23 v Argentina named 4 Nov (IRFU), Sheehan captain. Furlong cleared at citing; Prendergast passed fit. Ringrose (hamstring) out. Doris and Conan injured, not in squad.",
+      "note": "Matchday 23 v Argentina named 4 Nov (IRFU), Sheehan captain. Furlong cleared at citing; Prendergast passed fit. Ringrose (hamstring) out. Doris and Conan injured, not in squad. 9 Nov (IRFU): Jansen Out; McCarthy and McCann training with squad; Aki back in training.",
       "source": "https://www.irishrugby.ie/news/farrell-names-ireland-squad-nations-championship-northern-hemisphere-series",
       "players": [
         [
@@ -1457,8 +1457,8 @@
         [
           "Sean Jansen",
           "BR",
-          "Starting",
-          ""
+          "Out",
+          "knee; ruled out of the remainder of the Nations Championship (IRFU, 9 Nov)"
         ],
         [
           "Rónan Kelleher",
@@ -1511,8 +1511,8 @@
         [
           "Dan Sheehan",
           "HK",
-          "Starting",
-          ""
+          "Doubt",
+          "started R4-01 v Argentina; off 35' and failed HIA; Farrell 'seems fine'; Fiji 14 Nov uncertain (Ruck 7 Nov)"
         ],
         [
           "Tom Stewart",
@@ -1530,13 +1530,13 @@
           "Josh van der Flier",
           "BR",
           "Bench",
-          ""
+          "ankle problem v Argentina 6 Nov; to be assessed (Ruck 7 Nov) -- status unchanged"
         ],
         [
           "Bundee Aki",
           "CE",
-          "Out",
-          "late withdrawal (illness) before R4-01 kick-off 6 Nov; replaced at 23 by Jamie Osborne (Irish Rugby via The42/Sun)"
+          "Not in 23",
+          "illness withdrawal from R4-01 23; back in full training from 10 Nov (IRFU, 9 Nov)"
         ],
         [
           "Rob Baloucoune",
@@ -1578,7 +1578,7 @@
           "Mack Hansen",
           "B3",
           "Starting",
-          ""
+          "played on with ankle concern v Argentina 6 Nov; to be assessed (Ruck 7 Nov) -- status unchanged"
         ],
         [
           "Robbie Henshaw",
@@ -1633,6 +1633,18 @@
           "B3",
           "Not in 23",
           ""
+        ],
+        [
+          "Gus McCarthy",
+          "HK",
+          "Not in 23",
+          "training with the squad week of 9 Nov (IRFU, 9 Nov)"
+        ],
+        [
+          "David McCann",
+          "BR",
+          "Not in 23",
+          "training with the squad week of 9 Nov (IRFU, 9 Nov)"
         ]
       ]
     },
@@ -1640,7 +1652,7 @@
       "team": "England",
       "status": "announced (updated)",
       "announced": "2026-10-25",
-      "note": "RFU 36-man Nations Championship squad named 2 Nov 2026. Tom Curry an injury doubt (5 Nov); team v Australia due Fri 6 Nov.; matchday 23 vs Australia named 6 Nov 2026 (RFU)",
+      "note": "RFU 36-man Nations Championship squad named 2 Nov 2026. Tom Curry an injury doubt (5 Nov); team v Australia due Fri 6 Nov.; matchday 23 vs Australia named 6 Nov 2026 (RFU) 9 Nov (RFU): Hicks, Kenningham, Elliott in; Ojomoh, Caluori, McParland back in the 36; Feyi-Waboso and Randall out.",
       "source": "https://www.englandrugby.com/follow/news-and-media/borthwick-names-squad-three-day-training-camp-nations-championship-home-leg",
       "players": [
         [
@@ -1772,8 +1784,8 @@
         [
           "Noah Caluori",
           "B3",
-          "Out",
-          "not selected in 36"
+          "Not in 23",
+          "called into the 36 (RFU, 9 Nov)"
         ],
         [
           "Fraser Dingwall",
@@ -1814,8 +1826,8 @@
         [
           "Archie McParland",
           "SH",
-          "Out",
-          "calf injury"
+          "Not in 23",
+          "recovered from calf injury; replaces Harry Randall (RFU, 9 Nov)"
         ],
         [
           "Alex Mitchell",
@@ -1832,8 +1844,8 @@
         [
           "Max Ojomoh",
           "CE",
-          "Out",
-          "not selected in 36"
+          "Not in 23",
+          "called into the 36 (RFU, 9 Nov)"
         ],
         [
           "Henry Slade",
@@ -1874,14 +1886,14 @@
         [
           "Immanuel Feyi-Waboso",
           "B3",
-          "Starting",
-          "Added to 36-man squad 2 Nov"
+          "Out",
+          "ankle; not included; out for the rest of the Nations Championship (RFU 9 Nov; BBC Sport)"
         ],
         [
           "Harry Randall",
           "SH",
-          "Not in 23",
-          "Added to 36-man squad 2 Nov"
+          "Out",
+          "replaced by Archie McParland (RFU, 9 Nov)"
         ],
         [
           "Ben Spencer",
@@ -1894,6 +1906,24 @@
           "FH",
           "Starting",
           "starts at 10 vs Australia (RFU 6 Nov); cleared calf fitness watch"
+        ],
+        [
+          "Max Hicks",
+          "BR",
+          "Not in 23",
+          "called into the 36 (RFU, 9 Nov)"
+        ],
+        [
+          "Jack Kenningham",
+          "BR",
+          "Not in 23",
+          "called into the 36 (RFU, 9 Nov)"
+        ],
+        [
+          "Tobias Elliott",
+          "B3",
+          "Not in 23",
+          "called into the 36 (RFU, 9 Nov)"
         ]
       ]
     },
@@ -2392,14 +2422,14 @@
     "FRA": {
       "team": "France",
       "status": "announced (updated)",
-      "announced": "2026-10-31",
-      "note": "Jelonch/Brennan out, Kanté Samba/Deliance in (2 Nov). Matchday 23 v Fiji named; Jegou late out, Capilla on bench.",
-      "source": "https://www.ffr.fr/actualites/xv-de-france/xv-de-france-le-groupe-pour-preparer-les-fidji-2",
+      "announced": "2026-11-08",
+      "note": "8 Nov FFR prep group of 42 (23 fwds/19 backs) for South Africa: Ntamack, Jegou, Brennan, Jelonch remain Out; 7 in (Credoz, Marchand, Arfeuil, Carbonel, Dréan, Fickou, Teddy Thomas); 5 not retained (Depoortere, Penaud, Kanté Samba, Forner, Darricarrère). Deliance retained. Fiji matchday-23 Starting/Bench statuses kept; no SA 23 named yet. 10 Nov: Boudehent forfait, Gabrillagues in (FFR). 11 Nov: matchday 23 v South Africa named (Starting/Bench set; shirt order of locks/back row/bench unconfirmed).",
+      "source": "https://www.ffr.fr/actualites/xv-de-france/xv-de-france-le-groupe-pour-preparer-lafrique-du-sud",
       "players": [
         [
           "Grégory Alldritt",
           "BR",
-          "Not in 23",
+          "Starting",
           ""
         ],
         [
@@ -2411,8 +2441,8 @@
         [
           "Paul Boudehent",
           "BR",
-          "Starting",
-          ""
+          "Out",
+          "forfait after Fiji; replaced by Paul Gabrillagues (FFR)"
         ],
         [
           "Joshua Brennan",
@@ -2483,7 +2513,7 @@
         [
           "Maxime Lamothe",
           "HK",
-          "Starting",
+          "Not in 23",
           ""
         ],
         [
@@ -2501,7 +2531,7 @@
         [
           "Jefferson Poirot",
           "PR",
-          "Bench",
+          "Not in 23",
           ""
         ],
         [
@@ -2537,13 +2567,13 @@
         [
           "Nicolas Depoortere",
           "CE",
-          "Not in 23",
-          ""
+          "Out",
+          "not retained in 8 Nov SA prep group of 42"
         ],
         [
           "Axel Desperes",
           "BX",
-          "Not in 23",
+          "Bench",
           ""
         ],
         [
@@ -2561,8 +2591,8 @@
         [
           "Théo Forner",
           "B3",
-          "Not in 23",
-          ""
+          "Out",
+          "not retained in 8 Nov SA prep group of 42"
         ],
         [
           "Émilien Gailleton",
@@ -2591,7 +2621,7 @@
         [
           "Maxime Lucu",
           "SH",
-          "Bench",
+          "Starting",
           ""
         ],
         [
@@ -2603,14 +2633,14 @@
         [
           "Romain Ntamack",
           "FH",
-          "Starting",
-          ""
+          "Out",
+          "started R4-05 v Fiji; shoulder injury ~33'; Galthie: out for the rest of the competition (AP/AFP/rugby365, 7-8 Nov)"
         ],
         [
           "Damian Penaud",
           "B3",
-          "Not in 23",
-          ""
+          "Out",
+          "not retained in 8 Nov SA prep group of 42"
         ],
         [
           "Tani Vili",
@@ -2633,7 +2663,7 @@
         [
           "Rodrigue Neti",
           "PR",
-          "Not in 23",
+          "Bench",
           ""
         ],
         [
@@ -2645,20 +2675,68 @@
         [
           "Léon Darricarrère",
           "CE",
-          "Not in 23",
-          ""
+          "Out",
+          "not retained in 8 Nov SA prep group of 42"
         ],
         [
           "Charles Kanté Samba",
           "LK",
-          "Not in 23",
-          "La Rochelle uncapped lock; called up 2 Nov"
+          "Out",
+          "not retained in 8 Nov SA prep group of 42"
         ],
         [
           "Antoine Deliance",
           "BR",
           "Not in 23",
           "Lyon uncapped back row; called up 2 Nov"
+        ],
+        [
+          "Loïc Credoz",
+          "BR",
+          "Not in 23",
+          "called up 8 Nov for SA prep group (FFR lists Avants/Arrières only; position best-known per Reuters/Rugbyrama)"
+        ],
+        [
+          "Julien Marchand",
+          "HK",
+          "Starting",
+          "called up 8 Nov for SA prep group (FFR lists Avants/Arrières only; position best-known per Reuters/Rugbyrama)"
+        ],
+        [
+          "Grégoire Arfeuil",
+          "B3",
+          "Not in 23",
+          "called up 8 Nov for SA prep group (FFR lists Avants/Arrières only; position best-known per Reuters/Rugbyrama)"
+        ],
+        [
+          "Louis Carbonel",
+          "FH",
+          "Not in 23",
+          "called up 8 Nov for SA prep group (FFR lists Avants/Arrières only; position best-known per Reuters/Rugbyrama)"
+        ],
+        [
+          "Gaël Dréan",
+          "B3",
+          "Not in 23",
+          "called up 8 Nov for SA prep group (FFR lists Avants/Arrières only; position best-known per Reuters/Rugbyrama)"
+        ],
+        [
+          "Gaël Fickou",
+          "CE",
+          "Not in 23",
+          "called up 8 Nov for SA prep group (FFR lists Avants/Arrières only; position best-known per Reuters/Rugbyrama)"
+        ],
+        [
+          "Teddy Thomas",
+          "B3",
+          "Not in 23",
+          "called up 8 Nov for SA prep group (FFR lists Avants/Arrières only; position best-known per Reuters/Rugbyrama)"
+        ],
+        [
+          "Paul Gabrillagues",
+          "LK",
+          "Not in 23",
+          "called into the 42 in place of Paul Boudehent (FFR)"
         ]
       ]
     },
@@ -2666,7 +2744,7 @@
       "team": "Italy",
       "status": "announced",
       "announced": "2026-11-01",
-      "note": "Turin list for South Africa (FIR, 1 Nov): 35 names listed (the article text says 33). Zilocchi replaces Riccioni (family reasons); Miotti first call-up; Capuozzo back; Jaheim Noel Wilson added; Montemauri not listed.",
+      "note": "Turin list for South Africa (FIR, 1 Nov): 35 names listed (the article text says 33). Zilocchi replaces Riccioni (family reasons); Miotti first call-up; Capuozzo back; Jaheim Noel Wilson added; Montemauri not listed. 8 Nov (FIR): updated 33 for Argentina; Riccioni back; Zilocchi, Pani, Wilson omitted.",
       "source": "https://www.federugby.it/italrugby-gli-azzurri-convocati-per-il-sudafrica/",
       "players": [
         [
@@ -2846,8 +2924,8 @@
         [
           "Lorenzo Pani",
           "B3",
-          "Not in 23",
-          ""
+          "Out",
+          "omitted from the updated 33 for Argentina (FIR, 8 Nov)"
         ],
         [
           "Federico Zanandrea",
@@ -2858,8 +2936,8 @@
         [
           "Giosuè Zilocchi",
           "PR",
-          "Not in 23",
-          ""
+          "Out",
+          "omitted from the updated 33 for Argentina (FIR, 8 Nov)"
         ],
         [
           "Domingo Miotti",
@@ -2876,8 +2954,14 @@
         [
           "Jaheim Noel Wilson",
           "B3",
+          "Out",
+          "omitted from the updated 33 for Argentina (FIR, 8 Nov)"
+        ],
+        [
+          "Marco Riccioni",
+          "PR",
           "Not in 23",
-          ""
+          "returns to the updated 33 for Argentina (FIR, 8 Nov)"
         ]
       ]
     },
@@ -3047,8 +3131,8 @@
         [
           "Jordie Barrett",
           "CE",
-          "Starting",
-          ""
+          "Doubt",
+          "started R4-03 v Scotland; failed HIA; Rennie: unlikely for Wales 14 Nov (RNZ/rugby365/RugbyPass, 8 Nov)"
         ],
         [
           "Quinn Tupaea",
@@ -3095,8 +3179,8 @@
         [
           "Will Jordan",
           "B3",
-          "Starting",
-          ""
+          "Doubt",
+          "started R4-03 v Scotland; suspected hamstring strain 2nd half; Rennie: unlikely for Wales 14 Nov (RNZ/rugby365/RugbyPass, 8 Nov)"
         ],
         [
           "Beauden Barrett",
@@ -3110,13 +3194,13 @@
       "team": "South Africa",
       "status": "announced",
       "announced": "2026-10-28",
-      "note": "37-man squad named by Rassie Erasmus (SA Rugby, as reported by The Citizen, 28 Oct). Six uncapped: Ahmed, De Klerk, Giliomee, Muller, Norton, E. Tshituka. Injured, not selected: Kolbe, Etzebeth, Esterhuizen, Pollard.",
+      "note": "37-man squad named by Rassie Erasmus (SA Rugby, as reported by The Citizen, 28 Oct). Six uncapped: Ahmed, De Klerk, Giliomee, Muller, Norton, E. Tshituka. Injured, not selected: Kolbe, Etzebeth, Esterhuizen, Pollard. 8 Nov: Etzebeth called up, Ahmed returned home (shoulder). 10 Nov: matchday 23 v France named.",
       "source": "https://www.citizen.co.za/sport/rugby/springboks-squad-named-for-nations-championship-tests-in-november/",
       "players": [
         [
           "Thomas du Toit",
           "PR",
-          "Starting",
+          "Bench",
           ""
         ],
         [
@@ -3128,7 +3212,7 @@
         [
           "Wilco Louw",
           "PR",
-          "Bench",
+          "Starting",
           ""
         ],
         [
@@ -3236,7 +3320,7 @@
         [
           "Cobus Reinach",
           "SH",
-          "Not in 23",
+          "Bench",
           ""
         ],
         [
@@ -3248,14 +3332,14 @@
         [
           "Grant Williams",
           "SH",
-          "Bench",
+          "Not in 23",
           ""
         ],
         [
           "Yaqeen Ahmed",
           "FH",
-          "Not in 23",
-          "shoulder watch (Erasmus 2–3 Nov); no SA Rugby withdrawal as of 5 Nov — keep Not in 23 (not Out)"
+          "Out",
+          "returned to South Africa 8 Nov, shoulder (SA Rugby)"
         ],
         [
           "Sacha Feinberg-Mngomezulu",
@@ -3334,6 +3418,12 @@
           "B3",
           "Starting",
           ""
+        ],
+        [
+          "Eben Etzebeth",
+          "LK",
+          "Not in 23",
+          "called up 8 Nov; joined squad in France 9 Nov (SA Rugby)"
         ]
       ]
     },
@@ -3341,7 +3431,7 @@
       "team": "Australia",
       "status": "announced (updated)",
       "announced": "2026-10-28",
-      "note": "Finalised 35-man squad (Rugby Australia, 28 Oct, as reported by Planet Rugby). Beale (mainly inside centre), Ramm, Kalani Thomas in; Paisami withdrawn (personal reasons). Harry Wilson captain.; matchday 23 vs England named 6 Nov 2026 (Rugby Australia)",
+      "note": "Finalised 35-man squad (Rugby Australia, 28 Oct, as reported by Planet Rugby). Beale (mainly inside centre), Ramm, Kalani Thomas in; Paisami withdrawn (personal reasons). Harry Wilson captain.; matchday 23 vs England named 6 Nov 2026 (Rugby Australia) 10 Nov (Rugby Australia): Isaac Henry out for the remaining November Tests; no replacement.",
       "source": "https://www.planetrugby.com/news/wallabies-kurtley-beale-to-end-five-year-test-hiatus-as-les-kiss-confirms-his-primary-position-after-shock-recall",
       "players": [
         [
@@ -3479,8 +3569,8 @@
         [
           "Isaac Henry",
           "B3",
-          "Starting",
-          ""
+          "Out",
+          "hamstring strain v England; out of the remaining November Tests, no replacement (Rugby Australia, 10 Nov)"
         ],
         [
           "Len Ikitau",
@@ -3560,7 +3650,7 @@
       "team": "Argentina",
       "status": "announced",
       "announced": "2026-10-30",
-      "note": "Final 33 after the London camp (UAR, 30 Oct). Isa in for injured Grondona; Chocobares in; Moroni out. UAR says the list may change week to week.",
+      "note": "Final 33 after the London camp (UAR, 30 Oct). Isa in for injured Grondona; Chocobares in; Moroni out. UAR says the list may change week to week. 9 Nov (UAR, as reported): Mallía and Martínez out; Wade, Bernasconi, Bosch, Medrano in.",
       "source": "https://uar.com.ar/los-pumas-ya-tienen-plantel-para-el-cierre-del-nations-championship/",
       "players": [
         [
@@ -3590,8 +3680,8 @@
         [
           "Rodrigo Martínez",
           "FX",
-          "Not in 23",
-          ""
+          "Out",
+          "replaced in camp by Matías Medrano (UAR/Los Pumas squad change 9 Nov (reported by SuperSport, Olé, Los Andes, RugbyPass; no uar.com.ar page found))"
         ],
         [
           "Pablo Matera",
@@ -3710,8 +3800,8 @@
         [
           "Juan Cruz Mallía",
           "B3",
-          "Starting",
-          ""
+          "Out",
+          "right-knee sprain; out of the remainder of the Nations Championship (UAR/Los Pumas squad change 9 Nov (reported by SuperSport, Olé, Los Andes, RugbyPass; no uar.com.ar page found))"
         ],
         [
           "Ignacio Mendy",
@@ -3760,6 +3850,30 @@
           "CE",
           "Starting",
           ""
+        ],
+        [
+          "Tobías Wade",
+          "B3",
+          "Not in 23",
+          "uncapped; replaces Mallía (UAR/Los Pumas squad change 9 Nov (reported by SuperSport, Olé, Los Andes, RugbyPass; no uar.com.ar page found))"
+        ],
+        [
+          "Bautista Bernasconi",
+          "HK",
+          "Not in 23",
+          "hooker cover (Montoya HIA) (UAR/Los Pumas squad change 9 Nov (reported by SuperSport, Olé, Los Andes, RugbyPass; no uar.com.ar page found))"
+        ],
+        [
+          "Facundo Bosch",
+          "HK",
+          "Not in 23",
+          "hooker cover (UAR/Los Pumas squad change 9 Nov (reported by SuperSport, Olé, Los Andes, RugbyPass; no uar.com.ar page found))"
+        ],
+        [
+          "Matías Medrano",
+          "PR",
+          "Not in 23",
+          "replaces Rodrigo Martínez (UAR/Los Pumas squad change 9 Nov (reported by SuperSport, Olé, Los Andes, RugbyPass; no uar.com.ar page found))"
         ]
       ]
     },
@@ -3767,7 +3881,7 @@
       "team": "Japan",
       "status": "announced",
       "announced": "2026-10-26",
-      "note": "35-player squad (forwards cross-checked with RugbyPass 26 Oct). Wing spelt Tokito (asierugby) / Tokita (RugbyPass).",
+      "note": "35-player squad (forwards cross-checked with RugbyPass 26 Oct). Wing spelt Tokito (asierugby) / Tokita (RugbyPass). 10 Nov (JRFU): Moriyama and Burua out; Makisi and Naikabula in.",
       "source": "https://www.asierugby.com/post/le-groupe-des-brave-blossoms-pour-la-tourn%C3%A9e-en-europe-2",
       "players": [
         [
@@ -3881,8 +3995,8 @@
         [
           "Miu Austin Moriyama",
           "BR",
-          "Not in 23",
-          ""
+          "Out",
+          "left the registered members and tour party, condition (JRFU, 10 Nov)"
         ],
         [
           "Naoto Saito",
@@ -3965,8 +4079,8 @@
         [
           "Inoke Burua",
           "B3",
-          "Starting",
-          ""
+          "Out",
+          "left the registered members and tour party, condition (JRFU, 10 Nov)"
         ],
         [
           "Riku Tokito",
@@ -3985,6 +4099,18 @@
           "PR",
           "Bench",
           "Added from JRFU Wales matchday 23 (5 Nov 2026); not on prior 35-man list in league.json."
+        ],
+        [
+          "Faulua Makisi",
+          "BR",
+          "Not in 23",
+          "added as replacement for Moriyama (JRFU, 10 Nov)"
+        ],
+        [
+          "Jone Naikabula",
+          "B3",
+          "Not in 23",
+          "added as replacement for Burua (JRFU, 10 Nov)"
         ]
       ]
     },
