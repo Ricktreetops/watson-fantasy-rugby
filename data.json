@@ -92,7 +92,7 @@
   "open_round": "R5",
   "round5_status": "open",
   "whatsapp_group": "IRL Team and Weekend plans",
-  "squads_picker_note": "Squad lists used by the Round 5 picker are as of 12 Nov 2026, 10:05 UK (squads_asof). They include official squad changes announced since 7 Nov. Only the France, South Africa and Wales matchday 23s have been named so far; Starting, Bench and Not in 23 labels are not shown by the picker. OUT is flagged where a player has been ruled out or dropped. No prices have been added.",
+  "squads_picker_note": "Squad lists used by the Round 5 picker are as of 12 Nov 2026, 13:30 UK (squads_asof). They include official squad changes announced since 7 Nov. The France, South Africa, Wales, Italy, Argentina, England and Japan matchday 23s have been named; the New Zealand, Ireland, Fiji, Scotland and Australia 23s are not yet recorded. Starting, Bench and Not in 23 labels are not shown by the picker. OUT is flagged where a player has been ruled out or dropped. No prices have been added.",
   "leaderboard": [
     {
       "rank": 1,
@@ -1143,7 +1143,7 @@
       ]
     }
   },
-  "squads_asof": "12 Nov 2026, 10:05 UK",
+  "squads_asof": "12 Nov 2026, 13:30 UK",
   "fixtures": [
     {
       "id": "R4-01",
@@ -1652,25 +1652,25 @@
       "team": "England",
       "status": "announced (updated)",
       "announced": "2026-10-25",
-      "note": "RFU 36-man Nations Championship squad named 2 Nov 2026. Tom Curry an injury doubt (5 Nov); team v Australia due Fri 6 Nov.; matchday 23 vs Australia named 6 Nov 2026 (RFU) 9 Nov (RFU): Hicks, Kenningham, Elliott in; Ojomoh, Caluori, McParland back in the 36; Feyi-Waboso and Randall out.",
+      "note": "RFU 36-man Nations Championship squad named 2 Nov 2026. Tom Curry an injury doubt (5 Nov); team v Australia due Fri 6 Nov.; matchday 23 vs Australia named 6 Nov 2026 (RFU) 9 Nov (RFU): Hicks, Kenningham, Elliott in; Ojomoh, Caluori, McParland back in the 36; Feyi-Waboso and Randall out. 12 Nov (RFU, as carried by Exeter Chiefs / Planet Rugby): matchday 23 v Japan named; Itoje captain; Archie McParland named among the replacements for a possible debut.",
       "source": "https://www.englandrugby.com/follow/news-and-media/borthwick-names-squad-three-day-training-camp-nations-championship-home-leg",
       "players": [
         [
           "Fin Baxter",
           "PR",
-          "Starting",
+          "Not in 23",
           ""
         ],
         [
           "Ollie Chessum",
           "LK",
-          "Starting",
+          "Not in 23",
           ""
         ],
         [
           "Arthur Clark",
           "LK",
-          "Not in 23",
+          "Bench",
           ""
         ],
         [
@@ -1682,13 +1682,13 @@
         [
           "Luke Cowan-Dickie",
           "HK",
-          "Bench",
+          "Starting",
           ""
         ],
         [
           "Ben Curry",
           "BR",
-          "Starting",
+          "Bench",
           "starts at 7 vs Australia (RFU 6 Nov)"
         ],
         [
@@ -1712,19 +1712,19 @@
         [
           "Jamie George",
           "HK",
-          "Starting",
+          "Not in 23",
           ""
         ],
         [
           "Ellis Genge",
           "PR",
-          "Bench",
+          "Starting",
           ""
         ],
         [
           "Joe Heyes",
           "PR",
-          "Starting",
+          "Bench",
           ""
         ],
         [
@@ -1736,19 +1736,19 @@
         [
           "Emmanuel Iyogun",
           "PR",
-          "Not in 23",
+          "Bench",
           ""
         ],
         [
           "George Martin",
           "LK",
-          "Bench",
+          "Starting",
           ""
         ],
         [
           "Asher Opoku-Fordjour",
           "PR",
-          "Not in 23",
+          "Starting",
           ""
         ],
         [
@@ -1760,13 +1760,13 @@
         [
           "Henry Pollock",
           "BR",
-          "Bench",
+          "Starting",
           ""
         ],
         [
           "Will Stuart",
           "PR",
-          "Bench",
+          "Not in 23",
           ""
         ],
         [
@@ -1796,25 +1796,25 @@
         [
           "George Ford",
           "FH",
-          "Not in 23",
+          "Starting",
           ""
         ],
         [
           "Tommy Freeman",
           "B3",
-          "Starting",
+          "Not in 23",
           ""
         ],
         [
           "George Furbank",
           "B3",
-          "Starting",
+          "Not in 23",
           ""
         ],
         [
           "Will Joseph",
           "CE",
-          "Not in 23",
+          "Starting",
           ""
         ],
         [
@@ -1826,7 +1826,7 @@
         [
           "Archie McParland",
           "SH",
-          "Not in 23",
+          "Bench",
           "recovered from calf injury; replaces Harry Randall (RFU, 9 Nov)"
         ],
         [
@@ -1838,13 +1838,13 @@
         [
           "Cadan Murley",
           "B3",
-          "Not in 23",
+          "Starting",
           ""
         ],
         [
           "Max Ojomoh",
           "CE",
-          "Not in 23",
+          "Starting",
           "called into the 36 (RFU, 9 Nov)"
         ],
         [
@@ -1862,7 +1862,7 @@
         [
           "Freddie Steward",
           "B3",
-          "Not in 23",
+          "Starting",
           ""
         ],
         [
@@ -1874,13 +1874,13 @@
         [
           "Theo Dan",
           "HK",
-          "Not in 23",
+          "Bench",
           "Added to 36-man squad 2 Nov"
         ],
         [
           "Seb Atkinson",
           "CE",
-          "Starting",
+          "Not in 23",
           "Added to 36-man squad 2 Nov"
         ],
         [
@@ -1898,13 +1898,13 @@
         [
           "Ben Spencer",
           "SH",
-          "Bench",
+          "Not in 23",
           "Added to 36-man squad 2 Nov"
         ],
         [
           "Fin Smith",
           "FH",
-          "Starting",
+          "Not in 23",
           "starts at 10 vs Australia (RFU 6 Nov); cleared calf fitness watch"
         ],
         [
@@ -2756,7 +2756,7 @@
       "team": "Italy",
       "status": "announced",
       "announced": "2026-11-01",
-      "note": "Turin list for South Africa (FIR, 1 Nov): 35 names listed (the article text says 33). Zilocchi replaces Riccioni (family reasons); Miotti first call-up; Capuozzo back; Jaheim Noel Wilson added; Montemauri not listed. 8 Nov (FIR): updated 33 for Argentina; Riccioni back; Zilocchi, Pani, Wilson omitted.",
+      "note": "Turin list for South Africa (FIR, 1 Nov): 35 names listed (the article text says 33). Zilocchi replaces Riccioni (family reasons); Miotti first call-up; Capuozzo back; Jaheim Noel Wilson added; Montemauri not listed. 8 Nov (FIR): updated 33 for Argentina; Riccioni back; Zilocchi, Pani, Wilson omitted. 12 Nov (FIR, as reported by Eurosport Italia / OnRugby): matchday 23 v Argentina named; Nicotera captain.",
       "source": "https://www.federugby.it/italrugby-gli-azzurri-convocati-per-il-sudafrica/",
       "players": [
         [
@@ -2768,19 +2768,19 @@
         [
           "Danilo Fischetti",
           "PR",
-          "Bench",
+          "Starting",
           ""
         ],
         [
           "Muhamed Hasa",
           "PR",
-          "Starting",
+          "Bench",
           ""
         ],
         [
           "Ion Neculai",
           "PR",
-          "Bench",
+          "Not in 23",
           ""
         ],
         [
@@ -2792,13 +2792,13 @@
         [
           "Tommaso Di Bartolomeo",
           "HK",
-          "Bench",
+          "Not in 23",
           ""
         ],
         [
           "Gianmarco Lucchesi",
           "HK",
-          "Not in 23",
+          "Bench",
           ""
         ],
         [
@@ -2840,49 +2840,49 @@
         [
           "Samuele Locatelli",
           "BR",
-          "Starting",
+          "Bench",
           ""
         ],
         [
           "Alessandro Ortombina",
           "BR",
-          "Starting",
+          "Bench",
           ""
         ],
         [
           "Ross Vintcent",
           "BR",
-          "Bench",
+          "Starting",
           ""
         ],
         [
           "Manuel Zuliani",
           "BR",
-          "Bench",
+          "Starting",
           ""
         ],
         [
           "Alessandro Garbisi",
           "SH",
-          "Not in 23",
+          "Bench",
           ""
         ],
         [
           "Alessandro Fusco",
           "SH",
-          "Starting",
+          "Not in 23",
           ""
         ],
         [
           "Stephen Varney",
           "SH",
-          "Bench",
+          "Starting",
           ""
         ],
         [
           "Tommaso Allan",
           "FH",
-          "Bench",
+          "Starting",
           ""
         ],
         [
@@ -2906,7 +2906,7 @@
         [
           "Federico Mori",
           "CE",
-          "Not in 23",
+          "Bench",
           ""
         ],
         [
@@ -2918,7 +2918,7 @@
         [
           "Mirko Belloni",
           "B3",
-          "Starting",
+          "Not in 23",
           ""
         ],
         [
@@ -2972,7 +2972,7 @@
         [
           "Marco Riccioni",
           "PR",
-          "Not in 23",
+          "Bench",
           "returns to the updated 33 for Argentina (FIR, 8 Nov)"
         ]
       ]
@@ -3662,7 +3662,7 @@
       "team": "Argentina",
       "status": "announced",
       "announced": "2026-10-30",
-      "note": "Final 33 after the London camp (UAR, 30 Oct). Isa in for injured Grondona; Chocobares in; Moroni out. UAR says the list may change week to week. 9 Nov (UAR, as reported): Mallía and Martínez out; Wade, Bernasconi, Bosch, Medrano in.",
+      "note": "Final 33 after the London camp (UAR, 30 Oct). Isa in for injured Grondona; Chocobares in; Moroni out. UAR says the list may change week to week. 9 Nov (UAR, as reported): Mallía and Martínez out; Wade, Bernasconi, Bosch, Medrano in. 12 Nov (UAR, as reported): matchday 23 v Italy named; Matera captain; Leonel Oviedo left camp (left-knee sprain). A reported call-up of Benjamín Grondona was not stored (name conflicts with Santiago Grondona previously in the squad).",
       "source": "https://uar.com.ar/los-pumas-ya-tienen-plantel-para-el-cierre-del-nations-championship/",
       "players": [
         [
@@ -3674,14 +3674,14 @@
         [
           "Juan Martín González",
           "BR",
-          "Starting",
+          "Bench",
           ""
         ],
         [
           "Marcos Kremer",
           "BR",
-          "Starting",
-          ""
+          "Not in 23",
+          "not selected v Italy (right-ankle sprain) (UAR announcement as reported by lt9, 12 Nov)"
         ],
         [
           "Tomás Lavanini",
@@ -3704,8 +3704,8 @@
         [
           "Julián Montoya",
           "HK",
-          "Starting",
-          ""
+          "Not in 23",
+          "not selected v Italy after a head knock v Ireland (UAR announcement as reported by lt9, 12 Nov)"
         ],
         [
           "Francisco Moreno",
@@ -3716,14 +3716,14 @@
         [
           "Joaquín Moro",
           "FX",
-          "Not in 23",
+          "Starting",
           ""
         ],
         [
           "Leonel Oviedo",
           "FX",
-          "Bench",
-          ""
+          "Out",
+          "left-knee sprain; left the camp (UAR announcement as reported by lt9, 12 Nov)"
         ],
         [
           "Guido Petti",
@@ -3746,7 +3746,7 @@
         [
           "Juan Martín Scelzo",
           "PR",
-          "Bench",
+          "Starting",
           ""
         ],
         [
@@ -3776,7 +3776,7 @@
         [
           "Simón Benítez Cruz",
           "SH",
-          "Bench",
+          "Starting",
           ""
         ],
         [
@@ -3788,7 +3788,7 @@
         [
           "Lucio Cinti",
           "CE",
-          "Bench",
+          "Not in 23",
           ""
         ],
         [
@@ -3800,13 +3800,13 @@
         [
           "Gonzalo García",
           "SH",
-          "Starting",
+          "Bench",
           ""
         ],
         [
           "Rodrigo Isgró",
           "B3",
-          "Not in 23",
+          "Starting",
           ""
         ],
         [
@@ -3854,7 +3854,7 @@
         [
           "Facundo Isa",
           "BR",
-          "Not in 23",
+          "Bench",
           ""
         ],
         [
@@ -3872,13 +3872,13 @@
         [
           "Bautista Bernasconi",
           "HK",
-          "Not in 23",
+          "Starting",
           "hooker cover (Montoya HIA) (UAR/Los Pumas squad change 9 Nov (reported by SuperSport, Olé, Los Andes, RugbyPass; no uar.com.ar page found))"
         ],
         [
           "Facundo Bosch",
           "HK",
-          "Not in 23",
+          "Bench",
           "hooker cover (UAR/Los Pumas squad change 9 Nov (reported by SuperSport, Olé, Los Andes, RugbyPass; no uar.com.ar page found))"
         ],
         [
@@ -3893,7 +3893,7 @@
       "team": "Japan",
       "status": "announced",
       "announced": "2026-10-26",
-      "note": "35-player squad (forwards cross-checked with RugbyPass 26 Oct). Wing spelt Tokito (asierugby) / Tokita (RugbyPass). 10 Nov (JRFU): Moriyama and Burua out; Makisi and Naikabula in.",
+      "note": "35-player squad (forwards cross-checked with RugbyPass 26 Oct). Wing spelt Tokito (asierugby) / Tokita (RugbyPass). 10 Nov (JRFU): Moriyama and Burua out; Makisi and Naikabula in. 12 Nov (JRFU): matchday 23 v England named; co-captains Dearns and Saito; Riku Tokito starts on debut.",
       "source": "https://www.asierugby.com/post/le-groupe-des-brave-blossoms-pour-la-tourn%C3%A9e-en-europe-2",
       "players": [
         [
@@ -4019,13 +4019,13 @@
         [
           "Shinobu Fujiwara",
           "SH",
-          "Not in 23",
+          "Bench",
           ""
         ],
         [
           "Kenta Fukuda",
           "SH",
-          "Bench",
+          "Not in 23",
           ""
         ],
         [
@@ -4097,7 +4097,7 @@
         [
           "Riku Tokito",
           "B3",
-          "Not in 23",
+          "Starting",
           ""
         ],
         [
