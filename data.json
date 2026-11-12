@@ -92,7 +92,7 @@
   "open_round": "R5",
   "round5_status": "open",
   "whatsapp_group": "IRL Team and Weekend plans",
-  "squads_picker_note": "Squad lists used by the Round 5 picker are as of 11 Nov 2026, 18:15 UK (squads_asof). They include official squad changes announced since 7 Nov. Only the France and South Africa matchday 23s have been named so far; Starting, Bench and Not in 23 labels are not shown by the picker. OUT is flagged where a player has been ruled out or dropped. No prices have been added.",
+  "squads_picker_note": "Squad lists used by the Round 5 picker are as of 12 Nov 2026, 10:05 UK (squads_asof). They include official squad changes announced since 7 Nov. Only the France, South Africa and Wales matchday 23s have been named so far; Starting, Bench and Not in 23 labels are not shown by the picker. OUT is flagged where a player has been ruled out or dropped. No prices have been added.",
   "leaderboard": [
     {
       "rank": 1,
@@ -1143,7 +1143,7 @@
       ]
     }
   },
-  "squads_asof": "11 Nov 2026, 18:15 UK",
+  "squads_asof": "12 Nov 2026, 10:05 UK",
   "fixtures": [
     {
       "id": "R4-01",
@@ -1931,7 +1931,7 @@
       "team": "Scotland",
       "status": "announced (updated)",
       "announced": "2026-10-26",
-      "note": "Matchday 23 v New Zealand named 5 Nov 2026 (Tuipulotu captain).",
+      "note": "Matchday 23 v New Zealand named 5 Nov 2026 (Tuipulotu captain). 10 Nov: Ali Price in to train with the squad for Australia; Gus Warr back to Sale.",
       "source": "https://www.scotlandrugbynews.com/news/26668250.scotland-squad-named-nations-championship-home-series/",
       "players": [
         [
@@ -2173,6 +2173,12 @@
           "BR",
           "Not in 23",
           "Edinburgh back row; called up 2 Nov"
+        ],
+        [
+          "Ali Price",
+          "SH",
+          "Not in 23",
+          "called in to train with the squad for Australia, replacing Gus Warr (Scotland, 10 Nov, as reported by BBC Sport and PA)"
         ]
       ]
     },
@@ -2180,7 +2186,7 @@
       "team": "Wales",
       "status": "announced (updated)",
       "announced": "2026-10-20",
-      "note": "39-player squad, Dewi Lake captain. Update (WRU, Oct): uncapped Macs Page in; Rio Dyer released (hamstring).",
+      "note": "39-player squad, Dewi Lake captain. Update (WRU, Oct): uncapped Macs Page in; Rio Dyer released (hamstring). 12 Nov (WRU, as reported): matchday 23 v New Zealand named; Tomas Francis out (knee), Keiron Assiratti called up; Aaron Wainwright out this week (calf).",
       "source": "https://www.wru.wales/2026/10/squad-update-5/",
       "players": [
         [
@@ -2192,13 +2198,13 @@
         [
           "Taine Basham",
           "BR",
-          "Not in 23",
+          "Starting",
           ""
         ],
         [
           "Adam Beard",
           "LK",
-          "Not in 23",
+          "Starting",
           ""
         ],
         [
@@ -2210,19 +2216,19 @@
         [
           "James Botham",
           "BR",
-          "Bench",
+          "Starting",
           ""
         ],
         [
           "Rhys Carre",
           "PR",
-          "Bench",
+          "Not in 23",
           ""
         ],
         [
           "Ben Carter",
           "LK",
-          "Starting",
+          "Bench",
           ""
         ],
         [
@@ -2240,8 +2246,8 @@
         [
           "Tomas Francis",
           "PR",
-          "Bench",
-          ""
+          "Out",
+          "knee injury in training; released to Sale Sharks, out of the rest of the Nations Championship (WRU announcement 12 Nov (no wru.wales page found; as carried by Ospreys, BBC Sport, Wales Online))"
         ],
         [
           "Archie Griffin",
@@ -2270,13 +2276,13 @@
         [
           "Dillon Lewis",
           "PR",
-          "Not in 23",
+          "Bench",
           ""
         ],
         [
           "Alex Mann",
           "BR",
-          "Starting",
+          "Not in 23",
           ""
         ],
         [
@@ -2288,7 +2294,7 @@
         [
           "Taine Plumtree",
           "BR",
-          "Not in 23",
+          "Bench",
           ""
         ],
         [
@@ -2300,25 +2306,25 @@
         [
           "Gareth Thomas",
           "PR",
-          "Not in 23",
+          "Bench",
           ""
         ],
         [
           "Aaron Wainwright",
           "BR",
-          "Starting",
-          ""
+          "Out",
+          "calf injury; unavailable for the New Zealand match, not expected to miss the rest of the autumn (WRU announcement 12 Nov (no wru.wales page found; as carried by Ospreys, BBC Sport, Wales Online))"
         ],
         [
           "Teddy Williams",
           "LK",
-          "Bench",
+          "Not in 23",
           ""
         ],
         [
           "Josh Adams",
           "B3",
-          "Starting",
+          "Not in 23",
           ""
         ],
         [
@@ -2336,7 +2342,7 @@
         [
           "Gabriel Hamer-Webb",
           "B3",
-          "Not in 23",
+          "Starting",
           ""
         ],
         [
@@ -2416,6 +2422,12 @@
           "B3",
           "Not in 23",
           ""
+        ],
+        [
+          "Keiron Assiratti",
+          "PR",
+          "Not in 23",
+          "called up as replacement for Tomas Francis (WRU announcement 12 Nov (no wru.wales page found; as carried by Ospreys, BBC Sport, Wales Online))"
         ]
       ]
     },
@@ -2969,7 +2981,7 @@
       "team": "New Zealand",
       "status": "announced",
       "announced": "2026-10-27",
-      "note": "36-strong squad, Codie Taylor captain.",
+      "note": "36-strong squad, Codie Taylor captain. 10 Nov (All Blacks staff, as reported): Will Jordan out v Wales (minor hamstring tear); Jordie Barrett passed HIA but not expected to feature v Wales. Matchday 23 v Wales not yet recorded.",
       "source": "https://super.rugby/therugbychampionship/news/all-blacks-squad-named-for-nations-championship-northern-series/",
       "players": [
         [
@@ -3179,8 +3191,8 @@
         [
           "Will Jordan",
           "B3",
-          "Doubt",
-          "started R4-03 v Scotland; suspected hamstring strain 2nd half; Rennie: unlikely for Wales 14 Nov (RNZ/rugby365/RugbyPass, 8 Nov)"
+          "Out",
+          "minor hamstring tear; ruled out of the Wales match, Nations Championship return unclear (All Blacks staff, 10 Nov, as reported by NZ Herald and Wales Online)"
         ],
         [
           "Beauden Barrett",
