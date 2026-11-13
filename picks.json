@@ -1,63 +1,402 @@
 {
- "fantasy_teams": {
-  "Richard": {},
-  "Sharon": {},
-  "Brooke": {},
-  "Cameron": {
-   "R4": {
-    "slots": {
-     "1": "WAL:Rhys Carre",
-     "2": "IRE:Dan Sheehan",
-     "3": "AUS:Allan Alaalatoa",
-     "4": "ENG:Ollie Chessum",
-     "5": "IRE:Tadhg Beirne",
-     "6": "ENG:Ben Earl",
-     "7": "NZL:Leicester Fainga'anuku",
-     "8": "WAL:Jac Morgan",
-     "9": "FRA:Antoine Dupont",
-     "10": "NZL:Richie Mo'unga",
-     "11": "IRE:Rob Baloucoune",
-     "12": "SCO:Huw Jones",
-     "13": "FRA:Nicolas Depoortere",
-     "14": "FRA:Louis Bielle-Biarrey",
-     "15": "NZL:Will Jordan"
+  "fantasy_teams": {
+    "Richard": {
+      "R4": {
+        "slots": {
+          "1": "IRE:Andrew Porter",
+          "2": "IRE:Dan Sheehan",
+          "3": "RSA:Thomas du Toit",
+          "4": "NZL:Scott Barrett",
+          "5": "IRE:Tadhg Beirne",
+          "6": "RSA:Pieter-Steph du Toit",
+          "7": "WAL:Jac Morgan",
+          "8": "NZL:Wallace Sititi",
+          "9": "FRA:Antoine Dupont",
+          "10": "SCO:Finn Russell",
+          "11": "FRA:Louis Bielle-Biarrey",
+          "12": "SCO:Sione Tuipulotu",
+          "13": "SCO:Huw Jones",
+          "14": "NZL:Will Jordan",
+          "15": "WAL:Blair Murray"
+        },
+        "captain": "FRA:Antoine Dupont",
+        "supersub": "FRA:Peato Mauvaka",
+        "source": "WhatsApp 'IRL Team and Weekend plans', Richard Watson, 6 Nov 2026 11:30 UK",
+        "sent_at": "2026-11-06T11:30+00:00"
+      },
+      "R5": {
+        "slots": {
+          "1": "IRE:Andrew Porter",
+          "2": "IRE:Rónan Kelleher",
+          "3": "ENG:Asher Opoku-Fordjour",
+          "4": "NZL:Scott Barrett",
+          "5": "ENG:Maro Itoje",
+          "6": "NZL:Peter Lakai",
+          "7": "WAL:Jac Morgan",
+          "8": "NZL:Wallace Sititi",
+          "9": "FRA:Maxime Lucu",
+          "10": "ENG:George Ford",
+          "11": "FRA:Louis Bielle-Biarrey",
+          "12": "RSA:Damian de Allende",
+          "13": "RSA:Jesse Kriel",
+          "14": "WAL:Louis Rees-Zammit",
+          "15": "IRE:Mack Hansen"
+        },
+        "captain": "NZL:Wallace Sititi",
+        "supersub": "FRA:Peato Mauvaka",
+        "source": "WhatsApp 'IRL Team and Weekend plans', Richard Watson, 13 Nov 2026 11:30 UK",
+        "sent_at": "2026-11-13T11:30+00:00"
+      }
     },
-    "captain": "FRA:Louis Bielle-Biarrey",
-    "supersub": "ENG:Marcus Smith",
-    "source": "WhatsApp 'Watson Fantasy Rugby 🏉', Cameron Watson, 27 Oct 2026 15:51 UK",
-    "test": true
-   }
+    "Sharon": {
+      "R4": {
+        "slots": {
+          "1": "RSA:Thomas du Toit",
+          "2": "IRE:Dan Sheehan",
+          "3": "IRE:Tadhg Furlong",
+          "4": "NZL:Tupou Vaa'i",
+          "5": "NZL:Scott Barrett",
+          "6": "AUS:Harry Wilson",
+          "7": "ENG:Ben Earl",
+          "8": "FRA:François Cros",
+          "9": "FRA:Antoine Dupont",
+          "10": "FRA:Romain Ntamack",
+          "11": "IRE:Mack Hansen",
+          "12": "RSA:Jesse Kriel",
+          "13": "AUS:Joseph-Aukuso Suaalii",
+          "14": "RSA:Kurt-Lee Arendse",
+          "15": "NZL:Will Jordan"
+        },
+        "captain": "IRE:Mack Hansen",
+        "supersub": "AUS:Rob Valetini",
+        "source": "WhatsApp 'IRL Team and Weekend plans', Sharon Watson, 6 Nov 2026 16:21 UK",
+        "sent_at": "2026-11-06T16:21+00:00"
+      },
+      "R5": {
+        "slots": {
+          "1": "RSA:Ox Nche",
+          "2": "IRE:Rónan Kelleher",
+          "3": "FRA:Sipili Falatea",
+          "4": "NZL:Scott Barrett",
+          "5": "FIJ:Peceli Yato",
+          "6": "NZL:Wallace Sititi",
+          "7": "WAL:Jac Morgan",
+          "8": "ENG:Henry Pollock",
+          "9": "FRA:Antoine Dupont",
+          "10": "NZL:Richie Mo'unga",
+          "11": "RSA:Kurt-Lee Arendse",
+          "12": "FRA:Yoram Moefana",
+          "13": "ENG:Henry Slade",
+          "14": "IRE:Rob Baloucoune",
+          "15": "ENG:Freddie Steward"
+        },
+        "captain": "FRA:Antoine Dupont",
+        "supersub": "IRE:Ciaran Frawley",
+        "source": "WhatsApp 'IRL Team and Weekend plans', Sharon Watson's team posted by Cameron Watson, 13 Nov 2026 19:49 UK",
+        "sent_at": "2026-11-13T19:49+00:00",
+        "locked_at": "2026-11-13T19:49+00:00",
+        "lock_note": "Locked from WhatsApp 'IRL Team and Weekend plans' final verbatim read 13 Nov 2026 ~20:20 UK; posted before the 20:10 UK deadline; Richard approved locking posted Round 5 teams on 13 Nov 2026."
+      }
+    },
+    "Brooke": {
+      "R4": {
+        "slots": {
+          "1": "FRA:Jean-Baptiste Gros",
+          "2": "IRE:Dan Sheehan",
+          "3": "IRE:Tadhg Furlong",
+          "4": "ENG:Maro Itoje",
+          "5": "RSA:Ruan Nortje",
+          "6": "NZL:Peter Lakai",
+          "7": "ENG:Ben Curry",
+          "8": "RSA:Jasper Wiese",
+          "9": "FRA:Antoine Dupont",
+          "10": "NZL:Damian McKenzie",
+          "11": "FRA:Louis Bielle-Biarrey",
+          "12": "ENG:Henry Slade",
+          "13": "RSA:Jesse Kriel",
+          "14": "NZL:Will Jordan",
+          "15": "IRE:Hugo Keenan"
+        },
+        "captain": "FRA:Louis Bielle-Biarrey",
+        "supersub": "AUS:Rob Valetini",
+        "source": "WhatsApp 'IRL Team and Weekend plans', Brooke Watson, 6 Nov 2026 19:09 UK (read 8 Nov 2026 ~16:19 UK; missed earlier because Desktop was locked from 17:41 UK on 6 Nov)",
+        "sent_at": "2026-11-06T19:09+00:00"
+      },
+      "R5": {
+        "slots": {
+          "1": "ENG:Ellis Genge",
+          "2": "IRE:Rónan Kelleher",
+          "3": "RSA:Ox Nche",
+          "4": "NZL:Scott Barrett",
+          "5": "FRA:Mickaël Guillard",
+          "6": "ENG:Henry Pollock",
+          "7": "RSA:Pieter-Steph du Toit",
+          "8": "NZL:Wallace Sititi",
+          "9": "FRA:Antoine Dupont",
+          "10": "IRE:Sam Prendergast",
+          "11": "FRA:Louis Bielle-Biarrey",
+          "12": "RSA:Jesse Kriel",
+          "13": "IRE:Bundee Aki",
+          "14": "NZL:Fehi Fineanganofo",
+          "15": "ENG:Freddie Steward"
+        },
+        "captain": "ENG:Freddie Steward",
+        "supersub": "SCO:Jamie Dobie",
+        "source": "WhatsApp 'IRL Team and Weekend plans', Brooke Watson, 13 Nov 2026 19:11 UK",
+        "sent_at": "2026-11-13T19:11+00:00",
+        "locked_at": "2026-11-13T19:11+00:00",
+        "lock_note": "Locked from WhatsApp 'IRL Team and Weekend plans' final verbatim read 13 Nov 2026 ~20:20 UK; posted before the 20:10 UK deadline; Richard approved locking posted Round 5 teams on 13 Nov 2026."
+      }
+    },
+    "Cameron": {
+      "R4": {
+        "slots": {
+          "1": "RSA:Ox Nche",
+          "2": "IRE:Dan Sheehan",
+          "3": "ENG:Ellis Genge",
+          "4": "IRE:Tadhg Beirne",
+          "5": "ENG:Maro Itoje",
+          "6": "ENG:Ben Earl",
+          "7": "WAL:Jac Morgan",
+          "8": "IRE:Sean Jansen",
+          "9": "FRA:Antoine Dupont",
+          "10": "RSA:Sacha Feinberg-Mngomezulu",
+          "11": "RSA:Kurt-Lee Arendse",
+          "12": "FRA:Yoram Moefana",
+          "13": "NZL:Jordie Barrett",
+          "14": "NZL:Will Jordan",
+          "15": "FRA:Louis Bielle-Biarrey"
+        },
+        "captain": "FRA:Louis Bielle-Biarrey",
+        "supersub": "NZL:Timoci Tavatavanawai",
+        "source": "WhatsApp 'IRL Team and Weekend plans', Cameron Watson, 6 Nov 2026 11:31 UK",
+        "sent_at": "2026-11-06T11:31+00:00"
+      },
+      "R5": {
+        "slots": {
+          "1": "RSA:Wilco Louw",
+          "2": "RSA:Malcolm Marx",
+          "3": "FRA:Jean-Baptiste Gros",
+          "4": "NZL:Scott Barrett",
+          "5": "FRA:Mickaël Guillard",
+          "6": "NZL:Wallace Sititi",
+          "7": "WAL:Jac Morgan",
+          "8": "ENG:Henry Pollock",
+          "9": "FRA:Antoine Dupont",
+          "10": "IRE:Sam Prendergast",
+          "11": "NZL:Fehi Fineanganofo",
+          "12": "RSA:Damian de Allende",
+          "13": "ENG:Henry Slade",
+          "14": "IRE:Rob Baloucoune",
+          "15": "ENG:Cadan Murley"
+        },
+        "captain": "IRE:Rob Baloucoune",
+        "supersub": "IRE:Ciaran Frawley",
+        "source": "WhatsApp 'IRL Team and Weekend plans', Cameron Watson, 13 Nov 2026 10:50 UK",
+        "sent_at": "2026-11-13T10:50+00:00"
+      }
+    }
+  },
+  "picks": {
+    "Richard": {
+      "R4-01": {
+        "winner": "Ireland",
+        "margin": 10
+      },
+      "R4-02": {
+        "winner": "South Africa",
+        "margin": 35
+      },
+      "R4-03": {
+        "winner": "New Zealand",
+        "margin": 25
+      },
+      "R4-04": {
+        "winner": "Japan",
+        "margin": 5
+      },
+      "R4-05": {
+        "winner": "France",
+        "margin": 12
+      },
+      "R4-06": {
+        "winner": "England",
+        "margin": 10
+      },
+      "R5-07": {
+        "winner": "South Africa",
+        "margin": 6
+      },
+      "R5-08": {
+        "winner": "Argentina",
+        "margin": 10
+      },
+      "R5-09": {
+        "winner": "New Zealand",
+        "margin": 20
+      },
+      "R5-10": {
+        "winner": "England",
+        "margin": 28
+      },
+      "R5-11": {
+        "winner": "Ireland",
+        "margin": 25
+      },
+      "R5-12": {
+        "winner": "Scotland",
+        "margin": 5
+      }
+    },
+    "Sharon": {
+      "R4-01": {
+        "winner": "Ireland",
+        "margin": 10
+      },
+      "R4-02": {
+        "winner": "South Africa",
+        "margin": 13
+      },
+      "R4-03": {
+        "winner": "New Zealand",
+        "margin": 12
+      },
+      "R4-04": {
+        "winner": "Wales",
+        "margin": 5
+      },
+      "R4-05": {
+        "winner": "France",
+        "margin": 7
+      },
+      "R4-06": {
+        "winner": "Australia",
+        "margin": 5
+      },
+      "R5-07": {
+        "winner": "South Africa",
+        "margin": 7
+      },
+      "R5-08": {
+        "winner": "Italy",
+        "margin": 3
+      },
+      "R5-09": {
+        "winner": "New Zealand",
+        "margin": 20
+      },
+      "R5-10": {
+        "winner": "England",
+        "margin": 35
+      },
+      "R5-11": {
+        "winner": "Ireland",
+        "margin": 30
+      },
+      "R5-12": {
+        "winner": "Scotland",
+        "margin": 7
+      }
+    },
+    "Brooke": {
+      "R4-01": {
+        "winner": "Ireland",
+        "margin": 8
+      },
+      "R4-02": {
+        "winner": "South Africa",
+        "margin": 20
+      },
+      "R4-03": {
+        "winner": "New Zealand",
+        "margin": 18
+      },
+      "R4-04": {
+        "winner": "Japan",
+        "margin": 10
+      },
+      "R4-05": {
+        "winner": "France",
+        "margin": 12
+      },
+      "R4-06": {
+        "winner": "England",
+        "margin": 5
+      },
+      "R5-07": {
+        "winner": "France",
+        "margin": 3
+      },
+      "R5-08": {
+        "winner": "Italy",
+        "margin": 5
+      },
+      "R5-09": {
+        "winner": "New Zealand",
+        "margin": 10
+      },
+      "R5-10": {
+        "winner": "England",
+        "margin": 15
+      },
+      "R5-11": {
+        "winner": "Ireland",
+        "margin": 12
+      },
+      "R5-12": {
+        "winner": "Scotland",
+        "margin": 2
+      }
+    },
+    "Cameron": {
+      "R4-01": {
+        "winner": "Ireland",
+        "margin": 7
+      },
+      "R4-02": {
+        "winner": "South Africa",
+        "margin": 30
+      },
+      "R4-03": {
+        "winner": "New Zealand",
+        "margin": 15
+      },
+      "R4-04": {
+        "winner": "Wales",
+        "margin": 5
+      },
+      "R4-05": {
+        "winner": "France",
+        "margin": 35
+      },
+      "R4-06": {
+        "winner": "Australia",
+        "margin": 3
+      },
+      "R5-07": {
+        "winner": "South Africa",
+        "margin": 7
+      },
+      "R5-08": {
+        "winner": "Italy",
+        "margin": 3
+      },
+      "R5-09": {
+        "winner": "New Zealand",
+        "margin": 30
+      },
+      "R5-10": {
+        "winner": "England",
+        "margin": 40
+      },
+      "R5-11": {
+        "winner": "Ireland",
+        "margin": 30
+      },
+      "R5-12": {
+        "winner": "Scotland",
+        "margin": 7
+      }
+    }
   }
- },
- "picks": {
-  "Richard": {},
-  "Sharon": {},
-  "Brooke": {},
-  "Cameron": {
-   "R4-01": {
-    "winner": "Ireland",
-    "margin": 6
-   },
-   "R4-02": {
-    "winner": "South Africa",
-    "margin": 25
-   },
-   "R4-03": {
-    "winner": "New Zealand",
-    "margin": 20
-   },
-   "R4-04": {
-    "winner": "Wales",
-    "margin": 7
-   },
-   "R4-05": {
-    "winner": "France",
-    "margin": 40
-   },
-   "R4-06": {
-    "winner": "Australia",
-    "margin": 5
-   }
-  }
- }
 }
