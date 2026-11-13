@@ -92,7 +92,7 @@
   "open_round": "R5",
   "round5_status": "open",
   "whatsapp_group": "IRL Team and Weekend plans",
-  "squads_picker_note": "Squad lists used by the Round 5 picker are as of 12 Nov 2026, 17:30 UK (squads_asof). They include official squad changes announced since 7 Nov. The France, South Africa, Wales, Italy, Argentina, England, Japan, New Zealand, Ireland and Fiji matchday 23s have been named; the Scotland and Australia 23s are not yet recorded. Starting, Bench and Not in 23 labels are not shown by the picker. OUT is flagged where a player has been ruled out or dropped. No prices have been added.",
+  "squads_picker_note": "Squad lists used by the Round 5 picker are as of 13 Nov 2026, 17:30 UK (squads_asof). They include official squad changes announced since 7 Nov. All twelve Round 5 matchday 23s have been named. Starting, Bench and Not in 23 labels are not shown by the picker. OUT is flagged where a player has been ruled out or dropped. No prices have been added.",
   "leaderboard": [
     {
       "rank": 1,
@@ -1143,7 +1143,7 @@
       ]
     }
   },
-  "squads_asof": "12 Nov 2026, 17:30 UK",
+  "squads_asof": "13 Nov 2026, 17:30 UK",
   "fixtures": [
     {
       "id": "R4-01",
@@ -1931,7 +1931,7 @@
       "team": "Scotland",
       "status": "announced (updated)",
       "announced": "2026-10-26",
-      "note": "Matchday 23 v New Zealand named 5 Nov 2026 (Tuipulotu captain). 10 Nov: Ali Price in to train with the squad for Australia; Gus Warr back to Sale.",
+      "note": "Matchday 23 v New Zealand named 5 Nov 2026 (Tuipulotu captain). 10 Nov: Ali Price in to train with the squad for Australia; Gus Warr back to Sale. 13 Nov (Scottish Rugby, 13:29 UK): matchday 23 v Australia named; Tuipulotu captain; Steyn and Darge vice-captains; Kinghorn and Graham start; Leatherbarrow on the bench for a possible debut.",
       "source": "https://www.scotlandrugbynews.com/news/26668250.scotland-squad-named-nations-championship-home-series/",
       "players": [
         [
@@ -2009,7 +2009,7 @@
         [
           "Ollie Leatherbarrow",
           "BR",
-          "Not in 23",
+          "Bench",
           ""
         ],
         [
@@ -2069,19 +2069,19 @@
         [
           "Jamie Dobie",
           "SH",
-          "Starting",
+          "Bench",
           ""
         ],
         [
           "Darcy Graham",
           "B3",
-          "Not in 23",
+          "Starting",
           ""
         ],
         [
           "George Horne",
           "SH",
-          "Bench",
+          "Not in 23",
           ""
         ],
         [
@@ -2105,7 +2105,7 @@
         [
           "Blair Kinghorn",
           "B3",
-          "Bench",
+          "Starting",
           ""
         ],
         [
@@ -2117,7 +2117,7 @@
         [
           "Kyle Rowe",
           "B3",
-          "Starting",
+          "Not in 23",
           ""
         ],
         [
@@ -3443,7 +3443,7 @@
       "team": "Australia",
       "status": "announced (updated)",
       "announced": "2026-10-28",
-      "note": "Finalised 35-man squad (Rugby Australia, 28 Oct, as reported by Planet Rugby). Beale (mainly inside centre), Ramm, Kalani Thomas in; Paisami withdrawn (personal reasons). Harry Wilson captain.; matchday 23 vs England named 6 Nov 2026 (Rugby Australia) 10 Nov (Rugby Australia): Isaac Henry out for the remaining November Tests; no replacement.",
+      "note": "Finalised 35-man squad (Rugby Australia, 28 Oct, as reported by Planet Rugby). Beale (mainly inside centre), Ramm, Kalani Thomas in; Paisami withdrawn (personal reasons). Harry Wilson captain.; matchday 23 vs England named 6 Nov 2026 (Rugby Australia) 10 Nov (Rugby Australia): Isaac Henry out for the remaining November Tests; no replacement. 13 Nov (Rugby Australia, 14:00 UK): matchday 23 v Scotland named; Wilson captain; Valetini, Gordon and Potter start; Suaalii to midfield; Hooper returns to the 23. Henry remains Out (hamstring).",
       "source": "https://www.planetrugby.com/news/wallabies-kurtley-beale-to-end-five-year-test-hiatus-as-les-kiss-confirms-his-primary-position-after-shock-recall",
       "players": [
         [
@@ -3479,7 +3479,7 @@
         [
           "Tom Hooper",
           "BR",
-          "Not in 23",
+          "Bench",
           ""
         ],
         [
@@ -3503,13 +3503,13 @@
         [
           "Josh Nasser",
           "HK",
-          "Bench",
+          "Not in 23",
           ""
         ],
         [
           "Brandon Paenga-Amosa",
           "HK",
-          "Not in 23",
+          "Bench",
           ""
         ],
         [
@@ -3521,19 +3521,19 @@
         [
           "Lukhan Salakaia-Loto",
           "LK",
-          "Starting",
+          "Not in 23",
           ""
         ],
         [
           "Lachlan Shaw",
           "BR",
-          "Not in 23",
+          "Bench",
           ""
         ],
         [
           "Carlo Tizzano",
           "BR",
-          "Bench",
+          "Not in 23",
           ""
         ],
         [
@@ -3545,7 +3545,7 @@
         [
           "Rob Valetini",
           "BR",
-          "Bench",
+          "Starting",
           ""
         ],
         [
@@ -3575,7 +3575,7 @@
         [
           "Carter Gordon",
           "FH",
-          "Not in 23",
+          "Starting",
           ""
         ],
         [
@@ -3611,13 +3611,13 @@
         [
           "Declan Meredith",
           "FH",
-          "Starting",
+          "Not in 23",
           ""
         ],
         [
           "Harry Potter",
           "B3",
-          "Not in 23",
+          "Starting",
           ""
         ],
         [
