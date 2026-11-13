@@ -89,8 +89,8 @@
   "asof": "8 Nov 2026, 21:35 UK",
   "scored_at": "2026-11-08T21:35+00:00",
   "round4_status": "scored",
-  "open_round": "R5",
-  "round5_status": "open",
+  "open_round": null,
+  "round5_status": "locked",
   "whatsapp_group": "IRL Team and Weekend plans",
   "squads_picker_note": "Squad lists used by the Round 5 picker are as of 13 Nov 2026, 17:30 UK (squads_asof). They include official squad changes announced since 7 Nov. All twelve Round 5 matchday 23s have been named. Starting, Bench and Not in 23 labels are not shown by the picker. OUT is flagged where a player has been ruled out or dropped. No prices have been added.",
   "leaderboard": [
@@ -4344,6 +4344,196 @@
           ""
         ]
       ]
+    }
+  },
+  "locked_teams_r5": {
+    "Richard": {
+      "captain": "NZL:Wallace Sititi",
+      "supersub": "FRA:Peato Mauvaka",
+      "slots": {
+        "1": "IRE:Andrew Porter",
+        "2": "IRE:Rónan Kelleher",
+        "3": "ENG:Asher Opoku-Fordjour",
+        "4": "NZL:Scott Barrett",
+        "5": "ENG:Maro Itoje",
+        "6": "NZL:Peter Lakai",
+        "7": "WAL:Jac Morgan",
+        "8": "NZL:Wallace Sititi",
+        "9": "FRA:Maxime Lucu",
+        "10": "ENG:George Ford",
+        "11": "FRA:Louis Bielle-Biarrey",
+        "12": "RSA:Damian de Allende",
+        "13": "RSA:Jesse Kriel",
+        "14": "WAL:Louis Rees-Zammit",
+        "15": "IRE:Mack Hansen"
+      },
+      "predictions": {
+        "R5-07": {
+          "winner": "South Africa",
+          "margin": 6
+        },
+        "R5-08": {
+          "winner": "Argentina",
+          "margin": 10
+        },
+        "R5-09": {
+          "winner": "New Zealand",
+          "margin": 20
+        },
+        "R5-10": {
+          "winner": "England",
+          "margin": 28
+        },
+        "R5-11": {
+          "winner": "Ireland",
+          "margin": 25
+        },
+        "R5-12": {
+          "winner": "Scotland",
+          "margin": 5
+        }
+      }
+    },
+    "Sharon": {
+      "captain": "FRA:Antoine Dupont",
+      "supersub": "IRE:Ciaran Frawley",
+      "slots": {
+        "1": "RSA:Ox Nche",
+        "2": "IRE:Rónan Kelleher",
+        "3": "FRA:Sipili Falatea",
+        "4": "NZL:Scott Barrett",
+        "5": "FIJ:Peceli Yato",
+        "6": "NZL:Wallace Sititi",
+        "7": "WAL:Jac Morgan",
+        "8": "ENG:Henry Pollock",
+        "9": "FRA:Antoine Dupont",
+        "10": "NZL:Richie Mo'unga",
+        "11": "RSA:Kurt-Lee Arendse",
+        "12": "FRA:Yoram Moefana",
+        "13": "ENG:Henry Slade",
+        "14": "IRE:Rob Baloucoune",
+        "15": "ENG:Freddie Steward"
+      },
+      "predictions": {
+        "R5-07": {
+          "winner": "South Africa",
+          "margin": 7
+        },
+        "R5-08": {
+          "winner": "Italy",
+          "margin": 3
+        },
+        "R5-09": {
+          "winner": "New Zealand",
+          "margin": 20
+        },
+        "R5-10": {
+          "winner": "England",
+          "margin": 35
+        },
+        "R5-11": {
+          "winner": "Ireland",
+          "margin": 30
+        },
+        "R5-12": {
+          "winner": "Scotland",
+          "margin": 7
+        }
+      }
+    },
+    "Brooke": {
+      "captain": "ENG:Freddie Steward",
+      "supersub": "SCO:Jamie Dobie",
+      "slots": {
+        "1": "ENG:Ellis Genge",
+        "2": "IRE:Rónan Kelleher",
+        "3": "RSA:Ox Nche",
+        "4": "NZL:Scott Barrett",
+        "5": "FRA:Mickaël Guillard",
+        "6": "ENG:Henry Pollock",
+        "7": "RSA:Pieter-Steph du Toit",
+        "8": "NZL:Wallace Sititi",
+        "9": "FRA:Antoine Dupont",
+        "10": "IRE:Sam Prendergast",
+        "11": "FRA:Louis Bielle-Biarrey",
+        "12": "RSA:Jesse Kriel",
+        "13": "IRE:Bundee Aki",
+        "14": "NZL:Fehi Fineanganofo",
+        "15": "ENG:Freddie Steward"
+      },
+      "predictions": {
+        "R5-07": {
+          "winner": "France",
+          "margin": 3
+        },
+        "R5-08": {
+          "winner": "Italy",
+          "margin": 5
+        },
+        "R5-09": {
+          "winner": "New Zealand",
+          "margin": 10
+        },
+        "R5-10": {
+          "winner": "England",
+          "margin": 15
+        },
+        "R5-11": {
+          "winner": "Ireland",
+          "margin": 12
+        },
+        "R5-12": {
+          "winner": "Scotland",
+          "margin": 2
+        }
+      }
+    },
+    "Cameron": {
+      "captain": "IRE:Rob Baloucoune",
+      "supersub": "IRE:Ciaran Frawley",
+      "slots": {
+        "1": "RSA:Wilco Louw",
+        "2": "RSA:Malcolm Marx",
+        "3": "FRA:Jean-Baptiste Gros",
+        "4": "NZL:Scott Barrett",
+        "5": "FRA:Mickaël Guillard",
+        "6": "NZL:Wallace Sititi",
+        "7": "WAL:Jac Morgan",
+        "8": "ENG:Henry Pollock",
+        "9": "FRA:Antoine Dupont",
+        "10": "IRE:Sam Prendergast",
+        "11": "NZL:Fehi Fineanganofo",
+        "12": "RSA:Damian de Allende",
+        "13": "ENG:Henry Slade",
+        "14": "IRE:Rob Baloucoune",
+        "15": "ENG:Cadan Murley"
+      },
+      "predictions": {
+        "R5-07": {
+          "winner": "South Africa",
+          "margin": 7
+        },
+        "R5-08": {
+          "winner": "Italy",
+          "margin": 3
+        },
+        "R5-09": {
+          "winner": "New Zealand",
+          "margin": 30
+        },
+        "R5-10": {
+          "winner": "England",
+          "margin": 40
+        },
+        "R5-11": {
+          "winner": "Ireland",
+          "margin": 30
+        },
+        "R5-12": {
+          "winner": "Scotland",
+          "margin": 7
+        }
+      }
     }
   }
 }
