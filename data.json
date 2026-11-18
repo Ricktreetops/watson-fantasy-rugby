@@ -92,7 +92,7 @@
   "open_round": null,
   "round5_status": "scored",
   "whatsapp_group": "IRL Team and Weekend plans",
-  "squads_picker_note": "Squad lists used by the Round 5 picker are as of 13 Nov 2026, 17:30 UK (squads_asof). They include official squad changes announced since 7 Nov. All twelve Round 5 matchday 23s have been named. Starting, Bench and Not in 23 labels are not shown by the picker. OUT is flagged where a player has been ruled out or dropped. No prices have been added.",
+  "squads_picker_note": "Squad lists used by the Round 5 picker are as of 18 Nov 2026, 13:05 UK (squads_asof). They include official squad changes announced since 7 Nov. All twelve Round 5 matchday 23s have been named. South Africa’s Round 6 matchday 23 v Ireland has been named. Starting, Bench and Not in 23 labels are not shown by the picker. OUT is flagged where a player has been ruled out or dropped. No prices have been added.",
   "leaderboard": [
     {
       "rank": 1,
@@ -1143,7 +1143,7 @@
       ]
     }
   },
-  "squads_asof": "13 Nov 2026, 17:30 UK",
+  "squads_asof": "18 Nov 2026, 13:05 UK",
   "fixtures": [
     {
       "id": "R4-01",
@@ -1439,8 +1439,8 @@
       "team": "Ireland",
       "status": "announced",
       "announced": "2026-10-21",
-      "note": "Matchday 23 v Argentina named 4 Nov (IRFU), Sheehan captain. Furlong cleared at citing; Prendergast passed fit. Ringrose (hamstring) out. Doris and Conan injured, not in squad. 9 Nov (IRFU): Jansen Out; McCarthy and McCann training with squad; Aki back in training. 12 Nov (IRFU): matchday 23 v Fiji named at 14:00 UK; Beirne captain; McNabney on the bench for a possible debut. Sheehan Out (concussion protocol from Argentina, not selected).",
-      "source": "https://www.irishrugby.ie/news/farrell-names-ireland-squad-nations-championship-northern-hemisphere-series",
+      "note": "Matchday 23 v Argentina named 4 Nov (IRFU), Sheehan captain. Furlong cleared at citing; Prendergast passed fit. Ringrose (hamstring) out. Doris and Conan injured, not in squad. 9 Nov (IRFU): Jansen Out; McCarthy and McCann training with squad; Aki back in training. 12 Nov (IRFU): matchday 23 v Fiji named at 14:00 UK; Beirne captain; McNabney on the bench for a possible debut. Sheehan Out (concussion protocol from Argentina, not selected). 16 Nov (IRFU): McNabney and Osborne Out; Sheehan back in full training; Illo (concussion) in return-to-play process.",
+      "source": "https://www.irishrugby.ie/news/ireland-squad-update-ahead-south-africa-clash",
       "players": [
         [
           "Ryan Baird",
@@ -1475,8 +1475,8 @@
         [
           "Sam Illo",
           "PR",
-          "Bench",
-          ""
+          "Not in 23",
+          "concussion; entering return-to-play process (IRFU, 16 Nov)"
         ],
         [
           "Sean Jansen",
@@ -1499,8 +1499,8 @@
         [
           "James McNabney",
           "BR",
-          "Bench",
-          ""
+          "Out",
+          "return-to-play protocol (12 days); unavailable v South Africa (IRFU, 16 Nov)"
         ],
         [
           "Darragh Murray",
@@ -1535,8 +1535,8 @@
         [
           "Dan Sheehan",
           "HK",
-          "Out",
-          "concussion v Argentina (failed HIA); 12-day return-to-play protocol (IRFU, 9 Nov); not selected in the Fiji 23 (IRFU, 12 Nov)"
+          "Not in 23",
+          "returns to full training this week; selection for South Africa 23 due Thu 19 Nov (IRFU, 16 Nov)"
         ],
         [
           "Tom Stewart",
@@ -1637,8 +1637,8 @@
         [
           "Jamie Osborne",
           "B3",
-          "Starting",
-          "late call-up to bench (23) for R4-01 replacing Bundee Aki (illness)"
+          "Out",
+          "pectoral injury; ruled out v South Africa (IRFU, 16 Nov)"
         ],
         [
           "Sam Prendergast",
@@ -1955,7 +1955,7 @@
       "team": "Scotland",
       "status": "announced (updated)",
       "announced": "2026-10-26",
-      "note": "Matchday 23 v New Zealand named 5 Nov 2026 (Tuipulotu captain). 10 Nov: Ali Price in to train with the squad for Australia; Gus Warr back to Sale. 13 Nov (Scottish Rugby, 13:29 UK): matchday 23 v Australia named; Tuipulotu captain; Steyn and Darge vice-captains; Kinghorn and Graham start; Leatherbarrow on the bench for a possible debut.",
+      "note": "Matchday 23 v New Zealand named 5 Nov 2026 (Tuipulotu captain). 10 Nov: Ali Price in to train with the squad for Australia; Gus Warr back to Sale. 13 Nov (Scottish Rugby, 13:29 UK): matchday 23 v Australia named; Tuipulotu captain; Steyn and Darge vice-captains; Kinghorn and Graham start; Leatherbarrow on the bench for a possible debut. 17 Nov (Scottish Rugby): Tuipulotu, Burke, Craig, Cummings, Dempsey, White and Blyth-Lafferty returned to clubs; Gilchrist, Bradbury, Henderson joined; McKay qualifies on residency.",
       "source": "https://www.scotlandrugbynews.com/news/26668250.scotland-squad-named-nations-championship-home-series/",
       "players": [
         [
@@ -1979,14 +1979,14 @@
         [
           "Scott Cummings",
           "LK",
-          "Starting",
-          ""
+          "Out",
+          "leg injury (returned to club); Scottish Rugby 17 Nov"
         ],
         [
           "Alex Craig",
           "LK",
-          "Not in 23",
-          ""
+          "Out",
+          "leg injury (returned to club); Scottish Rugby 17 Nov"
         ],
         [
           "Rory Darge",
@@ -1997,8 +1997,8 @@
         [
           "Jack Dempsey",
           "BR",
-          "Starting",
-          ""
+          "Out",
+          "foot injury (returned to club); Scottish Rugby 17 Nov"
         ],
         [
           "Matt Fagerson",
@@ -2087,8 +2087,8 @@
         [
           "Fergus Burke",
           "FH",
-          "Not in 23",
-          ""
+          "Out",
+          "leg injury (returned to club); Scottish Rugby 17 Nov"
         ],
         [
           "Jamie Dobie",
@@ -2165,8 +2165,8 @@
         [
           "Sione Tuipulotu",
           "CE",
-          "Starting",
-          ""
+          "Out",
+          "knee injury (returned to club); Scottish Rugby 17 Nov"
         ],
         [
           "Duhan van der Merwe",
@@ -2177,14 +2177,14 @@
         [
           "Ben White",
           "SH",
-          "Starting",
-          ""
+          "Out",
+          "knee injury (returned to club); Scottish Rugby 17 Nov"
         ],
         [
           "Ollie Blyth-Lafferty",
           "PR",
-          "Not in 23",
-          "Uncapped Edinburgh tighthead; called up 2 Nov"
+          "Out",
+          "returned to club; Scottish Rugby 17 Nov"
         ],
         [
           "D'Arcy Rae",
@@ -2203,6 +2203,30 @@
           "SH",
           "Not in 23",
           "called in to train with the squad for Australia, replacing Gus Warr (Scotland, 10 Nov, as reported by BBC Sport and PA)"
+        ],
+        [
+          "Grant Gilchrist",
+          "LK",
+          "Not in 23",
+          "joined squad, Scottish Rugby 17 Nov"
+        ],
+        [
+          "Magnus Bradbury",
+          "BR",
+          "Not in 23",
+          "joined squad, Scottish Rugby 17 Nov"
+        ],
+        [
+          "Cam Henderson",
+          "LK",
+          "Not in 23",
+          "joined squad, Scottish Rugby 17 Nov"
+        ],
+        [
+          "Josh McKay",
+          "B3",
+          "Not in 23",
+          "joined squad, Scottish Rugby 17 Nov"
         ]
       ]
     },
@@ -3230,7 +3254,7 @@
       "team": "South Africa",
       "status": "announced",
       "announced": "2026-10-28",
-      "note": "37-man squad named by Rassie Erasmus (SA Rugby, as reported by The Citizen, 28 Oct). Six uncapped: Ahmed, De Klerk, Giliomee, Muller, Norton, E. Tshituka. Injured, not selected: Kolbe, Etzebeth, Esterhuizen, Pollard. 8 Nov: Etzebeth called up, Ahmed returned home (shoulder). 10 Nov: matchday 23 v France named.",
+      "note": "37-man squad named by Rassie Erasmus (SA Rugby, as reported by The Citizen, 28 Oct). Six uncapped: Ahmed, De Klerk, Giliomee, Muller, Norton, E. Tshituka. Injured, not selected: Kolbe, Etzebeth, Esterhuizen, Pollard. 8 Nov: Etzebeth called up, Ahmed returned home (shoulder). 10 Nov: matchday 23 v France named. 16 Nov (SA Rugby, 14:48 UK): matchday 23 v Ireland named; Kolisi captain; five starting changes from France, including Etzebeth's return; same backline as last week.",
       "source": "https://www.citizen.co.za/sport/rugby/springboks-squad-named-for-nations-championship-tests-in-november/",
       "players": [
         [
@@ -3284,7 +3308,7 @@
         [
           "Lood de Jager",
           "LK",
-          "Starting",
+          "Bench",
           "promoted to starting lock for R4-02 after Moerat late withdrawal"
         ],
         [
@@ -3308,7 +3332,7 @@
         [
           "Franco Mostert",
           "LK",
-          "Bench",
+          "Not in 23",
           "late call-up to bench for R4-02 after Moerat withdrawal"
         ],
         [
@@ -3326,7 +3350,7 @@
         [
           "Cameron Hanekom",
           "BR",
-          "Bench",
+          "Starting",
           ""
         ],
         [
@@ -3338,7 +3362,7 @@
         [
           "Jasper Wiese",
           "BR",
-          "Starting",
+          "Not in 23",
           ""
         ],
         [
@@ -3350,13 +3374,13 @@
         [
           "Marco van Staden",
           "BR",
-          "Not in 23",
+          "Bench",
           "Utility forward (LK/BR) per squad list"
         ],
         [
           "Cobus Reinach",
           "SH",
-          "Bench",
+          "Not in 23",
           ""
         ],
         [
@@ -3368,7 +3392,7 @@
         [
           "Grant Williams",
           "SH",
-          "Not in 23",
+          "Bench",
           ""
         ],
         [
@@ -3392,7 +3416,7 @@
         [
           "Manie Libbok",
           "FH",
-          "Bench",
+          "Not in 23",
           ""
         ],
         [
@@ -3416,7 +3440,7 @@
         [
           "Canan Moodie",
           "CE",
-          "Not in 23",
+          "Bench",
           ""
         ],
         [
@@ -3458,7 +3482,7 @@
         [
           "Eben Etzebeth",
           "LK",
-          "Not in 23",
+          "Starting",
           "called up 8 Nov; joined squad in France 9 Nov (SA Rugby)"
         ]
       ]
