@@ -92,7 +92,7 @@
   "open_round": null,
   "round5_status": "scored",
   "whatsapp_group": "IRL Team and Weekend plans",
-  "squads_picker_note": "Squad lists used by the Round 5 picker are as of 19 Nov 2026, 13:03 UK (squads_asof). They include official squad changes announced since 7 Nov. All twelve Round 5 matchday 23s have been named. Official Round 6 matchday 23s named so far: South Africa (v Ireland), Australia (v Wales), France (v Argentina), Argentina (v France) and Japan (v Scotland). Starting, Bench and Not in 23 labels are not shown by the picker. OUT is flagged where a player has been ruled out or dropped. No prices have been added.",
+  "squads_picker_note": "Squad lists used by the Round 5 picker are as of 19 Nov 2026, 17:05 UK (squads_asof). They include official squad changes announced since 7 Nov. All twelve Round 5 matchday 23s have been named. Official Round 6 matchday 23s have now been named for every team except Fiji. Starting, Bench and Not in 23 labels are not shown by the picker. OUT is flagged where a player has been ruled out or dropped. No prices have been added.",
   "leaderboard": [
     {
       "rank": 1,
@@ -1143,7 +1143,7 @@
       ]
     }
   },
-  "squads_asof": "19 Nov 2026, 13:03 UK",
+  "squads_asof": "19 Nov 2026, 17:05 UK",
   "fixtures": [
     {
       "id": "R4-01",
@@ -1475,7 +1475,7 @@
         [
           "Sam Illo",
           "PR",
-          "Not in 23",
+          "Bench",
           "concussion; entering return-to-play process (IRFU, 16 Nov)"
         ],
         [
@@ -1493,7 +1493,7 @@
         [
           "Joe McCarthy",
           "LK",
-          "Not in 23",
+          "Starting",
           ""
         ],
         [
@@ -1505,7 +1505,7 @@
         [
           "Darragh Murray",
           "LK",
-          "Bench",
+          "Not in 23",
           ""
         ],
         [
@@ -1529,13 +1529,13 @@
         [
           "James Ryan",
           "LK",
-          "Starting",
+          "Bench",
           ""
         ],
         [
           "Dan Sheehan",
           "HK",
-          "Not in 23",
+          "Starting",
           "returns to full training this week; selection for South Africa 23 due Thu 19 Nov (IRFU, 16 Nov)"
         ],
         [
@@ -1547,7 +1547,7 @@
         [
           "Nick Timoney",
           "BR",
-          "Starting",
+          "Bench",
           ""
         ],
         [
@@ -1559,7 +1559,7 @@
         [
           "Bundee Aki",
           "CE",
-          "Starting",
+          "Bench",
           "illness withdrawal from R4-01 23; back in full training from 10 Nov (IRFU, 9 Nov)"
         ],
         [
@@ -1607,19 +1607,19 @@
         [
           "Robbie Henshaw",
           "CE",
-          "Not in 23",
+          "Starting",
           ""
         ],
         [
           "Hugo Keenan",
           "B3",
-          "Not in 23",
+          "Starting",
           ""
         ],
         [
           "Stuart McCloskey",
           "CE",
-          "Bench",
+          "Starting",
           ""
         ],
         [
@@ -1631,7 +1631,7 @@
         [
           "Tommy O'Brien",
           "B3",
-          "Starting",
+          "Not in 23",
           ""
         ],
         [
@@ -1682,19 +1682,19 @@
         [
           "Fin Baxter",
           "PR",
-          "Not in 23",
+          "Starting",
           ""
         ],
         [
           "Ollie Chessum",
           "LK",
-          "Not in 23",
+          "Starting",
           ""
         ],
         [
           "Arthur Clark",
           "LK",
-          "Bench",
+          "Not in 23",
           ""
         ],
         [
@@ -1706,13 +1706,13 @@
         [
           "Luke Cowan-Dickie",
           "HK",
-          "Starting",
+          "Bench",
           ""
         ],
         [
           "Ben Curry",
           "BR",
-          "Bench",
+          "Starting",
           "starts at 7 vs Australia (RFU 6 Nov)"
         ],
         [
@@ -1736,19 +1736,19 @@
         [
           "Jamie George",
           "HK",
-          "Not in 23",
+          "Starting",
           ""
         ],
         [
           "Ellis Genge",
           "PR",
-          "Starting",
+          "Bench",
           ""
         ],
         [
           "Joe Heyes",
           "PR",
-          "Bench",
+          "Starting",
           ""
         ],
         [
@@ -1760,19 +1760,19 @@
         [
           "Emmanuel Iyogun",
           "PR",
-          "Bench",
+          "Not in 23",
           ""
         ],
         [
           "George Martin",
           "LK",
-          "Starting",
+          "Bench",
           ""
         ],
         [
           "Asher Opoku-Fordjour",
           "PR",
-          "Starting",
+          "Not in 23",
           ""
         ],
         [
@@ -1784,13 +1784,13 @@
         [
           "Henry Pollock",
           "BR",
-          "Starting",
+          "Bench",
           ""
         ],
         [
           "Will Stuart",
           "PR",
-          "Not in 23",
+          "Bench",
           ""
         ],
         [
@@ -1820,19 +1820,19 @@
         [
           "George Ford",
           "FH",
-          "Starting",
+          "Not in 23",
           ""
         ],
         [
           "Tommy Freeman",
           "B3",
-          "Not in 23",
+          "Starting",
           ""
         ],
         [
           "George Furbank",
           "B3",
-          "Not in 23",
+          "Starting",
           ""
         ],
         [
@@ -1850,7 +1850,7 @@
         [
           "Archie McParland",
           "SH",
-          "Bench",
+          "Not in 23",
           "recovered from calf injury; replaces Harry Randall (RFU, 9 Nov)"
         ],
         [
@@ -1862,13 +1862,13 @@
         [
           "Cadan Murley",
           "B3",
-          "Starting",
+          "Not in 23",
           ""
         ],
         [
           "Max Ojomoh",
           "CE",
-          "Starting",
+          "Not in 23",
           "called into the 36 (RFU, 9 Nov)"
         ],
         [
@@ -1886,7 +1886,7 @@
         [
           "Freddie Steward",
           "B3",
-          "Starting",
+          "Not in 23",
           ""
         ],
         [
@@ -1898,13 +1898,13 @@
         [
           "Theo Dan",
           "HK",
-          "Bench",
+          "Not in 23",
           "Added to 36-man squad 2 Nov"
         ],
         [
           "Seb Atkinson",
           "CE",
-          "Not in 23",
+          "Starting",
           "Added to 36-man squad 2 Nov"
         ],
         [
@@ -1922,13 +1922,13 @@
         [
           "Ben Spencer",
           "SH",
-          "Not in 23",
+          "Bench",
           "Added to 36-man squad 2 Nov"
         ],
         [
           "Fin Smith",
           "FH",
-          "Not in 23",
+          "Starting",
           "starts at 10 vs Australia (RFU 6 Nov); cleared calf fitness watch"
         ],
         [
@@ -1961,19 +1961,19 @@
         [
           "Ewan Ashman",
           "HK",
-          "Starting",
+          "Not in 23",
           ""
         ],
         [
           "Josh Bayliss",
           "BR",
-          "Bench",
+          "Not in 23",
           ""
         ],
         [
           "Gregor Brown",
           "LK",
-          "Starting",
+          "Bench",
           ""
         ],
         [
@@ -2003,7 +2003,7 @@
         [
           "Matt Fagerson",
           "BR",
-          "Starting",
+          "Bench",
           ""
         ],
         [
@@ -2015,13 +2015,13 @@
         [
           "Jonny Gray",
           "LK",
-          "Not in 23",
+          "Starting",
           ""
         ],
         [
           "Gregor Hiddleston",
           "FX",
-          "Bench",
+          "Starting",
           ""
         ],
         [
@@ -2033,19 +2033,19 @@
         [
           "Ollie Leatherbarrow",
           "BR",
-          "Bench",
+          "Starting",
           ""
         ],
         [
           "Nathan McBeth",
           "PR",
-          "Not in 23",
+          "Starting",
           ""
         ],
         [
           "Liam McConnell",
           "BR",
-          "Not in 23",
+          "Starting",
           ""
         ],
         [
@@ -2063,25 +2063,25 @@
         [
           "Pierre Schoeman",
           "PR",
-          "Bench",
+          "Not in 23",
           ""
         ],
         [
           "Rory Sutherland",
           "PR",
-          "Starting",
+          "Bench",
           ""
         ],
         [
           "Seb Stephen",
           "FX",
-          "Not in 23",
+          "Bench",
           ""
         ],
         [
           "Max Williamson",
           "LK",
-          "Bench",
+          "Starting",
           ""
         ],
         [
@@ -2093,7 +2093,7 @@
         [
           "Jamie Dobie",
           "SH",
-          "Bench",
+          "Starting",
           ""
         ],
         [
@@ -2105,61 +2105,61 @@
         [
           "George Horne",
           "SH",
-          "Not in 23",
+          "Bench",
           ""
         ],
         [
           "Rory Hutchinson",
           "CE",
-          "Not in 23",
+          "Starting",
           ""
         ],
         [
           "Huw Jones",
           "CE",
-          "Starting",
+          "Not in 23",
           ""
         ],
         [
           "Tom Jordan",
           "B3",
-          "Bench",
+          "Starting",
           ""
         ],
         [
           "Blair Kinghorn",
           "B3",
-          "Starting",
+          "Bench",
           ""
         ],
         [
           "Stafford McDowall",
           "CE",
-          "Not in 23",
+          "Starting",
           ""
         ],
         [
           "Kyle Rowe",
           "B3",
-          "Not in 23",
+          "Starting",
           ""
         ],
         [
           "Finn Russell",
           "FH",
-          "Starting",
+          "Not in 23",
           ""
         ],
         [
           "Ollie Smith",
           "B3",
-          "Not in 23",
+          "Starting",
           ""
         ],
         [
           "Kyle Steyn",
           "B3",
-          "Starting",
+          "Not in 23",
           ""
         ],
         [
@@ -2213,7 +2213,7 @@
         [
           "Magnus Bradbury",
           "BR",
-          "Not in 23",
+          "Bench",
           "joined squad, Scottish Rugby 17 Nov"
         ],
         [
@@ -2246,13 +2246,13 @@
         [
           "Taine Basham",
           "BR",
-          "Starting",
+          "Not in 23",
           ""
         ],
         [
           "Adam Beard",
           "LK",
-          "Starting",
+          "Not in 23",
           ""
         ],
         [
@@ -2264,7 +2264,7 @@
         [
           "James Botham",
           "BR",
-          "Starting",
+          "Not in 23",
           ""
         ],
         [
@@ -2276,7 +2276,7 @@
         [
           "Ben Carter",
           "LK",
-          "Bench",
+          "Starting",
           ""
         ],
         [
@@ -2306,7 +2306,7 @@
         [
           "Kane James",
           "BR",
-          "Not in 23",
+          "Bench",
           ""
         ],
         [
@@ -2330,7 +2330,7 @@
         [
           "Alex Mann",
           "BR",
-          "Not in 23",
+          "Starting",
           ""
         ],
         [
@@ -2360,7 +2360,7 @@
         [
           "Aaron Wainwright",
           "BR",
-          "Out",
+          "Starting",
           "calf injury; unavailable for the New Zealand match, not expected to miss the rest of the autumn (WRU announcement 12 Nov (no wru.wales page found; as carried by Ospreys, BBC Sport, Wales Online))"
         ],
         [
@@ -2372,7 +2372,7 @@
         [
           "Josh Adams",
           "B3",
-          "Not in 23",
+          "Starting",
           ""
         ],
         [
@@ -2384,19 +2384,19 @@
         [
           "Dan Edwards",
           "FH",
-          "Bench",
+          "Not in 23",
           ""
         ],
         [
           "Gabriel Hamer-Webb",
           "B3",
-          "Starting",
+          "Not in 23",
           ""
         ],
         [
           "Joe Hawkins",
           "CE",
-          "Not in 23",
+          "Bench",
           ""
         ],
         [
@@ -2876,7 +2876,7 @@
         [
           "Federico Ruzza",
           "LK",
-          "Starting",
+          "Bench",
           ""
         ],
         [
@@ -2894,7 +2894,7 @@
         [
           "Alessandro Ortombina",
           "BR",
-          "Bench",
+          "Starting",
           ""
         ],
         [
@@ -2936,7 +2936,7 @@
         [
           "Paolo Garbisi",
           "FH",
-          "Starting",
+          "Not in 23",
           ""
         ],
         [
@@ -3002,7 +3002,7 @@
         [
           "Domingo Miotti",
           "FH",
-          "Not in 23",
+          "Starting",
           ""
         ],
         [
@@ -3035,37 +3035,37 @@
         [
           "Codie Taylor",
           "HK",
-          "Not in 23",
+          "Starting",
           ""
         ],
         [
           "Asafo Aumua",
           "HK",
-          "Starting",
+          "Bench",
           ""
         ],
         [
           "George Bell",
           "HK",
-          "Bench",
+          "Not in 23",
           ""
         ],
         [
           "Ethan de Groot",
           "PR",
-          "Not in 23",
+          "Starting",
           ""
         ],
         [
           "George Bower",
           "PR",
-          "Starting",
+          "Bench",
           ""
         ],
         [
           "Xavier Numia",
           "PR",
-          "Bench",
+          "Not in 23",
           ""
         ],
         [
@@ -3095,31 +3095,31 @@
         [
           "Josh Lord",
           "LK",
-          "Starting",
+          "Not in 23",
           ""
         ],
         [
           "Fabian Holland",
           "LK",
-          "Not in 23",
+          "Starting",
           ""
         ],
         [
           "Jamie Hannah",
           "LK",
-          "Bench",
+          "Not in 23",
           ""
         ],
         [
           "Tupou Vaa'i",
           "LK",
-          "Not in 23",
+          "Starting",
           ""
         ],
         [
           "Anton Segner",
           "BR",
-          "Starting",
+          "Bench",
           ""
         ],
         [
@@ -3131,7 +3131,7 @@
         [
           "Ethan Blackadder",
           "BR",
-          "Bench",
+          "Not in 23",
           ""
         ],
         [
@@ -3155,31 +3155,31 @@
         [
           "Cam Roigard",
           "SH",
-          "Not in 23",
+          "Starting",
           ""
         ],
         [
           "Kyle Preston",
           "SH",
-          "Bench",
+          "Not in 23",
           ""
         ],
         [
           "Cortez Ratima",
           "SH",
-          "Starting",
+          "Bench",
           ""
         ],
         [
           "Richie Mo'unga",
           "FH",
-          "Starting",
+          "Bench",
           ""
         ],
         [
           "Damian McKenzie",
           "FH",
-          "Not in 23",
+          "Starting",
           ""
         ],
         [
@@ -3191,13 +3191,13 @@
         [
           "Jordie Barrett",
           "CE",
-          "Doubt",
+          "Starting",
           "started R4-03 v Scotland; failed HIA; Rennie: unlikely for Wales 14 Nov (RNZ/rugby365/RugbyPass, 8 Nov) not selected in the official Wales 23 (All Blacks, 12 Nov); official unavailable-to-injury line on that page named only Will Jordan (hamstring)"
         ],
         [
           "Quinn Tupaea",
           "CE",
-          "Starting",
+          "Not in 23",
           ""
         ],
         [
@@ -3227,7 +3227,7 @@
         [
           "Fehi Fineanganofo",
           "B3",
-          "Starting",
+          "Not in 23",
           ""
         ],
         [
@@ -3239,7 +3239,7 @@
         [
           "Will Jordan",
           "B3",
-          "Out",
+          "Starting",
           "minor hamstring tear; ruled out of the Wales match, Nations Championship return unclear (All Blacks staff, 10 Nov, as reported by NZ Herald and Wales Online)"
         ],
         [
