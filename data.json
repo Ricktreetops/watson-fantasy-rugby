@@ -92,7 +92,7 @@
   "open_round": null,
   "round5_status": "scored",
   "whatsapp_group": "IRL Team and Weekend plans",
-  "squads_picker_note": "Squad lists used by the Round 5 picker are as of 18 Nov 2026, 13:05 UK (squads_asof). They include official squad changes announced since 7 Nov. All twelve Round 5 matchday 23s have been named. South Africa’s Round 6 matchday 23 v Ireland has been named. Starting, Bench and Not in 23 labels are not shown by the picker. OUT is flagged where a player has been ruled out or dropped. No prices have been added.",
+  "squads_picker_note": "Squad lists used by the Round 5 picker are as of 19 Nov 2026, 13:03 UK (squads_asof). They include official squad changes announced since 7 Nov. All twelve Round 5 matchday 23s have been named. Official Round 6 matchday 23s named so far: South Africa (v Ireland), Australia (v Wales), France (v Argentina), Argentina (v France) and Japan (v Scotland). Starting, Bench and Not in 23 labels are not shown by the picker. OUT is flagged where a player has been ruled out or dropped. No prices have been added.",
   "leaderboard": [
     {
       "rank": 1,
@@ -1143,7 +1143,7 @@
       ]
     }
   },
-  "squads_asof": "18 Nov 2026, 13:05 UK",
+  "squads_asof": "19 Nov 2026, 13:03 UK",
   "fixtures": [
     {
       "id": "R4-01",
@@ -2489,7 +2489,7 @@
         [
           "Grégory Alldritt",
           "BR",
-          "Starting",
+          "Bench",
           ""
         ],
         [
@@ -2513,7 +2513,7 @@
         [
           "Esteban Capilla",
           "BR",
-          "Bench",
+          "Starting",
           ""
         ],
         [
@@ -2525,13 +2525,13 @@
         [
           "François Cros",
           "BR",
-          "Starting",
+          "Not in 23",
           ""
         ],
         [
           "Tyler Duguid",
           "FX",
-          "Not in 23",
+          "Bench",
           ""
         ],
         [
@@ -2561,7 +2561,7 @@
         [
           "Anthony Jelonch",
           "BR",
-          "Out",
+          "Starting",
           "concussion protocol; forfait 2 Nov"
         ],
         [
@@ -2573,37 +2573,37 @@
         [
           "Maxime Lamothe",
           "HK",
-          "Not in 23",
+          "Bench",
           ""
         ],
         [
           "Peato Mauvaka",
           "HK",
-          "Bench",
+          "Starting",
           ""
         ],
         [
           "Charles Ollivon",
           "BR",
-          "Bench",
+          "Starting",
           ""
         ],
         [
           "Jefferson Poirot",
           "PR",
-          "Not in 23",
+          "Bench",
           ""
         ],
         [
           "Tom Staniforth",
           "LK",
-          "Bench",
+          "Not in 23",
           ""
         ],
         [
           "Cameron Woki",
           "BR",
-          "Starting",
+          "Bench",
           ""
         ],
         [
@@ -2633,7 +2633,7 @@
         [
           "Axel Desperes",
           "BX",
-          "Bench",
+          "Not in 23",
           ""
         ],
         [
@@ -2681,7 +2681,7 @@
         [
           "Maxime Lucu",
           "SH",
-          "Starting",
+          "Bench",
           ""
         ],
         [
@@ -2723,7 +2723,7 @@
         [
           "Rodrigue Neti",
           "PR",
-          "Bench",
+          "Not in 23",
           ""
         ],
         [
@@ -2759,7 +2759,7 @@
         [
           "Julien Marchand",
           "HK",
-          "Starting",
+          "Not in 23",
           "called up 8 Nov for SA prep group (FFR lists Avants/Arrières only; position best-known per Reuters/Rugbyrama)"
         ],
         [
@@ -3497,7 +3497,7 @@
         [
           "Allan Alaalatoa",
           "PR",
-          "Starting",
+          "Bench",
           ""
         ],
         [
@@ -3509,7 +3509,7 @@
         [
           "Angus Bell",
           "PR",
-          "Starting",
+          "Bench",
           ""
         ],
         [
@@ -3527,13 +3527,13 @@
         [
           "Tom Hooper",
           "BR",
-          "Bench",
+          "Starting",
           ""
         ],
         [
           "Isaac Kailea",
           "PR",
-          "Bench",
+          "Starting",
           ""
         ],
         [
@@ -3545,7 +3545,7 @@
         [
           "Fraser McReight",
           "BR",
-          "Starting",
+          "Bench",
           ""
         ],
         [
@@ -3557,13 +3557,13 @@
         [
           "Brandon Paenga-Amosa",
           "HK",
-          "Bench",
+          "Starting",
           ""
         ],
         [
           "Billy Pollard",
           "HK",
-          "Starting",
+          "Bench",
           ""
         ],
         [
@@ -3575,19 +3575,19 @@
         [
           "Lachlan Shaw",
           "BR",
-          "Bench",
+          "Not in 23",
           ""
         ],
         [
           "Carlo Tizzano",
           "BR",
-          "Not in 23",
+          "Starting",
           ""
         ],
         [
           "Taniela Tupou",
           "PR",
-          "Bench",
+          "Starting",
           "returns on bench vs England (Rugby Australia 6 Nov)"
         ],
         [
@@ -3599,7 +3599,7 @@
         [
           "Jeremy Williams",
           "LK",
-          "Starting",
+          "Bench",
           ""
         ],
         [
@@ -3653,7 +3653,7 @@
         [
           "Tate McDermott",
           "SH",
-          "Bench",
+          "Not in 23",
           ""
         ],
         [
@@ -3701,7 +3701,7 @@
         [
           "Kalani Thomas",
           "SH",
-          "Not in 23",
+          "Bench",
           ""
         ]
       ]
@@ -3722,7 +3722,7 @@
         [
           "Juan Martín González",
           "BR",
-          "Bench",
+          "Starting",
           ""
         ],
         [
@@ -3734,7 +3734,7 @@
         [
           "Tomás Lavanini",
           "LK",
-          "Not in 23",
+          "Starting",
           ""
         ],
         [
@@ -3746,13 +3746,13 @@
         [
           "Pablo Matera",
           "BR",
-          "Starting",
+          "Bench",
           ""
         ],
         [
           "Julián Montoya",
           "HK",
-          "Not in 23",
+          "Starting",
           "not selected v Italy after a head knock v Ireland (UAR announcement as reported by lt9, 12 Nov)"
         ],
         [
@@ -3764,7 +3764,7 @@
         [
           "Joaquín Moro",
           "FX",
-          "Starting",
+          "Not in 23",
           ""
         ],
         [
@@ -3788,7 +3788,7 @@
         [
           "Pedro Rubiolo",
           "LK",
-          "Starting",
+          "Bench",
           ""
         ],
         [
@@ -3830,13 +3830,13 @@
         [
           "Mateo Carreras",
           "B3",
-          "Starting",
+          "Not in 23",
           ""
         ],
         [
           "Lucio Cinti",
           "CE",
-          "Not in 23",
+          "Starting",
           ""
         ],
         [
@@ -3848,13 +3848,13 @@
         [
           "Gonzalo García",
           "SH",
-          "Bench",
+          "Not in 23",
           ""
         ],
         [
           "Rodrigo Isgró",
           "B3",
-          "Starting",
+          "Bench",
           ""
         ],
         [
@@ -3866,25 +3866,25 @@
         [
           "Ignacio Mendy",
           "B3",
-          "Not in 23",
+          "Starting",
           ""
         ],
         [
           "Agustín Moyano",
           "SH",
-          "Not in 23",
+          "Bench",
           ""
         ],
         [
           "Justo Piccardo",
           "BX",
-          "Starting",
+          "Not in 23",
           ""
         ],
         [
           "Gerónimo Prisciantelli",
           "FH",
-          "Bench",
+          "Starting",
           ""
         ],
         [
@@ -3902,7 +3902,7 @@
         [
           "Facundo Isa",
           "BR",
-          "Bench",
+          "Starting",
           ""
         ],
         [
@@ -3920,7 +3920,7 @@
         [
           "Bautista Bernasconi",
           "HK",
-          "Starting",
+          "Not in 23",
           "hooker cover (Montoya HIA) (UAR/Los Pumas squad change 9 Nov (reported by SuperSport, Olé, Los Andes, RugbyPass; no uar.com.ar page found))"
         ],
         [
@@ -3947,7 +3947,7 @@
         [
           "Sojiro Otsuka",
           "PR",
-          "Bench",
+          "Starting",
           ""
         ],
         [
@@ -3959,19 +3959,19 @@
         [
           "Yota Kamimori",
           "PR",
-          "Starting",
+          "Bench",
           ""
         ],
         [
           "Mamoru Harada",
           "HK",
-          "Starting",
+          "Bench",
           ""
         ],
         [
           "Kenji Sato",
           "HK",
-          "Bench",
+          "Starting",
           ""
         ],
         [
@@ -3983,19 +3983,19 @@
         [
           "Shuhei Takeuchi",
           "PR",
-          "Starting",
-          ""
+          "Out",
+          "left the registered members and tour party, condition (JRFU, 18 Nov)"
         ],
         [
           "Keijiro Tamefusa",
           "PR",
-          "Not in 23",
-          ""
+          "Out",
+          "left the registered members and tour party, condition (JRFU, 19 Nov)"
         ],
         [
           "Ryosuke Iwaihara",
           "PR",
-          "Not in 23",
+          "Starting",
           ""
         ],
         [
@@ -4013,7 +4013,7 @@
         [
           "Harry Hockings",
           "LK",
-          "Starting",
+          "Not in 23",
           ""
         ],
         [
@@ -4025,7 +4025,7 @@
         [
           "Ruan Botha",
           "LK",
-          "Not in 23",
+          "Bench",
           ""
         ],
         [
@@ -4079,31 +4079,31 @@
         [
           "Shinya Komura",
           "FH",
-          "Bench",
+          "Starting",
           ""
         ],
         [
           "Riku Kitahara",
           "FH",
-          "Starting",
+          "Bench",
           ""
         ],
         [
           "Dylan Riley",
           "CE",
-          "Starting",
-          ""
+          "Out",
+          "left the registered members and tour party, personal reasons (JRFU, 18 Nov)"
         ],
         [
           "Charlie Lawrence",
           "CE",
-          "Not in 23",
+          "Starting",
           ""
         ],
         [
           "Samisoni Tua",
           "CE",
-          "Starting",
+          "Not in 23",
           ""
         ],
         [
@@ -4115,13 +4115,13 @@
         [
           "Jisu Lee",
           "CE",
-          "Bench",
+          "Starting",
           "Romanisation aligned to JRFU matchday 23 (was Lee Chi Su)."
         ],
         [
           "Kippei Ishida",
           "B3",
-          "Starting",
+          "Not in 23",
           ""
         ],
         [
@@ -4145,32 +4145,56 @@
         [
           "Riku Tokito",
           "B3",
-          "Starting",
-          ""
+          "Out",
+          "left the registered members and tour party, condition (JRFU, listed in 18 Nov update)"
         ],
         [
           "Takuro Matsunaga",
           "B3",
-          "Not in 23",
+          "Starting",
           ""
         ],
         [
           "Opeti Helu",
           "PR",
-          "Bench",
-          "Added from JRFU Wales matchday 23 (5 Nov 2026); not on prior 35-man list in league.json."
+          "Out",
+          "left the registered members and tour party, condition (JRFU, 19 Nov)"
         ],
         [
           "Faulua Makisi",
           "BR",
-          "Not in 23",
+          "Starting",
           "added as replacement for Moriyama (JRFU, 10 Nov)"
         ],
         [
           "Jone Naikabula",
           "B3",
-          "Not in 23",
+          "Starting",
           "added as replacement for Burua (JRFU, 10 Nov)"
+        ],
+        [
+          "Shunsuke Asaoka",
+          "PR",
+          "Not in 23",
+          "added as replacement (JRFU, 18 Nov)"
+        ],
+        [
+          "Taufa Latu",
+          "PR",
+          "Bench",
+          "added as replacement (JRFU, 18 Nov)"
+        ],
+        [
+          "Nicholas McCarron",
+          "CE",
+          "Not in 23",
+          "added as replacement (JRFU, 18 Nov)"
+        ],
+        [
+          "Haratua Vailea",
+          "BR",
+          "Not in 23",
+          "added as replacement (JRFU, 18 Nov); utility player, position group TBC"
         ]
       ]
     },
