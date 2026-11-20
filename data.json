@@ -89,10 +89,10 @@
   "asof": "16 Nov 2026, 09:12 UK",
   "scored_at": "2026-11-16T09:12+00:00",
   "round4_status": "scored",
-  "open_round": null,
+  "open_round": "R6",
   "round5_status": "scored",
   "whatsapp_group": "IRL Team and Weekend plans",
-  "squads_picker_note": "Squad lists used by the Round 5 picker are as of 20 Nov 2026, 13:15 UK (squads_asof). They include official squad changes announced since 7 Nov. All twelve Round 5 matchday 23s have been named. All twelve official Round 6 matchday 23s have now been named. Starting, Bench and Not in 23 labels are not shown by the picker. OUT is flagged where a player has been ruled out or dropped. No prices have been added.",
+  "squads_picker_note": "Squad lists used by the Round 6 picker are the Round 6 matchday 23s as of 20 Nov 2026, 13:15 UK (squads_asof). Starting, Bench, Not in 23 and OUT are shown. OUT is flagged where a player has been ruled out or dropped. No prices have been added. Scores, players and squads are unchanged.",
   "leaderboard": [
     {
       "rank": 1,
