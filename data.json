@@ -92,7 +92,7 @@
   "open_round": null,
   "round5_status": "scored",
   "whatsapp_group": "IRL Team and Weekend plans",
-  "squads_picker_note": "Squad lists used by the Round 5 picker are as of 19 Nov 2026, 17:05 UK (squads_asof). They include official squad changes announced since 7 Nov. All twelve Round 5 matchday 23s have been named. Official Round 6 matchday 23s have now been named for every team except Fiji. Starting, Bench and Not in 23 labels are not shown by the picker. OUT is flagged where a player has been ruled out or dropped. No prices have been added.",
+  "squads_picker_note": "Squad lists used by the Round 5 picker are as of 20 Nov 2026, 09:55 UK (squads_asof). They include official squad changes announced since 7 Nov. All twelve Round 5 matchday 23s have been named. Official Round 6 matchday 23s have now been named for every team except Fiji. Starting, Bench and Not in 23 labels are not shown by the picker. OUT is flagged where a player has been ruled out or dropped. No prices have been added.",
   "leaderboard": [
     {
       "rank": 1,
@@ -1143,7 +1143,7 @@
       ]
     }
   },
-  "squads_asof": "19 Nov 2026, 17:05 UK",
+  "squads_asof": "20 Nov 2026, 09:55 UK",
   "fixtures": [
     {
       "id": "R4-01",
@@ -2234,7 +2234,7 @@
       "team": "Wales",
       "status": "announced (updated)",
       "announced": "2026-10-20",
-      "note": "39-player squad, Dewi Lake captain. Update (WRU, Oct): uncapped Macs Page in; Rio Dyer released (hamstring). 12 Nov (WRU, as reported): matchday 23 v New Zealand named; Tomas Francis out (knee), Keiron Assiratti called up; Aaron Wainwright out this week (calf).",
+      "note": "39-player squad, Dewi Lake captain. Update (WRU, Oct): uncapped Macs Page in; Rio Dyer released (hamstring). 12 Nov (WRU, as reported): matchday 23 v New Zealand named; Tomas Francis out (knee), Keiron Assiratti called up; Aaron Wainwright out this week (calf). 19 Nov (WRU): Jarrod Evans called up, Dan Edwards out (ankle).",
       "source": "https://www.wru.wales/2026/10/squad-update-5/",
       "players": [
         [
@@ -2384,8 +2384,8 @@
         [
           "Dan Edwards",
           "FH",
-          "Not in 23",
-          ""
+          "Out",
+          "ankle injury in training (WRU, 19 Nov)"
         ],
         [
           "Gabriel Hamer-Webb",
@@ -2476,6 +2476,12 @@
           "PR",
           "Not in 23",
           "called up as replacement for Tomas Francis (WRU announcement 12 Nov (no wru.wales page found; as carried by Ospreys, BBC Sport, Wales Online))"
+        ],
+        [
+          "Jarrod Evans",
+          "FH",
+          "Not in 23",
+          "called up to wider squad after Dan Edwards injury (WRU, 19 Nov)"
         ]
       ]
     },
