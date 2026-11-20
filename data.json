@@ -92,7 +92,7 @@
   "open_round": null,
   "round5_status": "scored",
   "whatsapp_group": "IRL Team and Weekend plans",
-  "squads_picker_note": "Squad lists used by the Round 5 picker are as of 20 Nov 2026, 09:55 UK (squads_asof). They include official squad changes announced since 7 Nov. All twelve Round 5 matchday 23s have been named. Official Round 6 matchday 23s have now been named for every team except Fiji. Starting, Bench and Not in 23 labels are not shown by the picker. OUT is flagged where a player has been ruled out or dropped. No prices have been added.",
+  "squads_picker_note": "Squad lists used by the Round 5 picker are as of 20 Nov 2026, 12:51 UK (squads_asof). They include official squad changes announced since 7 Nov. All twelve Round 5 matchday 23s have been named. Official Round 6 matchday 23s have now been named for every team. Fiji matchday 23 v Italy named 19 Nov. Starting, Bench and Not in 23 labels are not shown by the picker. OUT is flagged where a player has been ruled out or dropped. No prices have been added.",
   "leaderboard": [
     {
       "rank": 1,
@@ -1143,7 +1143,7 @@
       ]
     }
   },
-  "squads_asof": "20 Nov 2026, 09:55 UK",
+  "squads_asof": "20 Nov 2026, 12:51 UK",
   "fixtures": [
     {
       "id": "R4-01",
@@ -4208,7 +4208,7 @@
       "team": "Fiji",
       "status": "announced",
       "announced": "2026-10-30",
-      "note": "Matchday 23 v France named 5 Nov 2026 (Ikanivere captain; Nathan Hughes debut). 12 Nov (Jake White, as reported by Reuters/CNA and The 42; no fijirugby.com team page found): matchday 23 v Ireland named; Yato captain; Bituniyata starts on debut. Hughes, Rayasi and Sowakula Out (injury).",
+      "note": "Matchday 23 v France named 5 Nov 2026 (Ikanivere captain; Nathan Hughes debut). 12 Nov (Jake White, as reported by Reuters/CNA and The 42; no fijirugby.com team page found): matchday 23 v Ireland named; Yato captain; Bituniyata starts on debut. Hughes, Rayasi and Sowakula Out (injury). 19 Nov (CNA and FIR): Fiji matchday 23 v Italy named 19 Nov; Ikanivere captain; Hughes returns from injury to start at number 8; Yato Out (ankle); Etonia Waqa added (Provence back-rower).",
       "source": "https://www.fijitimes.com.fj/whites-test-squadnamed/",
       "players": [
         [
@@ -4226,7 +4226,7 @@
         [
           "Inoke Ravuiwasa",
           "FX",
-          "Bench",
+          "Not in 23",
           ""
         ],
         [
@@ -4244,7 +4244,7 @@
         [
           "Kitione Salawa",
           "BR",
-          "Bench",
+          "Starting",
           ""
         ],
         [
@@ -4304,13 +4304,13 @@
         [
           "Marika Parker",
           "FX",
-          "Not in 23",
+          "Bench",
           ""
         ],
         [
           "Setareki Turagacoke",
           "FX",
-          "Not in 23",
+          "Starting",
           ""
         ],
         [
@@ -4322,31 +4322,31 @@
         [
           "Lekima Tagitagivalu",
           "FX",
-          "Starting",
+          "Not in 23",
           ""
         ],
         [
           "Nathan Hughes",
           "FX",
-          "Out",
-          "injured on debut v France; not in the Ireland 23 (Reuters/CNA and The 42, 12 Nov)"
+          "Starting",
+          "returns from injury to start at number 8 v Italy; was Out after injury on debut v France (CNA, 19 Nov)"
         ],
         [
           "Peceli Yato",
           "FX",
-          "Starting",
-          ""
+          "Out",
+          "ankle; not in the Italy 23 (CNA / FIR, 19 Nov)"
         ],
         [
           "Joseva Tamani",
           "FX",
-          "Starting",
+          "Bench",
           ""
         ],
         [
           "Elia Canakaivata",
           "FX",
-          "Bench",
+          "Not in 23",
           ""
         ],
         [
@@ -4420,6 +4420,12 @@
           "BX",
           "Starting",
           ""
+        ],
+        [
+          "Etonia Waqa",
+          "BR",
+          "Bench",
+          "new to the squad; Provence back-rower; on the bench v Italy (CNA / FIR, 19 Nov)"
         ]
       ]
     }
