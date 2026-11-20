@@ -92,7 +92,7 @@
   "open_round": null,
   "round5_status": "scored",
   "whatsapp_group": "IRL Team and Weekend plans",
-  "squads_picker_note": "Squad lists used by the Round 5 picker are as of 20 Nov 2026, 12:51 UK (squads_asof). They include official squad changes announced since 7 Nov. All twelve Round 5 matchday 23s have been named. Official Round 6 matchday 23s have now been named for every team. Fiji matchday 23 v Italy named 19 Nov. Starting, Bench and Not in 23 labels are not shown by the picker. OUT is flagged where a player has been ruled out or dropped. No prices have been added.",
+  "squads_picker_note": "Squad lists used by the Round 5 picker are as of 20 Nov 2026, 13:15 UK (squads_asof). They include official squad changes announced since 7 Nov. All twelve Round 5 matchday 23s have been named. All twelve official Round 6 matchday 23s have now been named. Starting, Bench and Not in 23 labels are not shown by the picker. OUT is flagged where a player has been ruled out or dropped. No prices have been added.",
   "leaderboard": [
     {
       "rank": 1,
@@ -1143,7 +1143,7 @@
       ]
     }
   },
-  "squads_asof": "20 Nov 2026, 12:51 UK",
+  "squads_asof": "20 Nov 2026, 13:15 UK",
   "fixtures": [
     {
       "id": "R4-01",
@@ -1955,7 +1955,7 @@
       "team": "Scotland",
       "status": "announced (updated)",
       "announced": "2026-10-26",
-      "note": "Matchday 23 v New Zealand named 5 Nov 2026 (Tuipulotu captain). 10 Nov: Ali Price in to train with the squad for Australia; Gus Warr back to Sale. 13 Nov (Scottish Rugby, 13:29 UK): matchday 23 v Australia named; Tuipulotu captain; Steyn and Darge vice-captains; Kinghorn and Graham start; Leatherbarrow on the bench for a possible debut. 17 Nov (Scottish Rugby): Tuipulotu, Burke, Craig, Cummings, Dempsey, White and Blyth-Lafferty returned to clubs; Gilchrist, Bradbury, Henderson joined; McKay qualifies on residency.",
+      "note": "Matchday 23 v New Zealand named 5 Nov 2026 (Tuipulotu captain). 10 Nov: Ali Price in to train with the squad for Australia; Gus Warr back to Sale. 13 Nov (Scottish Rugby, 13:29 UK): matchday 23 v Australia named; Tuipulotu captain; Steyn and Darge vice-captains; Kinghorn and Graham start; Leatherbarrow on the bench for a possible debut. 17 Nov (Scottish Rugby): Tuipulotu, Burke, Craig, Cummings, Dempsey, White and Blyth-Lafferty returned to clubs; Gilchrist, Bradbury, Henderson joined; McKay qualifies on residency. 20 Nov (official Scottish Rugby X, 10:00 UK): late change to the Japan 23; Darge Out (shoulder); Fagerson starts at 8; Leatherbarrow to 7; Douglas on the bench; McDowall captains.",
       "source": "https://www.scotlandrugbynews.com/news/26668250.scotland-squad-named-nations-championship-home-series/",
       "players": [
         [
@@ -1991,8 +1991,8 @@
         [
           "Rory Darge",
           "BR",
-          "Starting",
-          ""
+          "Out",
+          "shoulder injury; withdrawn from the Japan 23 (official Scottish Rugby X, 20 Nov 10:00 UK)"
         ],
         [
           "Jack Dempsey",
@@ -2003,7 +2003,7 @@
         [
           "Matt Fagerson",
           "BR",
-          "Bench",
+          "Starting",
           ""
         ],
         [
@@ -2195,7 +2195,7 @@
         [
           "Freddy Douglas",
           "BR",
-          "Not in 23",
+          "Bench",
           "Edinburgh back row; called up 2 Nov"
         ],
         [
@@ -3260,7 +3260,7 @@
       "team": "South Africa",
       "status": "announced",
       "announced": "2026-10-28",
-      "note": "37-man squad named by Rassie Erasmus (SA Rugby, as reported by The Citizen, 28 Oct). Six uncapped: Ahmed, De Klerk, Giliomee, Muller, Norton, E. Tshituka. Injured, not selected: Kolbe, Etzebeth, Esterhuizen, Pollard. 8 Nov: Etzebeth called up, Ahmed returned home (shoulder). 10 Nov: matchday 23 v France named. 16 Nov (SA Rugby, 14:48 UK): matchday 23 v Ireland named; Kolisi captain; five starting changes from France, including Etzebeth's return; same backline as last week.",
+      "note": "37-man squad named by Rassie Erasmus (SA Rugby, as reported by The Citizen, 28 Oct). Six uncapped: Ahmed, De Klerk, Giliomee, Muller, Norton, E. Tshituka. Injured, not selected: Kolbe, Etzebeth, Esterhuizen, Pollard. 8 Nov: Etzebeth called up, Ahmed returned home (shoulder). 10 Nov: matchday 23 v France named. 16 Nov (SA Rugby, 14:48 UK): matchday 23 v Ireland named; Kolisi captain; five starting changes from France, including Etzebeth's return; same backline as last week. 20 Nov (SA Rugby, 09:07 UK): Mostert starts at lock v Ireland after Nortje withdrew with a training niggle; Nortje Out. No other change named.",
       "source": "https://www.citizen.co.za/sport/rugby/springboks-squad-named-for-nations-championship-tests-in-november/",
       "players": [
         [
@@ -3326,8 +3326,8 @@
         [
           "Ruan Nortje",
           "LK",
-          "Starting",
-          ""
+          "Out",
+          "withdrawn with a niggle picked up at training; Mostert starts at lock (SA Rugby, 20 Nov 09:07 UK)"
         ],
         [
           "Riley Norton",
@@ -3338,7 +3338,7 @@
         [
           "Franco Mostert",
           "LK",
-          "Not in 23",
+          "Starting",
           "late call-up to bench for R4-02 after Moerat withdrawal"
         ],
         [
@@ -4208,7 +4208,7 @@
       "team": "Fiji",
       "status": "announced",
       "announced": "2026-10-30",
-      "note": "Matchday 23 v France named 5 Nov 2026 (Ikanivere captain; Nathan Hughes debut). 12 Nov (Jake White, as reported by Reuters/CNA and The 42; no fijirugby.com team page found): matchday 23 v Ireland named; Yato captain; Bituniyata starts on debut. Hughes, Rayasi and Sowakula Out (injury). 19 Nov (CNA and FIR): Fiji matchday 23 v Italy named 19 Nov; Ikanivere captain; Hughes returns from injury to start at number 8; Yato Out (ankle); Etonia Waqa added (Provence back-rower).",
+      "note": "Matchday 23 v France named 5 Nov 2026 (Ikanivere captain; Nathan Hughes debut). 12 Nov (Jake White, as reported by Reuters/CNA and The 42; no fijirugby.com team page found): matchday 23 v Ireland named; Yato captain; Bituniyata starts on debut. Hughes, Rayasi and Sowakula Out (injury). 20 Nov (official Fiji Rugby X, 10:27 UK): matchday 23 v Italy named; Ikanivere captain; Hughes returns at 8; Parker potential debut. Yato Out (ankle). Etonia Waqa is on the official 23 but is not on the fantasy squad list.",
       "source": "https://www.fijitimes.com.fj/whites-test-squadnamed/",
       "players": [
         [
@@ -4329,13 +4329,13 @@
           "Nathan Hughes",
           "FX",
           "Starting",
-          "returns from injury to start at number 8 v Italy; was Out after injury on debut v France (CNA, 19 Nov)"
+          "returns from injury; named to start v Italy (official Fiji Rugby X, 20 Nov 10:27 UK)"
         ],
         [
           "Peceli Yato",
           "FX",
           "Out",
-          "ankle; not in the Italy 23 (CNA / FIR, 19 Nov)"
+          "ankle injury v Ireland; not in the official Italy 23 (Reuters/CNA, 19 Nov; official Fiji Rugby X team graphic, 20 Nov 10:27 UK)"
         ],
         [
           "Joseva Tamani",
@@ -4420,12 +4420,6 @@
           "BX",
           "Starting",
           ""
-        ],
-        [
-          "Etonia Waqa",
-          "BR",
-          "Bench",
-          "new to the squad; Provence back-rower; on the bench v Italy (CNA / FIR, 19 Nov)"
         ]
       ]
     }
