@@ -93,6 +93,7 @@
   "round5_status": "scored",
   "whatsapp_group": "IRL Team and Weekend plans",
   "squads_picker_note": "Squad lists used by the Round 6 picker are the Round 6 matchday 23s as of 20 Nov 2026, 13:15 UK (squads_asof). Starting, Bench, Not in 23 and OUT are shown. OUT is flagged where a player has been ruled out or dropped. No prices have been added. Scores, players and squads are unchanged.",
+  "season_complete": false,
   "leaderboard": [
     {
       "rank": 1,
