@@ -25,10 +25,64 @@ button.wa{background:#25D366;color:#fff;border:none;font-size:19px;padding:16px}
 details{border-bottom:1px solid var(--line);padding:8px 0}summary{font-weight:700;font-size:17px}.grp{margin:4px 0}
 .jsonly{display:none}html.js .jsonly{display:block}html.js .nojsonly{display:none}
 tr.top td{background:#e8f0fe}
+.sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+[hidden]{display:none !important}
+.winner-banner[hidden],.cele-overlay[hidden]{display:none !important}
+.winner-banner{background:radial-gradient(120% 90% at 50% 0%,#fff6cc 0%,rgba(255,246,204,0) 58%),linear-gradient(180deg,#ffe9a3 0%,#f5c431 58%,#e2ae12 100%);color:#1a1200;text-align:center;padding:20px 16px 16px;border-bottom:3px solid #a8740b}
+.winner-banner .kicker{margin:0 0 2px;font-size:15px;font-weight:700}
+.winner-banner h2{margin:0;font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:#6a4c08}
+.winner-banner .champ{margin:6px 0 0;font-size:clamp(30px,9vw,48px);font-weight:800;line-height:1.12;letter-spacing:-.02em;overflow-wrap:break-word}
+.winner-banner .champ.long{font-size:clamp(24px,6.5vw,36px)}
+.winner-banner .champ-pts{margin:6px 0 2px;font-size:22px;font-weight:800}
+.winner-banner button{display:block;width:100%;max-width:420px;min-height:48px;margin:10px auto 0;background:#3d2c06;color:#fff8dc;border:none;font-size:17px}
+#leaderboard.final-table{border-color:#c8960c}
+#leaderboard.final-table td:first-child,#leaderboard.final-table th:first-child{width:52px;text-align:center}
+.medal{position:relative;display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;border-radius:50%;font-weight:800;font-size:15px;line-height:1;background:#e7ebf3;color:#243044}
+.medal.gold{background:radial-gradient(circle at 35% 30%,#fff6c9,#f5c542 46%,#b8860b);color:#3d2a00;box-shadow:inset 0 -2px 0 rgba(80,50,0,.25)}
+.medal.silver{background:radial-gradient(circle at 35% 30%,#fff,#d9e0e8 52%,#8e99a8);color:#1c2430;box-shadow:inset 0 -2px 0 rgba(40,50,70,.2)}
+.medal.bronze{background:radial-gradient(circle at 35% 30%,#ffe0c2,#e09455 50%,#8a4e22);color:#3a1d08;box-shadow:inset 0 -2px 0 rgba(70,30,0,.25)}
+#leaderboard.final-table tr.podium.gold td{background:#fff6d6}
+#leaderboard.final-table tr.podium.silver td{background:#f3f5f8}
+#leaderboard.final-table tr.podium.bronze td{background:#fff1e6}
+#leaderboard.final-table tr.podium.gold td:first-child{box-shadow:inset 4px 0 0 #e0aa00}
+#leaderboard.final-table tr.podium.silver td:first-child{box-shadow:inset 4px 0 0 #9aa6b5}
+#leaderboard.final-table tr.podium.bronze td:first-child{box-shadow:inset 4px 0 0 #c47b3a}
+html.cele-lock,html.cele-lock body{overflow:hidden;height:100%}
+.cele-overlay{position:fixed;inset:0;z-index:80;background:rgba(7,10,22,.88);-webkit-user-select:none;user-select:none;touch-action:manipulation}
+.cele-overlay canvas{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.cele-card{position:absolute;z-index:1;left:50%;top:max(8vh,24px);transform:translateX(-50%);width:calc(100% - 32px);max-width:420px;text-align:center;pointer-events:none;text-shadow:0 2px 10px rgba(0,0,0,.55);background:rgba(8,12,24,.55);border-radius:18px;padding:16px 14px 14px}
+.cele-kicker{margin:0;font-size:13px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#ffe08a}
+.cele-name{margin:8px auto 0;max-width:22em;font-size:clamp(32px,10vw,52px);font-weight:800;line-height:1.08;color:#fff;overflow-wrap:break-word}
+.cele-pts{margin:8px 0 0;font-size:20px;font-weight:800;color:#ffe08a}
+.cele-dismiss-wrap{position:absolute;left:0;right:0;bottom:0;z-index:2;padding:12px 16px calc(16px + env(safe-area-inset-bottom))}
+.cele-dismiss-wrap button{display:block;width:100%;max-width:420px;min-height:52px;margin:0 auto;font-size:18px;background:#fff;color:#111;box-shadow:0 8px 24px rgba(0,0,0,.28)}
+button:focus-visible{outline:3px solid #1d4ed8;outline-offset:2px}
+.winner-banner button:focus-visible{outline-color:#1a1200}
+@media (max-height:520px){
+  .cele-card{top:10px;padding:10px 12px}
+  .cele-name{font-size:28px}
+  .cele-pts{font-size:16px;margin-top:4px}
+}
+@media (prefers-reduced-motion: reduce){
+  .cele-overlay{display:none !important}
+}
 </style>
 <script>document.documentElement.className="js";</script>
 </head><body>
 <header><h1>Watson Family Fantasy Rugby 🏉</h1><p>Round 6 sides locked – picks closed Sat 21 Nov, 14:10 UK · Nations Championship 2026 · <a href="#sides6">Jump to the locked Round 6 sides</a> · <a href="#leaderboard">Jump to the leaderboard</a> · <a href="#sides5">Jump to the locked Round 5 sides</a></p></header>
+<!-- Winner banner and fireworks stay hidden until data.json season_complete is true. -->
+<div id="winner-banner" class="winner-banner" hidden></div>
+<div id="cele-overlay" class="cele-overlay" hidden role="dialog" aria-modal="true" aria-labelledby="cele-name">
+<canvas id="cele-canvas" aria-hidden="true"></canvas>
+<div class="cele-card">
+<p class="cele-kicker">Season complete</p>
+<p class="cele-name" id="cele-name"></p>
+<p class="cele-pts" id="cele-pts"></p>
+</div>
+<div class="cele-dismiss-wrap">
+<button type="button" id="cele-dismiss">Tap to continue</button>
+</div>
+</div>
 <main>
 <div class="card dl" id="sides6"><h2>Locked Round 6 sides</h2>
 <p class="small">Round 6 picking closed at 14:10 UK on Saturday 21 November 2026. These are the sides and predictions posted in <b>IRL Team and Weekend plans</b>. Points will be added once the matches are played.</p>
@@ -215,4 +269,429 @@ update();
 })();
 </script>
 </main>
+<script>
+/* Winner celebration. Off until data.json has "season_complete": true.
+   Highest leaderboard total is champion. Equal totals share a place. */
+(function(){
+  var reducedQuery = window.matchMedia ? window.matchMedia("(prefers-reduced-motion: reduce)") : null;
+  function motionOff(){return !!(reducedQuery && reducedQuery.matches)}
+  function isNum(v){return v !== "" && v != null && isFinite(Number(v))}
+  function formatNum(n){
+    var x = Number(n);
+    if (!isFinite(x)) return "";
+    if (Math.abs(x - Math.round(x)) < 1e-9) return String(Math.round(x));
+    return String(Math.round(x * 10) / 10);
+  }
+  function joinNames(names){
+    if (names.length <= 1) return names[0] || "";
+    if (names.length === 2) return names[0] + " and " + names[1];
+    return names.slice(0, -1).join(", ") + " and " + names[names.length - 1];
+  }
+  function pointsPhrase(total, joint){
+    var word = Number(total) === 1 ? "point" : "points";
+    return formatNum(total) + " " + word + (joint ? " each" : "");
+  }
+  function rank(rows){
+    var list = (rows || []).map(function(r, i){
+      return {
+        name: r && r.name != null ? String(r.name) : "",
+        total: r ? Number(r.total) : NaN,
+        fantasy: r ? r.fantasy : null,
+        predictions: r ? r.predictions : null,
+        correct_winners: r ? r.correct_winners : null,
+        order: i
+      };
+    }).filter(function(r){return r.name && isFinite(r.total)});
+    list.sort(function(a, b){
+      if (b.total !== a.total) return b.total - a.total;
+      return a.order - b.order;
+    });
+    var place = 0;
+    for (var i = 0; i < list.length; i++){
+      if (i === 0 || list[i].total !== list[i - 1].total) place++;
+      list[i].place = place;
+    }
+    return list;
+  }
+  function el(tag, cls, text){
+    var node = document.createElement(tag);
+    if (cls) node.className = cls;
+    if (text != null) node.textContent = text;
+    return node;
+  }
+  function focusEl(node){
+    if (!node || !node.focus) return;
+    try { node.focus({preventScroll: true}); }
+    catch (e) { node.focus(); }
+  }
+
+  var banner = document.getElementById("winner-banner");
+  var overlay = document.getElementById("cele-overlay");
+  var dismissBtn = document.getElementById("cele-dismiss");
+  var canvas = document.getElementById("cele-canvas");
+  var show = canvas ? makeShow(canvas) : null;
+
+  function setBehindInert(on){
+    ["header", "main"].forEach(function(sel){
+      var node = document.querySelector(sel);
+      if (node) node.inert = on;
+    });
+    if (banner) banner.inert = on;
+  }
+  function openShow(){
+    if (motionOff() || !overlay || !show) return;
+    window.scrollTo(0, 0);
+    overlay.hidden = false;
+    document.documentElement.classList.add("cele-lock");
+    setBehindInert(true);
+    show.start();
+    focusEl(dismissBtn);
+  }
+  function closeShow(){
+    if (show) show.stop();
+    if (overlay) overlay.hidden = true;
+    document.documentElement.classList.remove("cele-lock");
+    setBehindInert(false);
+    focusEl(document.getElementById("cele-replay"));
+  }
+  if (overlay){
+    overlay.addEventListener("click", closeShow);
+    overlay.addEventListener("touchmove", function(e){ e.preventDefault(); }, {passive: false});
+  }
+  document.addEventListener("keydown", function(e){
+    if ((e.key === "Escape" || e.key === "Esc") && overlay && !overlay.hidden){
+      e.preventDefault();
+      closeShow();
+    }
+  });
+  window.addEventListener("resize", function(){
+    if (show && overlay && !overlay.hidden) show.resize();
+  });
+  if (reducedQuery){
+    var onMotion = function(){ if (motionOff()) closeShow(); };
+    if (reducedQuery.addEventListener) reducedQuery.addEventListener("change", onMotion);
+    else if (reducedQuery.addListener) reducedQuery.addListener(onMotion);
+  }
+
+  function renderBanner(ranked){
+    if (!banner) return;
+    var champs = ranked.filter(function(r){return r.place === 1});
+    var joint = champs.length > 1;
+    var names = champs.map(function(r){return r.name});
+    var heading = joint ? "Joint champions" : "Champion";
+    var phrase = pointsPhrase(champs[0].total, joint);
+    while (banner.firstChild) banner.removeChild(banner.firstChild);
+    var kicker = el("p", "kicker");
+    var cup = document.createElement("span");
+    cup.setAttribute("aria-hidden", "true");
+    cup.textContent = "🏆 ";
+    kicker.appendChild(cup);
+    kicker.appendChild(document.createTextNode("Season complete"));
+    var h2 = el("h2", null, heading);
+    h2.id = "winner-heading";
+    var name = el("p", "champ" + (names.length > 2 ? " long" : ""), joinNames(names));
+    var pts = el("p", "champ-pts", phrase);
+    var replay = el("button", null, "Replay celebration");
+    replay.type = "button";
+    replay.id = "cele-replay";
+    if (motionOff()) replay.hidden = true;
+    replay.addEventListener("click", openShow);
+    banner.appendChild(kicker);
+    banner.appendChild(h2);
+    banner.appendChild(name);
+    banner.appendChild(pts);
+    banner.appendChild(replay);
+    banner.setAttribute("role", "region");
+    banner.setAttribute("aria-labelledby", "winner-heading");
+    banner.setAttribute("data-champions", names.join("|"));
+    banner.setAttribute("data-points", formatNum(champs[0].total));
+    banner.hidden = false;
+    var celeName = document.getElementById("cele-name");
+    var celePts = document.getElementById("cele-pts");
+    if (celeName) celeName.textContent = joinNames(names);
+    if (celePts) celePts.textContent = phrase;
+    var headerP = document.querySelector("header p");
+    if (headerP && headerP.firstChild && headerP.firstChild.nodeType === 3){
+      headerP.firstChild.nodeValue = "Season complete · Nations Championship 2026 · ";
+    }
+    document.title = heading + ": " + joinNames(names) + " · Watson Family Fantasy Rugby";
+  }
+  function renderTable(ranked){
+    var card = document.getElementById("leaderboard");
+    var main = document.querySelector("main");
+    if (!card || !main) return;
+    var champs = ranked.filter(function(r){return r.place === 1});
+    card.classList.add("final-table");
+    while (card.firstChild) card.removeChild(card.firstChild);
+    card.appendChild(el("h2", null, "Final table"));
+    card.appendChild(el("p", "small", champs.length > 1
+      ? "Overall standings. Tied totals are joint champions."
+      : "Overall standings. The highest total is the champion."));
+    var table = document.createElement("table");
+    table.className = "score";
+    var head = document.createElement("tr");
+    ["Rank", "Name", "Total"].forEach(function(label, i){
+      var th = document.createElement("th");
+      if (i === 2) th.className = "pts";
+      th.textContent = label;
+      head.appendChild(th);
+    });
+    table.appendChild(head);
+    var medalName = {1: "gold", 2: "silver", 3: "bronze"};
+    var medalLabel = {gold: "Gold", silver: "Silver", bronze: "Bronze"};
+    ranked.forEach(function(r){
+      var medal = medalName[r.place] || "";
+      var tr = document.createElement("tr");
+      if (medal) tr.className = "podium " + medal;
+      tr.setAttribute("data-name", r.name);
+      tr.setAttribute("data-place", String(r.place));
+      var tdR = document.createElement("td");
+      var badge = document.createElement("span");
+      badge.className = "medal" + (medal ? " " + medal : " plain");
+      if (medal){
+        var sr = document.createElement("span");
+        sr.className = "sr";
+        sr.textContent = medalLabel[medal] + ", ";
+        badge.appendChild(sr);
+      }
+      badge.appendChild(document.createTextNode(String(r.place)));
+      tdR.appendChild(badge);
+      var tdN = document.createElement("td");
+      tdN.appendChild(el("b", null, r.name));
+      var bits = [];
+      if (isNum(r.fantasy) && isNum(r.predictions)) bits.push(formatNum(r.fantasy) + " fantasy + " + formatNum(r.predictions) + " predictions");
+      if (isNum(r.correct_winners)){
+        bits.push(formatNum(r.correct_winners) + " correct winner" + (Number(r.correct_winners) === 1 ? "" : "s"));
+      }
+      if (bits.length){
+        tdN.appendChild(document.createElement("br"));
+        var small = document.createElement("span");
+        small.className = "small";
+        bits.forEach(function(line, idx){
+          if (idx) small.appendChild(document.createElement("br"));
+          small.appendChild(document.createTextNode(line));
+        });
+        tdN.appendChild(small);
+      }
+      var tdP = document.createElement("td");
+      tdP.className = "pts";
+      tdP.textContent = formatNum(r.total);
+      tr.appendChild(tdR);
+      tr.appendChild(tdN);
+      tr.appendChild(tdP);
+      table.appendChild(tr);
+    });
+    card.appendChild(table);
+    main.insertBefore(card, main.firstChild);
+  }
+
+  function boot(){
+    var url = new URL("data.json", document.baseURI);
+    url.searchParams.set("ts", String(Date.now()));
+    fetch(url.toString(), {cache: "no-store"})
+      .then(function(res){ if (!res.ok) throw new Error("data"); return res.json(); })
+      .then(function(data){
+        if (!data || data.season_complete !== true) return;
+        var ranked = rank(data.leaderboard);
+        if (!ranked.length) return;
+        renderBanner(ranked);
+        renderTable(ranked);
+        if (!motionOff()) openShow();
+      })
+      .catch(function(){});
+  }
+
+  function makeShow(canvas){
+    var ctx = canvas.getContext("2d");
+    if (!ctx) return null;
+    var rockets = [], sparks = [], bits = [], rings = [], delays = [];
+    var timer = 0, raf = 0, alive = false, w = 1, h = 1;
+    var colours = ["#ffd76a", "#fff4c4", "#ff5a6a", "#7ec8ff", "#ffffff", "#9dffb0", "#ff9ad5"];
+    function colour(){
+      if (Math.random() < 0.45) return "#ffd76a";
+      return colours[(Math.random() * colours.length) | 0];
+    }
+    function resize(){
+      var dpr = Math.min(window.devicePixelRatio || 1, 2);
+      w = Math.max(1, window.innerWidth);
+      h = Math.max(1, window.innerHeight);
+      canvas.width = Math.floor(w * dpr);
+      canvas.height = Math.floor(h * dpr);
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    }
+    function burst(x, y, base){
+      if (sparks.length > 520) return;
+      rings.push({x: x, y: y, r: 4, a: 0.85, c: base});
+      var n = 80 + ((Math.random() * 28) | 0);
+      for (var i = 0; i < n; i++){
+        var a = (Math.PI * 2 * i) / n + Math.random() * 0.18;
+        var s = 1.15 + Math.random() * 3.5;
+        sparks.push({
+          x: x, y: y,
+          vx: Math.cos(a) * s,
+          vy: Math.sin(a) * s,
+          life: 1,
+          decay: 0.008 + Math.random() * 0.012,
+          c: Math.random() < 0.62 ? base : colour(),
+          g: 0.02 + Math.random() * 0.02,
+          z: 2.2 + Math.random() * 2.2
+        });
+      }
+    }
+    function launch(){
+      if (sparks.length > 480) return;
+      var c = Math.random() < 0.5 ? "#ffd76a" : colour();
+      rockets.push({
+        x: w * (0.12 + Math.random() * 0.76),
+        y: h + 6,
+        vx: (Math.random() - 0.5) * 0.65,
+        vy: -(6.4 + Math.random() * 3.1),
+        c: c,
+        trail: [],
+        peak: h * (0.14 + Math.random() * 0.4)
+      });
+    }
+    function seedBits(){
+      bits = [];
+      var n = Math.max(56, Math.min(96, Math.floor(w / 4.5)));
+      for (var i = 0; i < n; i++){
+        bits.push({
+          x: Math.random() * w,
+          y: Math.random() * h,
+          vw: 6 + Math.random() * 6,
+          vh: 9 + Math.random() * 7,
+          vy: 1.5 + Math.random() * 2.7,
+          vx: -0.7 + Math.random() * 1.4,
+          rot: Math.random() * 6.28,
+          vr: -0.2 + Math.random() * 0.4,
+          c: colour(),
+          sway: Math.random() * 6.28,
+          wob: 0.45 + Math.random() * 0.9
+        });
+      }
+    }
+    function later(fn, ms){
+      var id = setTimeout(function(){ if (alive) fn(); }, ms);
+      delays.push(id);
+    }
+    function clearTimers(){
+      clearInterval(timer);
+      timer = 0;
+      delays.forEach(clearTimeout);
+      delays = [];
+      cancelAnimationFrame(raf);
+      raf = 0;
+    }
+    function tick(){
+      if (!alive) return;
+      var i, p, r, g, t;
+      ctx.clearRect(0, 0, w, h);
+      ctx.globalCompositeOperation = "source-over";
+      ctx.globalAlpha = 1;
+      for (i = 0; i < bits.length; i++){
+        p = bits[i];
+        p.sway += 0.045;
+        p.x += p.vx + Math.sin(p.sway) * p.wob;
+        p.y += p.vy;
+        p.rot += p.vr;
+        if (p.y > h + 24){ p.y = -20; p.x = Math.random() * w; }
+        if (p.x < -20) p.x = w + 10;
+        if (p.x > w + 20) p.x = -10;
+        ctx.save();
+        ctx.translate(p.x, p.y);
+        ctx.rotate(p.rot);
+        ctx.fillStyle = p.c;
+        ctx.globalAlpha = 0.95;
+        ctx.fillRect(-p.vw / 2, -p.vh / 2, p.vw, p.vh);
+        ctx.restore();
+      }
+      ctx.globalAlpha = 1;
+      ctx.lineCap = "round";
+      ctx.lineWidth = 2;
+      for (i = rockets.length - 1; i >= 0; i--){
+        r = rockets[i];
+        r.trail.push({x: r.x, y: r.y});
+        if (r.trail.length > 9) r.trail.shift();
+        r.x += r.vx;
+        r.y += r.vy;
+        r.vy += 0.055;
+        ctx.strokeStyle = r.c;
+        ctx.globalAlpha = 0.9;
+        ctx.beginPath();
+        ctx.moveTo(r.trail[0].x, r.trail[0].y);
+        for (t = 1; t < r.trail.length; t++) ctx.lineTo(r.trail[t].x, r.trail[t].y);
+        ctx.lineTo(r.x, r.y);
+        ctx.stroke();
+        ctx.globalAlpha = 1;
+        ctx.fillStyle = "#fff";
+        ctx.beginPath();
+        ctx.arc(r.x, r.y, 2.2, 0, 6.2832);
+        ctx.fill();
+        if (r.vy >= -0.35 || r.y <= r.peak){
+          burst(r.x, r.y, r.c);
+          rockets.splice(i, 1);
+        }
+      }
+      ctx.globalCompositeOperation = "lighter";
+      for (i = rings.length - 1; i >= 0; i--){
+        g = rings[i];
+        g.r += 2.4;
+        g.a -= 0.04;
+        if (g.a <= 0){ rings.splice(i, 1); continue; }
+        ctx.globalAlpha = g.a;
+        ctx.strokeStyle = g.c;
+        ctx.beginPath();
+        ctx.arc(g.x, g.y, g.r, 0, 6.2832);
+        ctx.stroke();
+      }
+      for (i = sparks.length - 1; i >= 0; i--){
+        p = sparks[i];
+        p.x += p.vx;
+        p.y += p.vy;
+        p.vy += p.g;
+        p.vx *= 0.99;
+        p.vy *= 0.99;
+        p.life -= p.decay;
+        if (p.life <= 0){ sparks.splice(i, 1); continue; }
+        ctx.globalAlpha = Math.max(p.life, 0);
+        ctx.fillStyle = p.c;
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.z, 0, 6.2832);
+        ctx.fill();
+      }
+      ctx.globalAlpha = 1;
+      raf = requestAnimationFrame(tick);
+    }
+    return {
+      resize: resize,
+      start: function(){
+        alive = false;
+        clearTimers();
+        rockets = []; sparks = []; rings = [];
+        resize();
+        seedBits();
+        alive = true;
+        burst(w * 0.28, h * 0.3, "#ffd76a");
+        burst(w * 0.72, h * 0.24, "#7ec8ff");
+        burst(w * 0.5, h * 0.4, "#ff5a6a");
+        launch();
+        later(launch, 180);
+        later(launch, 420);
+        later(launch, 860);
+        timer = setInterval(function(){ if (alive) launch(); }, 700);
+        cancelAnimationFrame(raf);
+        raf = requestAnimationFrame(tick);
+      },
+      stop: function(){
+        alive = false;
+        clearTimers();
+        rockets = []; sparks = []; bits = []; rings = [];
+        ctx.clearRect(0, 0, w, h);
+      }
+    };
+  }
+
+  boot();
+})();
+</script>
 </body></html>
