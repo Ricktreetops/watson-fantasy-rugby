@@ -89,7 +89,7 @@
   "asof": "16 Nov 2026, 09:12 UK",
   "scored_at": "2026-11-16T09:12+00:00",
   "round4_status": "scored",
-  "open_round": "R6",
+  "open_round": null,
   "round5_status": "scored",
   "whatsapp_group": "IRL Team and Weekend plans",
   "squads_picker_note": "Squad lists used by the Round 6 picker are the Round 6 matchday 23s as of 20 Nov 2026, 13:15 UK (squads_asof). Starting, Bench, Not in 23 and OUT are shown. OUT is flagged where a player has been ruled out or dropped. No prices have been added. Scores, players and squads are unchanged.",
@@ -4755,5 +4755,196 @@
       "status": "FT",
       "venue": "Scottish Gas Murrayfield, Edinburgh"
     }
-  ]
+  ],
+  "round6_status": "locked",
+  "locked_teams_r6": {
+    "Richard": {
+      "captain": "WAL:Louis Rees-Zammit",
+      "supersub": "ENG:Henry Pollock",
+      "slots": {
+        "1": "NZL:Ethan de Groot",
+        "2": "IRE:Rónan Kelleher",
+        "3": "WAL:Archie Griffin",
+        "4": "WAL:Dafydd Jenkins",
+        "5": "JPN:Warner Dearns",
+        "6": "SCO:Matt Fagerson",
+        "7": "NZL:Peter Lakai",
+        "8": "NZL:Wallace Sititi",
+        "9": "FRA:Antoine Dupont",
+        "10": "RSA:Sacha Feinberg-Mngomezulu",
+        "11": "AUS:Max Jorgensen",
+        "12": "FIJ:Josua Tuisova",
+        "13": "ENG:Henry Slade",
+        "14": "WAL:Louis Rees-Zammit",
+        "15": "IRE:Hugo Keenan"
+      },
+      "predictions": {
+        "R6-13": {
+          "winner": "England",
+          "margin": 4
+        },
+        "R6-14": {
+          "winner": "Scotland",
+          "margin": 20
+        },
+        "R6-15": {
+          "winner": "Ireland",
+          "margin": 3
+        },
+        "R6-16": {
+          "winner": "Italy",
+          "margin": 5
+        },
+        "R6-17": {
+          "winner": "France",
+          "margin": 12
+        },
+        "R6-18": {
+          "winner": "Wales",
+          "margin": 6
+        }
+      }
+    },
+    "Sharon": {
+      "captain": "FRA:Antoine Dupont",
+      "supersub": "SCO:Blair Kinghorn",
+      "slots": {
+        "1": "RSA:Ox Nche",
+        "2": "RSA:Malcolm Marx",
+        "3": "FRA:Jean-Baptiste Gros",
+        "4": "IRE:Tadhg Beirne",
+        "5": "NZL:Fabian Holland",
+        "6": "RSA:Cameron Hanekom",
+        "7": "NZL:Peter Lakai",
+        "8": "WAL:Jac Morgan",
+        "9": "FRA:Antoine Dupont",
+        "10": "WAL:Sam Costelow",
+        "11": "FRA:Louis Bielle-Biarrey",
+        "12": "ENG:Will Joseph",
+        "13": "WAL:Eddie James",
+        "14": "SCO:Darcy Graham",
+        "15": "SCO:Tom Jordan"
+      },
+      "predictions": {
+        "R6-13": {
+          "winner": "England",
+          "margin": 3
+        },
+        "R6-14": {
+          "winner": "Scotland",
+          "margin": 7
+        },
+        "R6-15": {
+          "winner": "Ireland",
+          "margin": 5
+        },
+        "R6-16": {
+          "winner": "Italy",
+          "margin": 3
+        },
+        "R6-17": {
+          "winner": "France",
+          "margin": 13
+        },
+        "R6-18": {
+          "winner": "Wales",
+          "margin": 9
+        }
+      }
+    },
+    "Brooke": {
+      "captain": "FRA:Louis Bielle-Biarrey",
+      "supersub": "SCO:George Horne",
+      "slots": {
+        "1": "RSA:Ox Nche",
+        "2": "IRE:Dan Sheehan",
+        "3": "WAL:Nicky Smith",
+        "4": "ENG:Ollie Chessum",
+        "5": "NZL:Scott Barrett",
+        "6": "ENG:Ben Earl",
+        "7": "IRE:Josh van der Flier",
+        "8": "SCO:Matt Fagerson",
+        "9": "FRA:Antoine Dupont",
+        "10": "RSA:Sacha Feinberg-Mngomezulu",
+        "11": "FRA:Louis Bielle-Biarrey",
+        "12": "ENG:Henry Slade",
+        "13": "NZL:Jordie Barrett",
+        "14": "FRA:Aaron Grandidier Nkanang",
+        "15": "IRE:Hugo Keenan"
+      },
+      "predictions": {
+        "R6-13": {
+          "winner": "England",
+          "margin": 10
+        },
+        "R6-14": {
+          "winner": "Scotland",
+          "margin": 15
+        },
+        "R6-15": {
+          "winner": "South Africa",
+          "margin": 8
+        },
+        "R6-16": {
+          "winner": "Italy",
+          "margin": 4
+        },
+        "R6-17": {
+          "winner": "France",
+          "margin": 15
+        },
+        "R6-18": {
+          "winner": "Wales",
+          "margin": 6
+        }
+      }
+    },
+    "Cameron": {
+      "captain": "SCO:Tom Jordan",
+      "supersub": "ITA:Federico Mori",
+      "slots": {
+        "1": "RSA:Ox Nche",
+        "2": "IRE:Dan Sheehan",
+        "3": "RSA:Wilco Louw",
+        "4": "IRE:Tadhg Beirne",
+        "5": "NZL:Tupou Vaa'i",
+        "6": "ENG:Ben Earl",
+        "7": "NZL:Wallace Sititi",
+        "8": "WAL:Jac Morgan",
+        "9": "FRA:Antoine Dupont",
+        "10": "ITA:Tommaso Allan",
+        "11": "FRA:Aaron Grandidier Nkanang",
+        "12": "ENG:Will Joseph",
+        "13": "FRA:Kalvin Gourgues",
+        "14": "SCO:Darcy Graham",
+        "15": "SCO:Tom Jordan"
+      },
+      "predictions": {
+        "R6-13": {
+          "winner": "England",
+          "margin": 5
+        },
+        "R6-14": {
+          "winner": "Scotland",
+          "margin": 30
+        },
+        "R6-15": {
+          "winner": "South Africa",
+          "margin": 10
+        },
+        "R6-16": {
+          "winner": "Italy",
+          "margin": 12
+        },
+        "R6-17": {
+          "winner": "France",
+          "margin": 35
+        },
+        "R6-18": {
+          "winner": "Wales",
+          "margin": 7
+        }
+      }
+    }
+  }
 }
