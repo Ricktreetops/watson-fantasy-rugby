@@ -93,6 +93,7 @@
   "round5_status": "scored",
   "whatsapp_group": "IRL Team and Weekend plans",
   "squads_picker_note": "Squad lists used by the Round 6 picker are the Round 6 matchday 23s as of 20 Nov 2026, 13:15 UK (squads_asof). Starting, Bench, Not in 23 and OUT are shown. OUT is flagged where a player has been ruled out or dropped. No prices have been added. Scores, players and squads are unchanged. 21 Nov 16:30 UK scoring update: Round 6 sides remain locked. England late change before kick-off v New Zealand, verified on the official Nations Championship starting XV: Tommy Freeman out, Cadan Murley started at left wing, Will Joseph on the right. Leaderboard now includes R6-13 and R6-14 only; the other four Round 6 games are still to play. 21 Nov 19:10 UK scoring update: R6-15 Ireland 20-17 South Africa and R6-16 Italy 16-21 Fiji now included, along with the earlier England and Scotland results. Two Round 6 games remain. Italy late change on the official match-day 23: Marco Riccioni started, Ion Neculai was on the bench, Simone Ferrari did not play. 21 Nov 2026, 22:44 UK scoring update: Round 6 is now fully scored (all six games). France late change: Jean-Baptiste Gros withdrawn, Rodrigue Neti started. Argentina late change: Justo Piccardo started at 12 instead of Santiago Chocobares. France POTM Kalvin Gourgues, named 'homme du match' in the AFP report on La Croix (published 21 Nov 2026, 23:11 CET; modified 23:37 CET) with the award given on the TF1 broadcast; +15 for Cameron only. season_complete remains false.",
+  "season_complete": true,
   "leaderboard": [
     {
       "rank": 1,
@@ -4971,7 +4972,6 @@
       }
     }
   },
-  "season_complete": false,
   "leaderboard_r6": [
     {
       "rank": 1,
