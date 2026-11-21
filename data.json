@@ -86,45 +86,45 @@
     "R6": "2026-11-21 14:10",
     "F": "2026-11-27 16:40"
   },
-  "asof": "21 Nov 2026, 19:05 UK",
-  "scored_at": "2026-11-21T19:05+00:00",
+  "asof": "21 Nov 2026, 22:44 UK",
+  "scored_at": "2026-11-21T22:44+00:00",
   "round4_status": "scored",
   "open_round": null,
   "round5_status": "scored",
   "whatsapp_group": "IRL Team and Weekend plans",
-  "squads_picker_note": "Squad lists used by the Round 6 picker are the Round 6 matchday 23s as of 20 Nov 2026, 13:15 UK (squads_asof). Starting, Bench, Not in 23 and OUT are shown. OUT is flagged where a player has been ruled out or dropped. No prices have been added. Scores, players and squads are unchanged. 21 Nov 16:30 UK scoring update: Round 6 sides remain locked. England late change before kick-off v New Zealand, verified on the official Nations Championship starting XV: Tommy Freeman out, Cadan Murley started at left wing, Will Joseph on the right. Leaderboard now includes R6-13 and R6-14 only; the other four Round 6 games are still to play. 21 Nov 19:10 UK scoring update: R6-15 Ireland 20-17 South Africa and R6-16 Italy 16-21 Fiji now included, along with the earlier England and Scotland results. Two Round 6 games remain. Italy late change on the official match-day 23: Marco Riccioni started, Ion Neculai was on the bench, Simone Ferrari did not play.",
+  "squads_picker_note": "Squad lists used by the Round 6 picker are the Round 6 matchday 23s as of 20 Nov 2026, 13:15 UK (squads_asof). Starting, Bench, Not in 23 and OUT are shown. OUT is flagged where a player has been ruled out or dropped. No prices have been added. Scores, players and squads are unchanged. 21 Nov 16:30 UK scoring update: Round 6 sides remain locked. England late change before kick-off v New Zealand, verified on the official Nations Championship starting XV: Tommy Freeman out, Cadan Murley started at left wing, Will Joseph on the right. Leaderboard now includes R6-13 and R6-14 only; the other four Round 6 games are still to play. 21 Nov 19:10 UK scoring update: R6-15 Ireland 20-17 South Africa and R6-16 Italy 16-21 Fiji now included, along with the earlier England and Scotland results. Two Round 6 games remain. Italy late change on the official match-day 23: Marco Riccioni started, Ion Neculai was on the bench, Simone Ferrari did not play. 21 Nov 2026, 22:44 UK scoring update: Round 6 is now fully scored (all six games). France late change: Jean-Baptiste Gros withdrawn, Rodrigue Neti started. Argentina late change: Justo Piccardo started at 12 instead of Santiago Chocobares. France POTM Kalvin Gourgues, named 'homme du match' in the AFP report on La Croix (published 21 Nov 2026, 23:11 CET; modified 23:37 CET) with the award given on the TF1 broadcast; +15 for Cameron only. season_complete remains false.",
   "leaderboard": [
     {
       "rank": 1,
       "name": "Brooke",
-      "total": 878,
-      "fantasy": 833,
-      "predictions": 45,
-      "correct_winners": 11
-    },
-    {
-      "rank": 2,
-      "name": "Richard",
-      "total": 872,
-      "fantasy": 819,
-      "predictions": 53,
+      "total": 949,
+      "fantasy": 899,
+      "predictions": 50,
       "correct_winners": 12
     },
     {
-      "rank": 3,
+      "rank": 2,
       "name": "Cameron",
-      "total": 841,
-      "fantasy": 795,
-      "predictions": 46,
-      "correct_winners": 10
+      "total": 948,
+      "fantasy": 897,
+      "predictions": 51,
+      "correct_winners": 11
+    },
+    {
+      "rank": 3,
+      "name": "Richard",
+      "total": 941,
+      "fantasy": 885,
+      "predictions": 56,
+      "correct_winners": 13
     },
     {
       "rank": 4,
       "name": "Sharon",
-      "total": 759,
-      "fantasy": 716,
-      "predictions": 43,
-      "correct_winners": 11
+      "total": 846,
+      "fantasy": 800,
+      "predictions": 46,
+      "correct_winners": 12
     }
   ],
   "results": [
@@ -1378,7 +1378,10 @@
       "a": "Argentina",
       "v": "Stade de France, Paris",
       "x": "Thu 19 Nov",
-      "status": "scheduled"
+      "status": "FT",
+      "home_score": 45,
+      "away_score": 17,
+      "ht": "14-10"
     },
     {
       "id": "R6-18",
@@ -1389,7 +1392,10 @@
       "a": "Australia",
       "v": "Principality Stadium, Cardiff",
       "x": "Thu 19 Nov",
-      "status": "scheduled"
+      "status": "FT",
+      "home_score": 26,
+      "away_score": 29,
+      "ht": "7-12"
     },
     {
       "id": "F-19",
@@ -2567,8 +2573,8 @@
         [
           "Jean-Baptiste Gros",
           "PR",
-          "Starting",
-          ""
+          "Out",
+          "Withdrawn (forfait) before kick-off v Argentina; Rodrigue Neti started (official NC XV; FFR reports)."
         ],
         [
           "Mickaël Guillard",
@@ -2747,8 +2753,8 @@
         [
           "Rodrigue Neti",
           "PR",
-          "Not in 23",
-          ""
+          "Starting",
+          "Started at loosehead v Argentina after Jean-Baptiste Gros was withdrawn."
         ],
         [
           "Paul Graou",
@@ -3902,8 +3908,8 @@
         [
           "Justo Piccardo",
           "BX",
-          "Not in 23",
-          ""
+          "Starting",
+          "Started at 12 v France (official NC starting XV); originally not in the announced UAR starting 23."
         ],
         [
           "Gerónimo Prisciantelli",
@@ -3932,8 +3938,8 @@
         [
           "Santiago Chocobares",
           "CE",
-          "Starting",
-          ""
+          "Out",
+          "Named in the original UAR starting 23 v France but did not play; Justo Piccardo started at 12."
         ],
         [
           "Tobías Wade",
@@ -4774,7 +4780,7 @@
       "venue": "Scottish Gas Murrayfield, Edinburgh"
     }
   ],
-  "round6_status": "in_play",
+  "round6_status": "scored",
   "locked_teams_r6": {
     "Richard": {
       "captain": "WAL:Louis Rees-Zammit",
@@ -4970,34 +4976,34 @@
     {
       "rank": 1,
       "name": "Cameron",
-      "total": 251,
-      "fantasy": 243,
-      "predictions": 8,
-      "correct_winners": 2
+      "total": 358,
+      "fantasy": 345,
+      "predictions": 13,
+      "correct_winners": 3
     },
     {
       "rank": 2,
       "name": "Brooke",
-      "total": 244,
-      "fantasy": 236,
-      "predictions": 8,
-      "correct_winners": 2
+      "total": 315,
+      "fantasy": 302,
+      "predictions": 13,
+      "correct_winners": 3
     },
     {
       "rank": 3,
       "name": "Richard",
-      "total": 220,
-      "fantasy": 204,
-      "predictions": 16,
-      "correct_winners": 3
+      "total": 289,
+      "fantasy": 270,
+      "predictions": 19,
+      "correct_winners": 4
     },
     {
       "rank": 4,
       "name": "Sharon",
-      "total": 191,
-      "fantasy": 180,
-      "predictions": 11,
-      "correct_winners": 3
+      "total": 278,
+      "fantasy": 264,
+      "predictions": 14,
+      "correct_winners": 4
     }
   ],
   "results_r6": [
@@ -5056,7 +5062,10 @@
       "home": "France",
       "away": "Argentina",
       "venue": "Stade de France, Paris",
-      "status": "scheduled"
+      "status": "FT",
+      "home_score": 45,
+      "away_score": 17,
+      "ht": "14-10"
     },
     {
       "id": "R6-18",
@@ -5065,7 +5074,10 @@
       "home": "Wales",
       "away": "Australia",
       "venue": "Principality Stadium, Cardiff",
-      "status": "scheduled"
+      "status": "FT",
+      "home_score": 26,
+      "away_score": 29,
+      "ht": "7-12"
     }
   ]
 }
