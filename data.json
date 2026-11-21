@@ -86,45 +86,45 @@
     "R6": "2026-11-21 14:10",
     "F": "2026-11-27 16:40"
   },
-  "asof": "16 Nov 2026, 09:12 UK",
-  "scored_at": "2026-11-16T09:12+00:00",
+  "asof": "21 Nov 2026, 19:05 UK",
+  "scored_at": "2026-11-21T19:05+00:00",
   "round4_status": "scored",
   "open_round": null,
   "round5_status": "scored",
   "whatsapp_group": "IRL Team and Weekend plans",
-  "squads_picker_note": "Squad lists used by the Round 6 picker are the Round 6 matchday 23s as of 20 Nov 2026, 13:15 UK (squads_asof). Starting, Bench, Not in 23 and OUT are shown. OUT is flagged where a player has been ruled out or dropped. No prices have been added. Scores, players and squads are unchanged.",
+  "squads_picker_note": "Squad lists used by the Round 6 picker are the Round 6 matchday 23s as of 20 Nov 2026, 13:15 UK (squads_asof). Starting, Bench, Not in 23 and OUT are shown. OUT is flagged where a player has been ruled out or dropped. No prices have been added. Scores, players and squads are unchanged. 21 Nov 16:30 UK scoring update: Round 6 sides remain locked. England late change before kick-off v New Zealand, verified on the official Nations Championship starting XV: Tommy Freeman out, Cadan Murley started at left wing, Will Joseph on the right. Leaderboard now includes R6-13 and R6-14 only; the other four Round 6 games are still to play. 21 Nov 19:10 UK scoring update: R6-15 Ireland 20-17 South Africa and R6-16 Italy 16-21 Fiji now included, along with the earlier England and Scotland results. Two Round 6 games remain. Italy late change on the official match-day 23: Marco Riccioni started, Ion Neculai was on the bench, Simone Ferrari did not play.",
   "leaderboard": [
     {
       "rank": 1,
-      "name": "Richard",
-      "total": 652,
-      "fantasy": 615,
-      "predictions": 37,
-      "correct_winners": 9
+      "name": "Brooke",
+      "total": 878,
+      "fantasy": 833,
+      "predictions": 45,
+      "correct_winners": 11
     },
     {
       "rank": 2,
-      "name": "Brooke",
-      "total": 634,
-      "fantasy": 597,
-      "predictions": 37,
-      "correct_winners": 9
+      "name": "Richard",
+      "total": 872,
+      "fantasy": 819,
+      "predictions": 53,
+      "correct_winners": 12
     },
     {
       "rank": 3,
       "name": "Cameron",
-      "total": 590,
-      "fantasy": 552,
-      "predictions": 38,
-      "correct_winners": 8
+      "total": 841,
+      "fantasy": 795,
+      "predictions": 46,
+      "correct_winners": 10
     },
     {
       "rank": 4,
       "name": "Sharon",
-      "total": 568,
-      "fantasy": 536,
-      "predictions": 32,
-      "correct_winners": 8
+      "total": 759,
+      "fantasy": 716,
+      "predictions": 43,
+      "correct_winners": 11
     }
   ],
   "results": [
@@ -1321,7 +1321,11 @@
       "h": "England",
       "a": "New Zealand",
       "v": "Allianz Stadium, Twickenham",
-      "x": "Thu 19 Nov"
+      "x": "Thu 19 Nov",
+      "status": "FT",
+      "home_score": 37,
+      "away_score": 12,
+      "ht": "19-5"
     },
     {
       "id": "R6-14",
@@ -1331,7 +1335,11 @@
       "h": "Scotland",
       "a": "Japan",
       "v": "Scottish Gas Murrayfield, Edinburgh",
-      "x": "Thu 19 Nov"
+      "x": "Thu 19 Nov",
+      "status": "FT",
+      "home_score": 67,
+      "away_score": 5,
+      "ht": "29-0"
     },
     {
       "id": "R6-15",
@@ -1341,7 +1349,11 @@
       "h": "Ireland",
       "a": "South Africa",
       "v": "Aviva Stadium, Dublin",
-      "x": "Thu 19 Nov"
+      "x": "Thu 19 Nov",
+      "status": "FT",
+      "home_score": 20,
+      "away_score": 17,
+      "ht": "17-10"
     },
     {
       "id": "R6-16",
@@ -1351,7 +1363,11 @@
       "h": "Italy",
       "a": "Fiji",
       "v": "Bluenergy Stadium, Udine",
-      "x": "Thu 19 Nov"
+      "x": "Thu 19 Nov",
+      "status": "FT",
+      "home_score": 16,
+      "away_score": 21,
+      "ht": "13-7"
     },
     {
       "id": "R6-17",
@@ -1361,7 +1377,8 @@
       "h": "France",
       "a": "Argentina",
       "v": "Stade de France, Paris",
-      "x": "Thu 19 Nov"
+      "x": "Thu 19 Nov",
+      "status": "scheduled"
     },
     {
       "id": "R6-18",
@@ -1371,7 +1388,8 @@
       "h": "Wales",
       "a": "Australia",
       "v": "Principality Stadium, Cardiff",
-      "x": "Thu 19 Nov"
+      "x": "Thu 19 Nov",
+      "status": "scheduled"
     },
     {
       "id": "F-19",
@@ -1826,8 +1844,8 @@
         [
           "Tommy Freeman",
           "B3",
-          "Starting",
-          ""
+          "Out",
+          "Withdrawn pre-kick-off v New Zealand (thigh); Cadan Murley started at 11."
         ],
         [
           "George Furbank",
@@ -1862,8 +1880,8 @@
         [
           "Cadan Murley",
           "B3",
-          "Not in 23",
-          ""
+          "Starting",
+          "Late replacement for Tommy Freeman; started at 11 (left wing) v New Zealand."
         ],
         [
           "Max Ojomoh",
@@ -2816,8 +2834,8 @@
         [
           "Simone Ferrari",
           "PR",
-          "Starting",
-          ""
+          "Out",
+          "Named in the original FIR starting 23 v Fiji but did not play; Marco Riccioni started."
         ],
         [
           "Danilo Fischetti",
@@ -2834,8 +2852,8 @@
         [
           "Ion Neculai",
           "PR",
-          "Not in 23",
-          ""
+          "Bench",
+          "On the bench v Fiji (official NC 23); not in the original FIR 23."
         ],
         [
           "Ivan Nemer",
@@ -3026,8 +3044,8 @@
         [
           "Marco Riccioni",
           "PR",
-          "Bench",
-          "returns to the updated 33 for Argentina (FIR, 8 Nov)"
+          "Starting",
+          "Started v Fiji (official NC starting XV); originally named on the FIR bench."
         ]
       ]
     },
@@ -4756,7 +4774,7 @@
       "venue": "Scottish Gas Murrayfield, Edinburgh"
     }
   ],
-  "round6_status": "locked",
+  "round6_status": "in_play",
   "locked_teams_r6": {
     "Richard": {
       "captain": "WAL:Louis Rees-Zammit",
@@ -4946,5 +4964,108 @@
         }
       }
     }
-  }
+  },
+  "season_complete": false,
+  "leaderboard_r6": [
+    {
+      "rank": 1,
+      "name": "Cameron",
+      "total": 251,
+      "fantasy": 243,
+      "predictions": 8,
+      "correct_winners": 2
+    },
+    {
+      "rank": 2,
+      "name": "Brooke",
+      "total": 244,
+      "fantasy": 236,
+      "predictions": 8,
+      "correct_winners": 2
+    },
+    {
+      "rank": 3,
+      "name": "Richard",
+      "total": 220,
+      "fantasy": 204,
+      "predictions": 16,
+      "correct_winners": 3
+    },
+    {
+      "rank": 4,
+      "name": "Sharon",
+      "total": 191,
+      "fantasy": 180,
+      "predictions": 11,
+      "correct_winners": 3
+    }
+  ],
+  "results_r6": [
+    {
+      "id": "R6-13",
+      "date": "2026-11-21",
+      "kickoff_uk": "14:10",
+      "home": "England",
+      "away": "New Zealand",
+      "venue": "Allianz Stadium, Twickenham",
+      "home_score": 37,
+      "away_score": 12,
+      "ht": "19-5",
+      "status": "FT"
+    },
+    {
+      "id": "R6-14",
+      "date": "2026-11-21",
+      "kickoff_uk": "14:10",
+      "home": "Scotland",
+      "away": "Japan",
+      "venue": "Scottish Gas Murrayfield, Edinburgh",
+      "home_score": 67,
+      "away_score": 5,
+      "ht": "29-0",
+      "status": "FT"
+    },
+    {
+      "id": "R6-15",
+      "date": "2026-11-21",
+      "kickoff_uk": "16:40",
+      "home": "Ireland",
+      "away": "South Africa",
+      "venue": "Aviva Stadium, Dublin",
+      "status": "FT",
+      "home_score": 20,
+      "away_score": 17,
+      "ht": "17-10"
+    },
+    {
+      "id": "R6-16",
+      "date": "2026-11-21",
+      "kickoff_uk": "16:40",
+      "home": "Italy",
+      "away": "Fiji",
+      "venue": "Bluenergy Stadium, Udine",
+      "status": "FT",
+      "home_score": 16,
+      "away_score": 21,
+      "ht": "13-7"
+    },
+    {
+      "id": "R6-17",
+      "date": "2026-11-21",
+      "kickoff_uk": "20:10",
+      "home": "France",
+      "away": "Argentina",
+      "venue": "Stade de France, Paris",
+      "status": "scheduled"
+    },
+    {
+      "id": "R6-18",
+      "date": "2026-11-21",
+      "kickoff_uk": "20:10",
+      "home": "Wales",
+      "away": "Australia",
+      "venue": "Principality Stadium, Cardiff",
+      "status": "scheduled"
+    }
+  ]
 }
